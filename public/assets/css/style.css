@@ -18,33 +18,34 @@
 	background-color: transparent !important;
 }
 
-.navbar-toggle.collapsed .top-bar {
-	transform: rotate(0);
-}
-.navbar-toggle.collapsed .middle-bar {
-	opacity: 1;
-}
-.navbar-toggle.collapsed .bottom-bar {
-	transform: rotate(0);
-}
-
 .navbar-toggle .icon-bar {
 	transition: all 0.2s;
 }
 
 .navbar-toggle .top-bar {
-	transform: rotate(45deg);
-	transform-origin: 10% 10%;
+	transform: rotate(-45deg);
+	transform-origin: 90% 10%;
 }
 
 .navbar-toggle .middle-bar {
 	opacity: 0;
+	transform: translateX(22px);
 }
 .navbar-toggle .bottom-bar {
-	transform: rotate(-45deg);
-	transform-origin: 10% 90%;
+	transform: rotate(45deg);
+	transform-origin: 90% 90%;
 }
 
+.navbar-toggle.collapsed .top-bar {
+	transform: rotate(0);
+}
+.navbar-toggle.collapsed .middle-bar {
+	opacity: 1; 
+	transform: translateX(0px);
+}
+.navbar-toggle.collapsed .bottom-bar {
+	transform: rotate(0);
+}
 
 body { 
 	padding-top: 70px;
