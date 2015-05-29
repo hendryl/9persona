@@ -7,4 +7,4 @@ angular.module("personaApp", [])
 	$http.get('/assets/quizData.json').success(function(data){
 		quiz.questions = data;
 	});
-}])
+}]);
