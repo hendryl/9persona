@@ -8,6 +8,11 @@
   text-align: center;
 }
 
+#navbar-hamburger, #navbar-close {
+  width: 22px;
+  height: 16px;
+}
+
 body { 
   padding-top: 70px;
 }
