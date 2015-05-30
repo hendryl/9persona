@@ -83,8 +83,10 @@ Buttons
 	background-color: #EF4542;
 	border: 0 none;
 	text-align: center;
+	border-radius: 0.5em;
 }
 
 .btn-primary {
 	vertical-align: middle;
+	padding: 1% 5% 1% 5%;
 }
