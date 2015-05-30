@@ -1,3 +1,13 @@
+/*----------------*\
+Global
+\*----------------*/
+body { 
+	padding-top: 50px;
+}
+
+/*----------------*\
+Navigation bar
+\*----------------*/
 .navbar .navbar-nav {
 	display: inline-block;
 	float: none;
@@ -47,6 +57,29 @@
 	transform: rotate(0);
 }
 
-body { 
-	padding-top: 70px;
+/*----------------*\
+Jumbotron
+\*----------------*/
+.jumbotron {
+	background-color: #F1F1F2; 
+}
+
+#hero-logo {
+	vertical-align: middle;
+	text-align: center;
+	padding: 1em;
+}
+
+/*----------------*\
+Buttons
+\*----------------*/
+.btn {
+	color: #F1F1F2;
+	background-color: #F05E4C;
+	border: 0 none;
+	text-align: center;
+}
+
+.btn-primary {
+	vertical-align: middle;
 }
