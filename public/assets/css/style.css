@@ -22,6 +22,10 @@ h1 {
 	font-size: 160%;
 }
 
+.img-responsive {
+	padding: 1em;
+}
+
 /*----------------*\
 Navigation bar
 \*----------------*/
@@ -83,7 +87,6 @@ Jumbotron
 
 #hero-logo {
 	vertical-align: middle;
-	padding: 1em;
 }
 
 /*----------------*\
