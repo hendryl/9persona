@@ -5,6 +5,11 @@ body {
 	padding-top: 50px;
 }
 
+.menuFont {
+	font-family: "Jaapokki Regular";
+	font-size: 160%;
+}
+
 /*----------------*\
 Navigation bar
 \*----------------*/
