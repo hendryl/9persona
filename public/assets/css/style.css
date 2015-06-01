@@ -27,6 +27,32 @@ h1 {
 }
 
 /*----------------*\
+Buttons - Global
+\*----------------*/
+.btn {
+	color: #F1F1F2;
+	background-color: #00AC80;
+	border: 0 none;
+	text-align: center;
+	border-radius: 0.5em;
+}
+
+.btn:hover {
+	background-color: #009B70;
+	color: #F1F1F2;
+}
+
+.btn-primary {
+	background-color: #EF5E4C;
+	vertical-align: middle;
+	padding: 1% 5% 1% 5%;
+}
+
+.btn-primary:hover {
+background-color: #DE4D3B;
+}
+
+/*----------------*\
 Navigation bar
 \*----------------*/
 .navbar .navbar-nav {
@@ -90,22 +116,6 @@ Jumbotron
 }
 
 /*----------------*\
-Buttons
-\*----------------*/
-.btn {
-	color: #F1F1F2;
-	border: 0 none;
-	text-align: center;
-	border-radius: 0.5em;
-}
-
-.btn-primary {
-	background-color: #EF5E4C;
-	vertical-align: middle;
-	padding: 1% 5% 1% 5%;
-}
-
-/*----------------*\
 Quiz content
 \*----------------*/
 
@@ -121,4 +131,8 @@ Quiz content
 	margin: 0 auto;
 	border-radius: 1em;
 	padding: 1em;
+}
+
+.quizButton {
+	padding: 1% 40px 1% 40px;
 }
