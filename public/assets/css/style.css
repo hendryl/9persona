@@ -53,6 +53,7 @@ Buttons - Global
 	background-color: #EF5E4C;
 	vertical-align: middle;
 	padding: 1% 5% 1% 5%;
+	border: 0 none;
 }
 
 .btn-primary:hover {
@@ -115,11 +116,13 @@ Navigation bar
 Jumbotron
 \*----------------*/
 .jumbotron {
+	height: 95vh;
 	background-color: #F1F1F2; 
 }
 
-#hero-logo {
+.jumbotron img {
 	vertical-align: middle;
+	padding: 3em 0 3em 0;
 }
 
 /*----------------*\
