@@ -147,7 +147,7 @@ Jumbotron
 }
 
 /*----------------*\
-Quiz content
+Instruction
 \*----------------*/
 
 .instruction {
@@ -160,24 +160,26 @@ Quiz content
 	margin: 0 auto;
 }
 
-.quizHeader {
-	color:#F1F1F2;
-	background-color: #404041;
-	padding: 0;
-	margin: 0 auto;
-	width: 100%;
-}
+/*----------------*\
+Quiz content
+\*----------------*/
 
-.quizPage {
+.quizContainer {
 	width: 80%;
 	max-width: 750px;
 	border: 0 none;
 }
 
+.quizHeader {
+	color:#F1F1F2;
+	background-color: #57BAD5;
+	width: 100%;
+	border-radius: 1em 1em 0 0;
+}
+
 .quizContent {
 	background-color: #F1F1F2;
-	//border-radius: 1em;
-	padding: 0;
+	border-radius: 0 0 1em 1em;
 }
 
 #genderChooser input{
