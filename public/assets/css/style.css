@@ -133,6 +133,23 @@ Quiz content
 	padding: 1em;
 }
 
-.quizButton {
-	padding: 1% 40px 1% 40px;
+#genderChooser input{
+	visibility:hidden;
+	position: absolute;
+}
+
+#genderChooser input + img {
+	cursor: pointer;
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+}
+
+#genderChooser img:hover{
+	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);
+}
+
+#genderChooser input:checked + img {
+	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);
 }
