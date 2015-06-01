@@ -160,14 +160,24 @@ Quiz content
 	margin: 0 auto;
 }
 
+.quizHeader {
+	color:#F1F1F2;
+	background-color: #404041;
+	padding: 0;
+	margin: 0 auto;
+	width: 100%;
+}
+
 .quizPage {
 	width: 80%;
 	max-width: 750px;
-	background-color: #F1F1F2;
 	border: 0 none;
-	margin: 0 auto;
-	border-radius: 1em;
-	padding: 1em;
+}
+
+.quizContent {
+	background-color: #F1F1F2;
+	//border-radius: 1em;
+	padding: 0;
 }
 
 #genderChooser input{
@@ -175,18 +185,18 @@ Quiz content
 	position: absolute;
 }
 
-#genderChooser input + img {
+label>input + img {
 	cursor: pointer;
 	filter: grayscale(100%);
 	-webkit-filter: grayscale(100%);
 }
 
-#genderChooser img:hover{
+label>img:hover{
 	filter: grayscale(0%);
 	-webkit-filter: grayscale(0%);
 }
 
-#genderChooser input:checked + img {
+label>input:checked + img {
 	filter: grayscale(0%);
 	-webkit-filter: grayscale(0%);
 }
