@@ -169,6 +169,8 @@ Quiz content
 	width: 80%;
 	max-width: 750px;
 	border: 0 none;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .quizHeader {
