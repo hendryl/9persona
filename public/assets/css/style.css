@@ -164,6 +164,7 @@ Instruction
 Quiz content
 \*----------------*/
 
+/*Global*/
 .quizContainer {
 	width: 80%;
 	max-width: 750px;
@@ -182,23 +183,40 @@ Quiz content
 	border-radius: 0 0 1em 1em;
 }
 
-#genderChooser input{
+.chooser input{
 	visibility:hidden;
 	position: absolute;
 }
 
-label>input + img {
+label:hover>img {
 	cursor: pointer;
+	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);
+}
+
+label>input + img {
 	filter: grayscale(100%);
 	-webkit-filter: grayscale(100%);
 }
 
-label>img:hover{
-	filter: grayscale(0%);
-	-webkit-filter: grayscale(0%);
+label>p {
+	cursor:pointer;
 }
 
 label>input:checked + img {
 	filter: grayscale(0%);
 	-webkit-filter: grayscale(0%);
+}
+
+/*Question page*/
+.questionPic {
+	border-bottom-style: none;
+	padding: 0;
+	margin-top: 4%;
+}
+
+.answerP {
+	max-width: 320px;
+	background-color: white;
+	border-top-style: none;
 }
