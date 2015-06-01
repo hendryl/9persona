@@ -2,19 +2,26 @@
 Global
 \*----------------*/
 
+html {
+	font-size: 100%;
+}
+
 body { 
 	padding-top: 50px;
 	font-family: "Cabin";
+	font-size: 0.875em;
+}
+
+@media only screen and (min-width: 768px) {
+	body {
+		font-size: 1em; /*16px*/
+  }
 }
 
 h1, h2, h3,
 h4, h5, h6 {
     font-family: "Roboto Slab";
     font-weight: 700;
-}
-
-h1 {
-	
 }
 
 .menuFont {
