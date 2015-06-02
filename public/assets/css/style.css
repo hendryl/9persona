@@ -43,11 +43,6 @@ h3 {
 	font-size: 125%;
 }
 
-.buttonFont {
-	font-family: "Jaapokki Regular";
-	font-size: 160%;
-}
-
 .img-responsive {
 	padding: 1em;
 }
@@ -56,16 +51,18 @@ h3 {
 Buttons - Global
 \*----------------*/
 .btn {
-	color: #F1F1F2;
-	background-color: #00AC80;
+	font-family: "Jaapokki Regular";
+	color: #404041;
+	background-color: #FBCE4A;
 	border: 0 none;
 	text-align: center;
 	border-radius: 0.5em;
+	font-size: 120%;
 }
 
 .btn:hover {
-	background-color: #009B70;
 	color: #F1F1F2;
+	background-color: #EBBE3A;
 }
 
 .btn-primary {
@@ -77,6 +74,10 @@ Buttons - Global
 
 .btn-primary:hover {
 background-color: #DE4D3B;
+}
+
+.btn-lg {
+	font-size: 160%;
 }
 
 /*----------------*\
@@ -243,6 +244,12 @@ Quiz content
 .right-content .img-responsive {
 	padding-left: 0;
 	padding-right: 0;
+}
+
+.nextButton {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding: 0.25em 2em 0.25em 2em;
 }
 
 /*Hover effects*/
