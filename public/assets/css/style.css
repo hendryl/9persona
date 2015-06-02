@@ -18,12 +18,12 @@ body {
 @media only screen and (min-width: 768px) {
 	body {
 		font-size: 1em; /*16px*/
-  }
+	}
 }
 
 h1, h2, h3,
 h4, h5, h6, .headText {
-    font-family: "Roboto Slab";
+	font-family: "Roboto Slab";
 }
 
 h1 {
@@ -66,14 +66,15 @@ Buttons - Global
 }
 
 .btn-primary {
-	background-color: #EF5E4C;
+	background-color: #FBCE4A;
 	vertical-align: middle;
 	padding: 1% 5% 1% 5%;
 	border: 0 none;
 }
 
 .btn-primary:hover {
-background-color: #DE4D3B;
+	background-color: #00ac80;\
+	color: #F1F1F2;
 }
 
 .btn-lg {
