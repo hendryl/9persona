@@ -1,9 +1,16 @@
-<div>
-	<start-page></start-page>
-	<instruction></instruction>
-	<gender-page></gender-page>
-
-	<div ng-repeat="question in quiz.questions">
-		<question-page></question-page>
+<div ng-controller="quizController as quiz">
+	<div ng-hide="quiz.isStarted()">
+		<start-page></start-page>
 	</div>
+	<div ng-show="quiz.isStarted()">
+		<instruction></instruction>
+	</div>
+	<div ng-show="quiz.isGenderPage()">
+        <gender-page></gender-page>
+	</div>
+    <div ng-repeat="question in quiz.questions">
+        <div ng-show="quiz.questionNumber == question.number">
+            <question-page></question-page>
+        </div>
+    </div>
 </div>
