@@ -31,7 +31,7 @@ h1 {
 }
 
 h2 {
-	font-size: 180%;
+	font-size: 170%;
 }
 
 h3 {
@@ -205,9 +205,9 @@ Quiz content
 }
 
 .quizHeader>h3 {
-	min-height: 34px;
-	line-height: 30px;
-	position: relative;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	vertical-align: middle;
 }
 
 .quizContent {
@@ -283,8 +283,8 @@ label>input:checked + img {
 	margin-bottom: 10px;
 	margin-left: auto;
 	margin-right: auto;
-	height: 15px;
-	border: 3pt #404041 solid;
+	height: 16px;
+	border: 2pt #404041 solid;
 	border-radius: 0.5em;
 }
 
