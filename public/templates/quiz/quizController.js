@@ -3,15 +3,12 @@ angular.module("personaApp")
     var quiz = this;
     quiz.started = false;
     quiz.questionNumber = 0;
-    quiz.gender = "";
+    quiz.gender = -1;
 
     quiz.questions = [];
-    quiz.answers = [];
-
-    $http.get('/assets/quizData.json').success(function(data){
-        quiz.questions = data;
-        console.log("Successfully loaded " + quiz.questions.length + " questions");
-    });
+    quiz.results = [];
+    quiz.personalityCounters = [0,0,0,0,0,0,0,0,0];
+    quiz.highest = 0;
 
     quiz.isStarted = function(){
         return quiz.started;
@@ -27,15 +24,26 @@ angular.module("personaApp")
 
     quiz.setAnswer = function(number) {
         var n = quiz.questions[quiz.questionNumber-1].points[number];
-        quiz.answers.push(n);
+        quiz.personalityCounters[n-1]++;
+
+        var changeHighest = quiz.personalityCounters[n-1] >=
+         quiz.personalityCounters[quiz.highest];
+
+        if(changeHighest){
+            quiz.highest = n-1;
+        }
     }
 
     quiz.start = function() {
         quiz.started = true;
+        $http.get('/assets/data/quizData.json').success(function(data){
+            quiz.questions = data;
+            console.log("Successfully loaded " + quiz.questions.length + " questions");
+        });
     };
 
     quiz.showNextQuestion = function() {
-        if(!quiz.gender){
+        if(quiz.gender < 0){
             alert("Pilih cowo apa cewe dulu");
             return;
         }
@@ -43,12 +51,10 @@ angular.module("personaApp")
         quiz.questionNumber++;
 
         if(quiz.questionNumber > quiz.questions.length){
-            var str = "Selamat anda sudah selesai! Pilihan anda:\n";
-            for(var answer in quiz.answers){
-                str += quiz.answers[answer] + "\n";
-            }
-
-            alert(str);
+            $http.get('/assets/data/quizResults.json').success(function(data){
+                quiz.results = data;
+                console.log("Successfully loaded " + quiz.results.length + " results");
+            });
         }
     };
 }]);

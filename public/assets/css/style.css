@@ -346,3 +346,20 @@ label>input:checked + img {
 .progress-bar {
 	background-color: #FBCE4A;
 }
+
+/*----------------*\
+Results page
+\*----------------*/
+.resultsContainer {
+	width: 80%;
+	max-width: 740px;
+	border: 0 none;
+	margin-top: 22px;
+	margin-bottom: 22px;
+}
+.resultsContent {
+	padding-top: 30px;
+	background-color: #F1F1F2;
+	border-radius: 1em;
+	margin-bottom: 60px;
+}

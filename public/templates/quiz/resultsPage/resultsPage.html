@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <h3 class="center-block text-center text-instruction-header">Kamu adalah</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+             <img class="img-responsive center-block" ng-src ={{quiz.results[quiz.highest].picture[quiz.gender]}}>
+        </div>
+    </div>
+        <div class="row center-block resultsContainer">
+            <div class="col-xs-12 resultsContent">
+                <p>
+                    {{quiz.results[quiz.highest].description}}
+                </p>
+                <p class="text-center"><strong>
+                    At their Best
+                </strong></p>
+                <p>
+                    {{quiz.results[quiz.highest].best}}
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
