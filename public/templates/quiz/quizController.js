@@ -40,5 +40,14 @@ angular.module("personaApp")
         }
 
         quiz.questionNumber++;
+
+        if(quiz.questionNumber > quiz.questions.length){
+            var str = "Selamat anda sudah selesai! Pilihan anda:\n";
+            for(var answer in quiz.answers){
+                str += quiz.answers[answer] + "\n";
+            }
+
+            alert(str);
+        }
     };
 }]);
