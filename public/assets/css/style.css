@@ -228,31 +228,27 @@ Quiz content
 	border-radius: 0 0 1em 1em;
 }
 
-.left-content {
+/*for gender page*/
+.left-gender-content {
 	padding-left: 35px;
 	padding-right: 0.5em;
 }
 
-.left-content .img-responsive {
+.left-gender-content .img-responsive {
 	padding-left: 0;
 	padding-right: 0;
 }
 
-.right-content {
+.right-gender-content {
 	padding-left: 0.5em;
 	padding-right: 35px;
 }
 
-.right-content .img-responsive {
+.right-gender-content .img-responsive {
 	padding-left: 0;
 	padding-right: 0;
 }
 
-.nextButton {
-	margin-top: 10px;
-	margin-bottom: 20px;
-	padding: 0.25em 2em 0.25em 2em;
-}
 
 /*Hover effects*/
 .chooser input{
@@ -294,6 +290,44 @@ label>input:checked + img {
 	background-color: white;
 	word-wrap:break-word;
 	padding: 5px;
+}
+
+.left-content {
+	padding-left: 10px;
+	padding-right: 0em;
+}
+
+.left-content .img-responsive {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.right-content {
+	padding-left: 0em;
+	padding-right: 15px;
+}
+
+.right-content .img-responsive {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+@media only screen and (max-width: 767px){
+	.left-content {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.right-content {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+.nextButton {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding: 0.25em 2em 0.25em 2em;
 }
 
 .progress {
