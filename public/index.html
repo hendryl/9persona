@@ -15,6 +15,7 @@
     <script src="./templates/quiz/instruction/instruction.js"></script>
     <script src="./templates/quiz/genderPage/genderPage.js"></script>
     <script src="./templates/quiz/questionPage/questionPage.js"></script>
+    <script src="./templates/quiz/quizCreator/quizCreator.js"></script>
     <!-- CSS Styles -->
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:700|Cabin' rel='stylesheet'>
@@ -44,120 +45,11 @@
           </div><!--/.nav-collapse -->
         </div>
       </nav>
-      <div class="jumbotron">
-        <div class="container">
-          <div class="row col-md-12">
-            <img class="img-responsive center-block" src="http://placehold.it/500x500/00ac80/ffffff">
-          </div>
-          <div class="row col-md-12 text-center">
-            <a class="btn btn-primary btn-lg" href="#" role="button">
-              Mulai Quiz
-            </a>
-          </div>
-        </div>
+
+      <div ng-controller="AppController as app">
+        <quiz-creator></quiz-creator>
       </div>
-      <!-- First quiz page -->
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
-            <h3 class="center-block text-center text-instruction-header">Ikuti Instruksi Di Bawah Ini</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-4">
-            <img class="img-responsive center-block" src ="http://placehold.it/200x100/00ac80/ffffff">
-            <p class="text-center center-block text-instruction">
-              Kuis ini ditujukan untuk menghibur, sekaligus membuka wawasan akan karakter dalam diri.
-            </p>
-          </div>
-          <div class="col-sm-4">
-            <img class="img-responsive center-block" src ="http://placehold.it/200x100/00ac80/ffffff">
-            <p class="text-center center-block text-instruction">
-              Beri tanda centang pada kotak pernyataan yang sesuai dengan sikap dan tingkah laku keseharianmu.
-            </p>
-          </div>
-          <div class="col-sm-4">
-            <img class="img-responsive center-block" src ="http://placehold.it/200x100/00ac80/ffffff">
-            <p class="text-center center-block text-instruction">
-              Selesaikan dalam waktu ±10 menit.<br>
-              <strong>Selamat mencoba!</strong>
-            </p>
-          </div>
-        </div>
-      </div>
-      <!-- Quiz gender page -->
-      <div class="container quizContainer">
-        <div class="row">
-          <div class="col-xs-12 quizHeader">
-            <h3 class="text-center">Gender Kamu?</h3>
-          </div>
-        </div>
-        <div class="row chooser quizContent">
-          <input type="radio" name="gender" value="" checked="checked" />
-          <div class="col-xs-6">
-            <label class="left-gender-content">
-              <input type="radio" name="gender" value="male" />
-              <img class="img-responsive center-block" src="http://placehold.it/320x500/00ac80/ffffff">
-            </label>
-          </div>
-          <div class="col-xs-6">
-            <label class="right-gender-content">
-              <input type="radio" name="gender" value="female" />
-              <img class="img-responsive center-block" src="http://placehold.it/320x500/00ac80/ffffff">
-            </label>
-          </div>
-          <div class="col-xs-12">
-            <div class="text-center">
-              <a class="btn nextButton" href="#" role="button">
-                selanjutnya &gt;
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- question base -->
-      <div class="container quizContainer">
-        <div class="row">
-          <div class="col-xs-12 quizHeader">
-            <h3 class="text-center">
-            Sebagian besar kesuksesan saya tercapai...
-            </h3>
-          </div>
-        </div>
-        <div class="row chooser quizContent">
-          <div class="col-xs-12 col-sm-6 text-center">
-            <label class="left-content">
-              <input type="radio" name="question1" value="1" />
-              <img class="img-responsive center-block questionPic" src="http://placehold.it/320x320/00ac80/ffffff">
-              <p class="answerP">
-                karena bakatku membuat kesan baik dalam setiap pekerjaan.
-              </p>
-            </label>
-          </div>
-          <div class="col-xs-12 col-sm-6 text-center">
-            <label class="right-content">
-              <input type="radio" name="question1" value="2">
-              <img class="img-responsive center-block questionPic" src="http://placehold.it/320x320/00ac80/ffffff">
-              <p class="answerP">
-                meskipun kurangnya minatku dalam mengembangkan kemampuan interpersonal.
-              </p>
-            </label>
-          </div>
-          <div class="row">
-            <div class="col-xs-12">
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="1"
-                  aria-valuemin="1" aria-valuemax="36" style="width: 2.77%;">
-                  <span class="sr-only">1 dari 36</span>
-                </div>
-              </div>
-              <p class="text-center headText">
-                <strong>2.77%</strong>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+      
       <footer class="navbar navbar-bottom">
         <div class="container">
           <div class="row">
