@@ -167,7 +167,7 @@ Jumbotron
 
 .jumbotron img {
 	vertical-align: middle;
-	padding: 3em 0 3em 0;
+	padding-bottom: 2em;
 }
 
 /*----------------*\
@@ -202,6 +202,12 @@ Quiz content
 	background-color: #57BAD5;
 	width: 100%;
 	border-radius: 1em 1em 0 0;
+}
+
+.quizHeader>h3 {
+	min-height: 34px;
+	line-height: 30px;
+	position: relative;
 }
 
 .quizContent {
