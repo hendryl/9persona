@@ -18,20 +18,20 @@
 	"points": [1,2]
 },
 {
-	"number": 2,
-	"question": "Saya cenderung",
+	"number": 3,
+	"question": "Saya biasanya",
 	"answer": [
-		"menantang konflik",
-		"menghindari konflik"
+		"diplomatis, menarik dan ambisius",
+		"langsung, formal dan idealis"
 	],
 	"points": [1,2]
 },
 {
-	"number": 2,
-	"question": "Saya cenderung",
+	"number": 4,
+	"question": "Saya cenderung untuk",
 	"answer": [
-		"menantang konflik",
-		"menghindari konflik"
+		"fokus dan tegang",
+		"spontan dan suka kegembiraan"
 	],
 	"points": [1,2]
 }
