@@ -62,7 +62,7 @@ Buttons - Global
 
 .btn:hover {
 	color: #F1F1F2;
-	background-color: #EBBE3A;
+	background-color: #00ac80;
 }
 
 .btn-primary {
@@ -81,7 +81,7 @@ background-color: #DE4D3B;
 }
 
 /*----------------*\
-Navigation bar
+Navigation barg
 \*----------------*/
 .navbar .navbar-nav {
 	display: inline-block;
