@@ -52,6 +52,22 @@ h3 {
 	padding: 1em;
 }
 
+footer {
+	background-color: #f1f1f2;
+}
+
+footer.navbar {
+	height: 45px;
+	margin-bottom: 0px;
+}
+
+footer p {
+	line-height: 45px;
+	vertical-align: middle;
+	font-family: "Roboto Slab";
+	margin: 0 auto;
+}
+
 /*----------------*\
 Buttons - Global
 \*----------------*/
