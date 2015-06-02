@@ -26,7 +26,8 @@ angular.module("personaApp")
     }
 
     quiz.setAnswer = function(number) {
-        quiz.answers.push(number);
+        var n = quiz.questions[quiz.questionNumber-1].points[number];
+        quiz.answers.push(n);
     }
 
     quiz.start = function() {
