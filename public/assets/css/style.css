@@ -189,6 +189,7 @@ Instruction
 	color: #404041;
 	background-color: #FBCE4A;
 	margin-bottom: 16px;
+	max-width: 450px;
 }
 
 .text-instruction {
