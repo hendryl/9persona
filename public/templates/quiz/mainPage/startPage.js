@@ -1,4 +1,4 @@
-angular.module("personaApp", [])
+angular.module("personaApp")
 .directive('startPage', function() {
 	return {
 		restrict: 'E',
