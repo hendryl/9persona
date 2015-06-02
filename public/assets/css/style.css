@@ -293,7 +293,7 @@ label>input:checked + img {
 	min-height: 66px;
 	background-color: white;
 	word-wrap:break-word;
-	hyphens: auto;
+	padding: 5px;
 }
 
 .progress {
