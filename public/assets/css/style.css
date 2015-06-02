@@ -280,6 +280,7 @@ label>input:checked + img {
 
 .progress {
 	max-width: 75%;
+	margin-top: 31px;
 	margin-bottom: 10px;
 	margin-left: auto;
 	margin-right: auto;
