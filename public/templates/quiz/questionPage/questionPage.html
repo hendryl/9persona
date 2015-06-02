@@ -10,7 +10,7 @@
     <div class="col-xs-12 col-sm-6 text-center">
       <label class="left-content">
         <input type="radio" name="question1" value="1" />
-        <img class="img-responsive center-block questionPic" src="">
+        <img class="img-responsive center-block questionPic" ng-src="{{question.picture[0]}}">
         <p class="answerP">
           {{question.answer[0]}}
         </p>
@@ -19,7 +19,7 @@
     <div class="col-xs-12 col-sm-6 text-center">
       <label class="right-content">
         <input type="radio" name="question1" value="2">
-        <img class="img-responsive center-block questionPic" src="">
+        <img class="img-responsive center-block questionPic" ng-src="{{question.picture[1]}}">
         <p class="answerP">
           {{question.answer[1]}}
         </p>
@@ -29,7 +29,7 @@
       <div class="col-xs-12">
         <div class="progress">
           <div class="progress-bar" role="progressbar" aria-valuenow="1"
-            aria-valuemin="1" aria-valuemax="36" style="width: 2.77%;">
+            aria-valuemin="1" aria-valuemax="36" ng-style="{width: question.number / 36 * 100 + '%'}">
             <span class="sr-only">{{question.number}} dari 36</span>
           </div>
         </div>

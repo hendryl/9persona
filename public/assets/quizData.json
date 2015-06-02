@@ -3,8 +3,10 @@
 	"number": 1,
 	"question": "Saya",
 	"answer": [
-	"romantis dan imajinatif",
-	"pragmatis dan mudah bergaul"
+		"romantis dan imajinatif",
+		"pragmatis dan mudah bergaul"
+	],
+	"picture": [
 	],
 	"points": [1,2]
 },
@@ -15,6 +17,8 @@
 		"menantang konflik",
 		"menghindari konflik"
 	],
+	"picture": [
+	],
 	"points": [1,2]
 },
 {
@@ -24,6 +28,8 @@
 		"diplomatis, menarik dan ambisius",
 		"langsung, formal dan idealis"
 	],
+	"picture": [
+	],
 	"points": [1,2]
 },
 {
@@ -32,6 +38,8 @@
 	"answer": [
 		"fokus dan tegang",
 		"spontan dan suka kegembiraan"
+	],
+	"picture": [
 	],
 	"points": [1,2]
 }
