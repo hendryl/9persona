@@ -25,6 +25,10 @@ angular.module("personaApp")
         quiz.gender = gender;
     }
 
+    quiz.setAnswer = function(number) {
+        quiz.answers.push(number);
+    }
+
     quiz.start = function() {
         quiz.started = true;
     };
@@ -36,5 +40,5 @@ angular.module("personaApp")
         }
 
         quiz.questionNumber++;
-    }
+    };
 }]);

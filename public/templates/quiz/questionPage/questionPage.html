@@ -8,22 +8,22 @@
   </div>
   <div class="row chooser quizContent">
     <div class="col-xs-12 col-sm-6 text-center">
-      <label class="left-content">
+      <div class="left-content" ng-click="quiz.setAnswer(0);quiz.showNextQuestion()">
         <input type="radio" name="question1" value="1" />
         <img class="img-responsive center-block questionPic" ng-src="{{question.picture[0]}}">
         <p class="answerP">
           {{question.answer[0]}}
         </p>
-      </label>
+      </div>
     </div>
     <div class="col-xs-12 col-sm-6 text-center">
-      <label class="right-content">
+      <div class="right-content" ng-click="quiz.setAnswer(1);quiz.showNextQuestion()">
         <input type="radio" name="question1" value="2">
         <img class="img-responsive center-block questionPic" ng-src="{{question.picture[1]}}">
         <p class="answerP">
           {{question.answer[1]}}
         </p>
-      </label>
+      </div>
     </div>
     <div class="row">
       <div class="col-xs-12">

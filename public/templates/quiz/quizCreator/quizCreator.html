@@ -2,7 +2,7 @@
 	<div ng-hide="quiz.isStarted()">
 		<start-page></start-page>
 	</div>
-	<div ng-show="quiz.isStarted()">
+	<div ng-show="quiz.isStarted() && quiz.questionNumber <= quiz.questions.length">
 		<instruction></instruction>
 	</div>
 	<div ng-show="quiz.isGenderPage()">
