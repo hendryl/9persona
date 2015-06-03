@@ -60,6 +60,8 @@ Buttons - Global
 	text-align: center;
 	border-radius: 0.5em;
 	font-size: 120%;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
 }
 
 .btn:hover {
@@ -90,6 +92,14 @@ Navigation barg
 	display: inline-block;
 	float: none;
 	vertical-align: top;
+}
+
+.navbar-default .navbar-nav > li > a {
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
 }
 
 .nav>li>a {
@@ -267,6 +277,8 @@ label:hover>img {
 label>input + img {
 	filter: grayscale(100%);
 	-webkit-filter: grayscale(100%);
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
 }
 
 label>p {
