@@ -3,8 +3,15 @@ angular.module("personaApp", ['ngRoute'])
 	var app = this;
 
     app.hideDropdown = function () {
-        $(".navbar-toggle").click();
+        var needToHideDropdown = !$(".navbar-toggle").hasClass("collapsed");
+        if(needToHideDropdown){
+            $(".navbar-toggle").click();
+        }
     }
+
+    $(window).resize(function() {
+        app.hideDropdown();
+    });
 })
 
 .config(function($routeProvider) {
