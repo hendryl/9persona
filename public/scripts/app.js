@@ -1,6 +1,10 @@
 angular.module("personaApp", ['ngRoute'])
 .controller('AppController', function(){
-	
+	var app = this;
+
+    app.hideDropdown = function () {
+        $(".navbar-toggle").click();
+    }
 })
 
 .config(function($routeProvider) {
