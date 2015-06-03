@@ -12,11 +12,9 @@
     <!-- Angular scripts -->
     <script src="./scripts/app.js"></script>
     <script src="./templates/quiz/quizController.js"></script>
-    <script src="./templates/quiz/mainPage/startPage.js"></script>
     <script src="./templates/quiz/instruction/instruction.js"></script>
     <script src="./templates/quiz/genderPage/genderPage.js"></script>
     <script src="./templates/quiz/questionPage/questionPage.js"></script>
-    <script src="./templates/quiz/quizCreator/quizCreator.js"></script>
     <script src="./templates/quiz/resultsPage/resultsPage.js"></script>
     <!-- CSS Styles -->
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -24,7 +22,7 @@
     <link href="./assets/fonts/stylesheet.css" rel="stylesheet">
     <link href="./assets/css/style.css" rel="stylesheet">
   </head>
-  <body>
+  <body ng-controller="AppController as app">
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -39,19 +37,18 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav menuFont">
-            <li><a href="#">home</a></li>
-            <li><a href="#persona">persona</a></li>
-            <li><a href="#about">about</a></li>
-            <li><a href="#download">download</a></li>
+            <li><a ng-href="#/">home</a></li>
+            <li><a ng-href="#/persona">persona</a></li>
+            <li><a ng-href="#/about">about</a></li>
+            <li><a ng-href="#/download">download</a></li>
           </ul>
           </div><!--/.nav-collapse -->
         </div>
       </nav>
-      
-      <div ng-controller="AppController as app">
-        <quiz-creator></quiz-creator>
+      <!--routing here-->
+      <div id="main">
+        <div ng-view></div>
       </div>
-      
       <footer class="navbar navbar-fixed-bottom">
         <div class="container">
           <div class="row">

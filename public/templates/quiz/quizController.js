@@ -1,7 +1,6 @@
 angular.module("personaApp")
 .controller('quizController', ['$http', function($http){
     var quiz = this;
-    quiz.started = false;
     quiz.questionNumber = 0;
     quiz.gender = -1;
 
@@ -10,12 +9,8 @@ angular.module("personaApp")
     quiz.personalityCounters = [0,0,0,0,0,0,0,0,0];
     quiz.highest = 0;
 
-    quiz.isStarted = function(){
-        return quiz.started;
-    };
-
     quiz.isGenderPage = function(){
-        return quiz.isStarted() && quiz.questionNumber == 0;
+        return quiz.questionNumber == 0;
     }
 
     quiz.setGender = function(gender) {
@@ -34,14 +29,6 @@ angular.module("personaApp")
         }
     }
 
-    quiz.start = function() {
-        quiz.started = true;
-        $http.get('/assets/data/quizData.json').success(function(data){
-            quiz.questions = data;
-            console.log("Successfully loaded " + quiz.questions.length + " questions");
-        });
-    };
-
     quiz.showNextQuestion = function() {
         if(quiz.gender < 0){
             alert("Pilih cowo apa cewe dulu");
@@ -56,5 +43,13 @@ angular.module("personaApp")
                 console.log("Successfully loaded " + quiz.results.length + " results");
             });
         }
+    };
+    
+    quiz.start = function() {
+        $http.get('/assets/data/quizData.json').success(function(data){
+            quiz.questions = data;
+            console.log("Successfully loaded " + quiz.questions.length + " questions");
+            quiz.showNextQuestion();
+        });
     };
 }]);
