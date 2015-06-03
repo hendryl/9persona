@@ -29,6 +29,14 @@ angular.module("personaApp")
         }
     }
 
+        quiz.start = function() {
+        $http.get('/assets/data/quizData.json').success(function(data){
+            quiz.questions = data;
+            console.log("Successfully loaded " + quiz.questions.length + " questions");
+            quiz.showNextQuestion();
+        });
+    };
+
     quiz.showNextQuestion = function() {
         if(quiz.gender < 0){
             alert("Pilih cowo apa cewe dulu");
@@ -43,13 +51,5 @@ angular.module("personaApp")
                 console.log("Successfully loaded " + quiz.results.length + " results");
             });
         }
-    };
-    
-    quiz.start = function() {
-        $http.get('/assets/data/quizData.json').success(function(data){
-            quiz.questions = data;
-            console.log("Successfully loaded " + quiz.questions.length + " questions");
-            quiz.showNextQuestion();
-        });
     };
 }]);
