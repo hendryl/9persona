@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
-<html ng-app="personaApp">
+<html ng-app="personaApp" ng-controller="AppController as app">
   <head>
-    <title>Test</title>
+    <title ng-bind="'9persona &mdash; ' + title">9Persona</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Javascript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
@@ -22,7 +22,7 @@
     <link href="./assets/fonts/stylesheet.css" rel="stylesheet">
     <link href="./assets/css/style.css" rel="stylesheet">
   </head>
-  <body ng-controller="AppController as app">
+  <body>
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
