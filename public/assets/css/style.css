@@ -12,7 +12,7 @@ html {
 
 body { 
 	height: 100%;
-	padding-top: 50px;
+	padding: 50px 0 50px 0;
 	font-family: "Cabin";
 	font-size: 0.875em;
 }
@@ -40,6 +40,9 @@ h3 {
 	font-size: 140%;
 }
 
+h4 {
+	font-size: 112.5%;
+}
 .menuFont {
 	font-family: "Jaapokki Regular";
 	font-size: 125%;
@@ -164,6 +167,7 @@ Footer
 \*----------------*/
 
 footer {
+	position: absolute;
 	background-color: #f1f1f2;
 	height:45px;
 }
@@ -373,5 +377,72 @@ Results page
 	padding-top: 30px;
 	background-color: #F1F1F2;
 	border-radius: 1em;
-	margin-bottom: 60px;
+}
+
+/*-----------------*\
+Persona page
+\*-----------------*/
+
+.persona-box {
+	box-sizing:border-box;
+ 	-moz-box-sizing:border-box;
+  	-webkit-box-sizing:border-box;
+	background-color: #f1f1f2;
+	border: 5px solid white;
+	margin-bottom: 20px;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+}
+
+.persona-box>.img-responsive {
+	padding: 1em 0;
+}
+
+.persona-box:hover {
+	background-color: #404041;
+}
+
+.persona-box>a {
+	text-decoration: none;
+	color: #404041;
+}
+
+.persona-box:hover>a {
+	color: #f1f1f2;
+}
+
+.persona-box>h4 {
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+}
+
+.persona-box:hover>h4 {
+	font-size: 125%;
+}
+
+#persona1 {
+}
+
+#persona2 {
+}
+
+#persona3 {
+}
+
+#persona4 {
+}
+
+#persona5 {
+}
+
+#persona6 {
+}
+
+#persona7 {
+}
+
+#persona8 {
+}
+
+#persona9 {
 }
