@@ -403,19 +403,6 @@ Results page
 Persona page
 \*-----------------*/
 
-/*global*/
-.instinct {
-	background-color: #00AC80;
-}
-
-.feeling {
-	background-color: #EF5E4C;
-}
-
-.thinking {
-	background-color: #57BAD5;
-}
-
 /*top page*/
 
 .persona-box {
@@ -460,6 +447,18 @@ Persona page
 Persona detail page
 \*-----------------*/
 
+/*global*/
+.instinct {
+	background-color: #00AC80;
+}
+
+.feeling {
+	background-color: #EF5E4C;
+}
+
+.thinking {
+	background-color: #57BAD5;
+}
 
 /*buttons*/
 .carousel-button {
@@ -518,20 +517,21 @@ Persona detail page
 	border: 10px solid;
 	border-color: rgba(0, 150, 108, 0.5);
 	background-clip: padding-box; 
+	animation: glowInstinct 2s ease infinite;
 }
 
 .dropdowner-button:hover {
-	animation: glowy 2s ease infinite;
+	background-color: #009770;
 }
 
-@keyframes glowy {
-	0% { border-color: rgba(0, 150, 108, 0.5); }
-    50% { border-color: rgba(0, 150, 108, 0); }
-    100% { border-color: rgba(0, 150, 108, 0.5); }
+@keyframes glowInstinct {
+	0% { border-color: rgba(0, 150, 108, 0); }
+    50% { border-color: rgba(0, 150, 108, 0.5); }
+    100% { border-color: rgba(0, 150, 108, 0); }
 }
 
-@webkit-keyframes glowy {
-	0%   { border-color: rgba(0, 150, 108, 0.5); }
-    50% { border-color: rgba(0, 150, 108, 0); }
-    100% { border-color: rgba(0, 150, 108, 0.5); }
+@webkit-keyframes glowInstinct {
+	0%   { border-color: rgba(0, 150, 108, 0); }
+    50% { border-color: rgba(0, 150, 108, 0.5); }
+    100% { border-color: rgba(0, 150, 108, 0); }
 }
