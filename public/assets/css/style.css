@@ -444,7 +444,46 @@ Persona page
 Persona detail page
 \*-----------------*/
 
-.pop-in {
+
+/*buttons*/
+.carousel-button {
+	font-size: 200%;
+	color: #404041;
+	background-color: transparent;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+}
+
+a:hover, a:active, a:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.carousel-button:hover {
+	color: #404041;
+	background-color: transparent;
+}
+
+.carousel-button:focus {
+	outline:none;
+	box-shadow: none;
+}
+
+#l-car-button:hover {
+	transform: translateX(-5px);
+	-webkit-transform: translateX(-5px);
+	transform-origin: 50% 50%;
+	-webkit-transform-origin: 50% 50%;
+}
+
+#r-car-button:hover {
+	transform: translateX(5px);
+	-webkit-transform: translateX(5px);
+	transform-origin: 50% 50%;
+	-webkit-transform-origin: 50% 50%;
+}
+
+.dropdown-box {
 	position:absolute;
 	width: 80%;
 	top:20px;
@@ -455,7 +494,7 @@ Persona detail page
 	padding: 1em;
 }
 
-.carousel-button {
+.dropdowner-button {
 	border: transparent;
 	width: 40px;
 	height: 40px;
