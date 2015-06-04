@@ -42,8 +42,6 @@ angular.module("personaApp")
     }
     else ctrl.current = 1;
 
-    $(document).ready(function() {
-        document.title = "9Persona - Tipe " + ctrl.current;
-        ctrl.checkType();
-    });
+    ctrl.checkType();
+
 }]);

@@ -33,6 +33,7 @@ angular.module("personaApp", ['ngRoute'])
   })
 
   .when('/persona/:typeNumber', {
+    title: 'Tipe ', 
     templateUrl:'/templates/persona/detail/index.html'
   })
 
@@ -55,6 +56,10 @@ angular.module("personaApp", ['ngRoute'])
   $rootScope.$on('$routeChangeSuccess', function (event, current, previous) {
     if (current.hasOwnProperty('$$route')) {
       $rootScope.title = current.$$route.title;
+    }
+
+    if(current.pathParams.typeNumber){
+      $rootScope.title += current.pathParams.typeNumber;
     }
   })
 }]);
