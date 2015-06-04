@@ -1,4 +1,4 @@
-angular.module("personaApp", ['ngRoute'])
+angular.module("personaApp", ['ngRoute', 'ngAnimate'])
 .controller('AppController', function(){
 	var app = this;
 
