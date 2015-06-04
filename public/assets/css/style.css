@@ -59,6 +59,22 @@ h4 {
 /*----------------*\
 Buttons - Global
 \*----------------*/
+
+a:hover, a:active, a:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+button:focus,button:active {
+	outline: none !important;
+	box-shadow: none;
+}
+
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none;
+}
+
 .btn {
 	font-family: "Jaapokki Regular";
 	color: #404041;
@@ -93,7 +109,7 @@ Buttons - Global
 }
 
 /*----------------*\
-Navigation barg
+Navigation bar
 \*----------------*/
 .navbar .navbar-nav {
 	display: inline-block;
@@ -452,11 +468,6 @@ Persona detail page
 	background-color: transparent;
 	transition: all 0.3s;
 	-webkit-transition: all 0.3s;
-}
-
-a:hover, a:active, a:focus {
-  outline: 0;
-  box-shadow: none;
 }
 
 .carousel-button:hover {

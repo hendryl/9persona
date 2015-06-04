@@ -8,3 +8,11 @@
     <div class="row">
         <carousel></carousel>
     </div>
+    <div class="row">
+        <button ng-click="detailController.toggleDropdown()" 
+        class="img-circle dropdowner-button 
+        ng-class:{'instinct': detailCtrl.type == 1, 
+                'feeling': detailCtrl.type == 2,
+                'thinking': detailCtrl.type == 3}">
+        </button>
+        
