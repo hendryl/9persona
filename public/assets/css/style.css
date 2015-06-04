@@ -562,7 +562,7 @@ Persona detail page
     100% { border-color: rgba(0, 172, 128, 0); }
 }
 
-@webkit-keyframes glowInstinct {
+@-webkit-keyframes glowInstinct {
 	0%   { border-color: rgba(0, 172, 128, 0); }
     50% { border-color: rgba(0, 172, 128, 0.5); }
     100% { border-color: rgba(0, 172, 128, 0.5); }
@@ -574,7 +574,7 @@ Persona detail page
     100% { border-color: rgba(239, 94, 76, 0); }
 }
 
-@webkit-keyframes glowFeeling {
+@-webkit-keyframes glowFeeling {
 	0%   { border-color: rgba(239, 94, 76, 0); }
     50% { border-color: rgba(239, 94, 76, 0.5); }
     100% { border-color: rgba(239, 94, 76, 0); }
@@ -586,7 +586,7 @@ Persona detail page
     100% { border-color: rgba(87, 186, 213, 0); }
 }
 
-@webkit-keyframes glowThinking {
+@-webkit-keyframes glowThinking {
 	0%   { border-color: rgba(87, 186, 213, 0); }
     50% { border-color: rgba(87, 186, 213, 0.5); }
     100% { border-color: rgba(87, 186, 213, 0); }
