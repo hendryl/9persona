@@ -506,8 +506,8 @@ Persona detail page
 
 .dropdowner-button {
 	box-sizing: content-box;
-	width: 40px;
-	height: 40px;
+	width: 25px;
+	height: 25px;
 	position: absolute;
 	margin-left: auto;
 	margin-right: auto;
@@ -525,7 +525,10 @@ Persona detail page
 }
 
 .dropdowner-button.instinct:hover {
-	background-color: #007656;
+	background-color: #00906B;
+	border-color: rgba(0, 172, 128, 0.5);
+	-webkit-transition: none !important;
+	transition: none !important;
 }
 
 .dropdowner-button.feeling {
@@ -533,7 +536,10 @@ Persona detail page
 }
 
 .dropdowner-button.feeling:hover {
-	background-color: #9f3c2e;
+	background-color: #C64E3E;
+	border-color: rgba(239, 94, 76, 0.5);
+	-webkit-transition: none !important;
+	transition: none !important;
 }
 
 .dropdowner-button.thinking {
@@ -541,7 +547,10 @@ Persona detail page
 }
 
 .dropdowner-button.thinking:hover {
-	background-color: #387e91;
+	background-color: #499CB3;
+	border-color: rgba(87, 186, 213, 0.5);
+	-webkit-transition: none !important;
+	transition: none !important;
 }
 
 @keyframes glowInstinct {
