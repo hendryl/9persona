@@ -1,5 +1,5 @@
 angular.module("personaApp")
-.controller('detailController', ['$routeParams, $http', function($routeParams, $http){
+.controller('detailController', ['$routeParams', '$http', function($routeParams, $http){
     var ctrl = this;
     ctrl.current = 1;
     ctrl.popInVisible = false;

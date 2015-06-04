@@ -506,7 +506,7 @@ Persona detail page
 }
 
 .dropdowner-button {
-	border: transparent;
+	box-sizing: content-box;
 	width: 40px;
 	height: 40px;
 	position: absolute;
@@ -515,4 +515,23 @@ Persona detail page
 	left: 0;
 	right: 0;
 	margin-top: 0px;
+	border: 10px solid;
+	border-color: rgba(0, 150, 108, 0.5);
+	background-clip: padding-box; 
+}
+
+.dropdowner-button:hover {
+	animation: glowy 2s ease infinite;
+}
+
+@keyframes glowy {
+	0% { border-color: rgba(0, 150, 108, 0.5); }
+    50% { border-color: rgba(0, 150, 108, 0); }
+    100% { border-color: rgba(0, 150, 108, 0.5); }
+}
+
+@webkit-keyframes glowy {
+	0%   { border-color: rgba(0, 150, 108, 0.5); }
+    50% { border-color: rgba(0, 150, 108, 0); }
+    100% { border-color: rgba(0, 150, 108, 0.5); }
 }
