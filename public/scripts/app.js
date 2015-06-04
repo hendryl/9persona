@@ -2,16 +2,16 @@ angular.module("personaApp", ['ngRoute'])
 .controller('AppController', function(){
 	var app = this;
 
-    app.hideDropdown = function () {
-        var needToHideDropdown = !$(".navbar-toggle").hasClass("collapsed");
-        if(needToHideDropdown){
-            $(".navbar-toggle").click();
-        }
+  app.hideDropdown = function () {
+    var needToHideDropdown = !$(".navbar-toggle").hasClass("collapsed");
+    if(needToHideDropdown){
+      $(".navbar-toggle").click();
     }
+  }
 
-    $(window).resize(function() {
-        app.hideDropdown();
-    });
+  $(window).resize(function() {
+    app.hideDropdown();
+  });
 })
 
 .config(function($routeProvider) {
@@ -20,7 +20,7 @@ angular.module("personaApp", ['ngRoute'])
   .when('/', {
     title: 'Home',
     templateUrl: '/templates/home/index.html'
-    })
+  })
 
   .when('/quiz', {
     title: 'Quiz',
@@ -32,6 +32,10 @@ angular.module("personaApp", ['ngRoute'])
     templateUrl: '/templates/persona/index.html'
   })
 
+  .when('/persona/:typeNumber', {
+    templateUrl:'/templates/persona/detail/index.html'
+  })
+
   .when('/about', {
     title: 'About',
     templateUrl: '/templates/about/index.html'
@@ -40,11 +44,17 @@ angular.module("personaApp", ['ngRoute'])
   .when('/download', {
     title: 'Download',
     templateUrl: '/templates/download/index.html'
+  })
+
+  .otherwise({
+    redirectTo: '/'
   });
 })
 
 .run(['$location', '$rootScope', function($location, $rootScope) {
-    $rootScope.$on('$routeChangeSuccess', function (event, current, previous) {
-        $rootScope.title = current.$$route.title;
-    })
+  $rootScope.$on('$routeChangeSuccess', function (event, current, previous) {
+    if (current.hasOwnProperty('$$route')) {
+      $rootScope.title = current.$$route.title;
+    }
+  })
 }]);

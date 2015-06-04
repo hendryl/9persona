@@ -387,6 +387,21 @@ Results page
 Persona page
 \*-----------------*/
 
+/*global*/
+.instinct {
+	background-color: #00AC80;
+}
+
+.feeling {
+	background-color: #EF5E4C;
+}
+
+.thinking {
+	background-color: #57BAD5;
+}
+
+/*top page*/
+
 .persona-box {
 	box-sizing:border-box;
  	-moz-box-sizing:border-box;
@@ -425,29 +440,29 @@ Persona page
 	font-size: 125%;
 }
 
-#persona1 {
+/*-----------------*\
+Persona detail page
+\*-----------------*/
+
+.pop-in {
+	position:absolute;
+	width: 80%;
+	top:20px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	padding: 1em;
 }
 
-#persona2 {
-}
-
-#persona3 {
-}
-
-#persona4 {
-}
-
-#persona5 {
-}
-
-#persona6 {
-}
-
-#persona7 {
-}
-
-#persona8 {
-}
-
-#persona9 {
+.carousel-button {
+	border: transparent;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	margin-top: 0px;
 }
