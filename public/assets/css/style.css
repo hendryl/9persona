@@ -513,7 +513,7 @@ Persona detail page
 	margin-right: auto;
 	left: 0;
 	right: 0;
-	border: 10px solid;
+	border: 7px solid transparent;
 	background-clip: padding-box;
 	padding: 0;
 	-webkit-transition: all 0.3s;
@@ -522,35 +522,38 @@ Persona detail page
 
 .dropdowner-button.instinct { 
 	animation: glowInstinct 2s ease infinite;
+	-webkit-animation: glowInstinct 2s ease infinite;
 }
 
 .dropdowner-button.instinct:hover {
 	background-color: #00906B;
 	border-color: rgba(0, 172, 128, 0.5);
-	-webkit-transition: none !important;
-	transition: none !important;
+	animation: none;
+	-webkit-animation: none;
 }
 
 .dropdowner-button.feeling {
 	animation: glowFeeling 2s ease infinite;
+	-webkit-animation: glowFeeling 2s ease infinite;
 }
 
 .dropdowner-button.feeling:hover {
 	background-color: #C64E3E;
 	border-color: rgba(239, 94, 76, 0.5);
-	-webkit-transition: none !important;
-	transition: none !important;
+	animation: none;
+	-webkit-animation: none;
 }
 
 .dropdowner-button.thinking {
 	animation: glowThinking 2s ease infinite;
+	-webkit-animation: glowThinking 2s ease infinite;
 }
 
 .dropdowner-button.thinking:hover {
 	background-color: #499CB3;
 	border-color: rgba(87, 186, 213, 0.5);
-	-webkit-transition: none !important;
-	transition: none !important;
+	animation: none;
+	-webkit-animation: none;
 }
 
 @keyframes glowInstinct {
