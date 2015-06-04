@@ -515,23 +515,66 @@ Persona detail page
 	right: 0;
 	margin-top: 0px;
 	border: 10px solid;
-	border-color: rgba(0, 150, 108, 0.5);
-	background-clip: padding-box; 
+	background-clip: padding-box;
+	padding: 0;
+}
+
+.dropdowner-button.instinct { 
 	animation: glowInstinct 2s ease infinite;
 }
 
-.dropdowner-button:hover {
-	background-color: #009770;
+.dropdowner-button.instinct:hover {
+	background-color: #007656;
+}
+
+.dropdowner-button.feeling {
+	animation: glowFeeling 2s ease infinite;
+}
+
+.dropdowner-button.feeling:hover {
+	background-color: #9f3c2e;
+}
+
+.dropdowner-button.thinking {
+	animation: glowThinking 2s ease infinite;
+}
+
+.dropdowner-button.thinking:hover {
+	background-color: #387e91;
 }
 
 @keyframes glowInstinct {
-	0% { border-color: rgba(0, 150, 108, 0); }
-    50% { border-color: rgba(0, 150, 108, 0.5); }
-    100% { border-color: rgba(0, 150, 108, 0); }
+	0% { border-color: rgba(0, 172, 128, 0); }
+    50% { border-color: rgba(0, 172, 128, 0.5); }
+    100% { border-color: rgba(0, 172, 128, 0); }
 }
 
 @webkit-keyframes glowInstinct {
-	0%   { border-color: rgba(0, 150, 108, 0); }
-    50% { border-color: rgba(0, 150, 108, 0.5); }
-    100% { border-color: rgba(0, 150, 108, 0); }
+	0%   { border-color: rgba(0, 172, 128, 0); }
+    50% { border-color: rgba(0, 172, 128, 0.5); }
+    100% { border-color: rgba(0, 172, 128, 0.5); }
+}
+
+@keyframes glowFeeling {
+	0% { border-color: rgba(239, 94, 76, 0); }
+    50% { border-color: rgba(239, 94, 76, 0.5); }
+    100% { border-color: rgba(239, 94, 76, 0); }
+}
+
+@webkit-keyframes glowFeeling {
+	0%   { border-color: rgba(239, 94, 76, 0); }
+    50% { border-color: rgba(239, 94, 76, 0.5); }
+    100% { border-color: rgba(239, 94, 76, 0); }
+}
+
+@keyframes glowThinking {
+	0% { border-color: rgba(87, 186, 213, 0); }
+    50% { border-color: rgba(87, 186, 213, 0.5); }
+    100% { border-color: rgba(87, 186, 213, 0); }
+}
+
+@webkit-keyframes glowThinking {
+	0%   { border-color: rgba(87, 186, 213, 0); }
+    50% { border-color: rgba(87, 186, 213, 0.5); }
+    100% { border-color: rgba(87, 186, 213, 0); }
 }
