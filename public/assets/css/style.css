@@ -513,10 +513,11 @@ Persona detail page
 	margin-right: auto;
 	left: 0;
 	right: 0;
-	margin-top: 0px;
 	border: 10px solid;
 	background-clip: padding-box;
 	padding: 0;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
 }
 
 .dropdowner-button.instinct { 
