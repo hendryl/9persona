@@ -19,7 +19,6 @@ body {
 	padding: 50px 0 50px 0;
 	font-family: "Cabin";
 	font-size: 0.875em;
-	background-image: url("/assets/images/bg2.png");
 }
 
 @media only screen and (min-width: 768px) {
