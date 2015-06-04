@@ -1,6 +1,10 @@
 /*----------------*\
 Global
 \*----------------*/
+ /*//Debugging
+* {
+	border: 1px solid red !important;
+}*/
 
 html {
 	margin: 0;
