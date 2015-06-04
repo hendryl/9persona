@@ -43,5 +43,4 @@ angular.module("personaApp")
     else ctrl.current = 1;
 
     ctrl.checkType();
-
 }]);
