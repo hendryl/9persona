@@ -56,13 +56,17 @@ h4 {
 	padding: 1em;
 }
 
-.base-animation.ng-enter {
+/*----------------*\
+Route animations
+\*----------------*/
+.home-animation.ng-enter {
 	z-index: 1;
 	-webkit-animation: slideInUp 1.0s;
 	animation: slideInUp 1.0s;
 }
 
-.base-animation.ng-leave  {
+/*for leaving items*/
+.home-animation.ng-leave  {
 	overflow: hidden;
 	position:absolute;
 	left: 0;
@@ -70,8 +74,78 @@ h4 {
 	margin-right: 0;
 	margin-left: 0;
 	z-index: -1;
-	-webkit-animation: slideOutUp 1.0s;
-	animation: slideOutUp 1.0s;
+	-webkit-animation: fadeOutUp 1.0s;
+	animation: fadeOutUp 1.0s;
+}
+
+.quiz-animation.ng-enter {
+	z-index: 1;
+	-webkit-animation: fadeInRight 1.0s;
+	animation: fadeInRight 1.0s;
+}
+
+.quiz-animation.ng-leave  {
+	overflow: hidden;
+	position:absolute;
+	left: 0;
+	right: 0;
+	margin-right: 0;
+	margin-left: 0;
+	z-index: -1;
+	-webkit-animation: fadeOutLeft 1.0s;
+	animation: fadeOutLeft 1.0s;
+}
+
+.quiz-animation.ng-enter {
+	z-index: 1;
+	-webkit-animation: fadeInRight 1.0s;
+	animation: fadeInRight 1.0s;
+}
+
+.quiz-animation.ng-leave  {
+	overflow: hidden;
+	position:absolute;
+	left: 0;
+	right: 0;
+	margin-right: 0;
+	margin-left: 0;
+	z-index: -1;
+	-webkit-animation: fadeOutLeft 1.0s;
+	animation: fadeOutLeft 1.0s;
+}
+
+.grid-animation.ng-enter {
+	z-index: 1;
+	-webkit-animation: rollIn 1.0s;
+	animation: rollIn 1.0s;
+}
+
+.grid-animation.ng-leave {
+	overflow: hidden;
+	position:absolute;
+	left: 0;
+	right: 0;
+	margin-right: 0;
+	margin-left: 0;
+	z-index: -1;
+	-webkit-animation: zoomOut 1.0s;
+	animation: zoomOut 1.0s;
+}
+
+.detail-animation.ng-enter {
+	z-index: 1;
+	-webkit-animation: zoomInUp 1.0s;
+	animation: zoomInUp 1.0s;
+}
+
+.detail-animation.ng-leave {
+	overflow: hidden;
+	position:absolute;
+	left: 0;
+	right: 0;
+	margin-right: 0;
+	margin-left: 0;
+	z-index: -1;
 }
 
 /*----------------*\
