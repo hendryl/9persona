@@ -56,6 +56,24 @@ h4 {
 	padding: 1em;
 }
 
+.base-animation.ng-enter {
+	z-index: 1;
+	-webkit-animation: slideInUp 1.0s;
+	animation: slideInUp 1.0s;
+}
+
+.base-animation.ng-leave  {
+	overflow: hidden;
+	position:absolute;
+	left: 0;
+	right: 0;
+	margin-right: 0;
+	margin-left: 0;
+	z-index: -1;
+	-webkit-animation: slideOutUp 1.0s;
+	animation: slideOutUp 1.0s;
+}
+
 /*----------------*\
 Buttons - Global
 \*----------------*/
@@ -211,18 +229,6 @@ Jumbotron
 	height: auto;
 }
 
-.jumbotron.ng-enter {
-	-webkit-animation: slideInUp 2.0s;
-	-o-animation: slideInUp 2.0s;
-	animation: slideInUp 2.0s;
-}
-
-.jumbotron.ng-leave {
-	-webkit-animation: slideOutUp 2.0s;
-	-o-animation: slideOutUp 2.0s;
-	animation: slideOutUp 2.0s;
-}
-
 @media screen {
 	.jumbotron {
 		background-color: transparent;
@@ -266,19 +272,7 @@ Quiz content
 	width:100%;
 }
 
-.question-anim.ng-enter {
-	z-index: 1;
-	-webkit-animation: fadeInUp 1.0s;
-	animation: fadeInUp 1.0s;
-}
-/*
-.question-anim.ng-leave {
-	z-index
-	-webkit-animation: fadeOutUp 1.0s;
-	animation: fadeOutUp 1.0s;
-}*/
-
-.question-anim.ng-hide-add {
+.gender-anim.ng-hide-add {
 	overflow: hidden;
 	position:absolute;
 	left: 0;
@@ -286,18 +280,26 @@ Quiz content
 	margin-right: 0;
 	margin-left: 0;
 	z-index: -1;
-	-webkit-animation: fadeOutUp 1.0s;
-	animation: fadeOutUp 1.0s;
+	-webkit-animation: slideOutLeft 1.0s;
+	animation: slideOutLeft 1.0s;
 }
 
-.question-anim.ng-hide-remove {
+.question-anim.ng-enter {
 	z-index: 1;
-	-webkit-animation: fadeInUp 1.0s;
-	animation: fadeInUp 1.0s;
+	-webkit-animation: slideInRight 1.0s;
+	animation: slideInRight 1.0s;
+}
+
+[animate-on-change] {
+  transition: all 1s;
+  -webkit-transition: all 1s;
+}
+[animate-on-change].changed {
+  background-color: red;
 }
 
 .results-anim.ng-hide-remove {
-		z-index: 1;
+	z-index: 1;
 	-webkit-animation: bounceInUp 2.0s;
 	animation: bounceInUp 2.0s;
 }
