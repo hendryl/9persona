@@ -116,8 +116,8 @@ Route animations
 
 .grid-animation.ng-enter {
 	z-index: 1;
-	-webkit-animation: rollIn 1.0s;
-	animation: rollIn 1.0s;
+	-webkit-animation: slideInDown 1.0s;
+	animation: slideInDown 1.0s;
 }
 
 .grid-animation.ng-leave {
@@ -128,8 +128,8 @@ Route animations
 	margin-right: 0;
 	margin-left: 0;
 	z-index: -1;
-	-webkit-animation: zoomOut 1.0s;
-	animation: zoomOut 1.0s;
+	-webkit-animation: fadeOutDown 1.0s;
+	animation: fadeOutDown 1.0s;
 }
 
 .detail-animation.ng-enter {
