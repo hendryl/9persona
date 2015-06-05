@@ -279,8 +279,8 @@ Quiz content
 	margin-right: 0;
 	margin-left: 0;
 	z-index: -1;
-	-webkit-animation: slideOutLeft 0.7s;
-	animation: slideOutLeft 0.7s;
+	-webkit-animation: fadeOutLeft 0.7s;
+	animation: fadeOutLeft 0.7s;
 }
 
 .gender-anim.ng-hide-add {
@@ -291,8 +291,8 @@ Quiz content
 	margin-right: 0;
 	margin-left: 0;
 	z-index: -1;
-	-webkit-animation: slideOutLeft 0.7s;
-	animation: slideOutLeft 0.7s;
+	-webkit-animation: fadeOutLeft 0.7s;
+	animation: fadeOutLeft 0.7s;
 }
 
 .question-anim.ng-enter {
@@ -307,8 +307,8 @@ Quiz content
 	left: 0;
 	right: 0;
 	z-index: -1;
-	-webkit-animation: slideOutLeft 0.7s;
-	animation: slideOutLeft 0.7s;
+	-webkit-animation: fadeOutLeft 0.7s;
+	animation: fadeOutLeft 0.7s;
 }
 
 .question-anim.ng-hide-remove {
@@ -319,8 +319,8 @@ Quiz content
 
 .results-anim.ng-hide-remove {
 	z-index: 1;
-	-webkit-animation: bounceInUp ease 2.0s;
-	animation: bounceInUp ease 2.0s;
+	-webkit-animation: bounceInDown ease 3.0s;
+	animation: bounceInDown ease 3.0s;
 }
 
 .quizHeader {
