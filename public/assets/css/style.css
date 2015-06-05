@@ -688,6 +688,34 @@ Persona detail page
 	max-width: 160px;
 }
 
+/*wings*/
+
+.wing-head {
+	max-width:  860px;
+}
+
+.img-wing {
+	position: relative;
+	max-width: 860px;
+}
+
+.img-wing>.img-responsive {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.left-wing {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.right-wing {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
 /*carousel animation*/
 .car-left.ng-hide-add {
 	overflow: hidden;
