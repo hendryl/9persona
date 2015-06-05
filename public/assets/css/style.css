@@ -346,6 +346,8 @@ Quiz content
 	width:100%;
 }
 
+/*Animation*/
+
 .instruction-anim.ng-hide-add {
 	overflow: hidden;
 	left: 0;
@@ -437,9 +439,6 @@ Quiz content
 	padding-left: 0;
 	padding-right: 0;
 }
-
-/*Animation*/
-
 
 /*Hover effects*/
 .chooser input{
@@ -552,6 +551,41 @@ Results page
 	padding-top: 30px;
 	background-color: #F1F1F2;
 	border-radius: 1em;
+}
+
+.results-btn {
+	margin: 1em 1em 0.3em 0;
+	color: #f1f1f2;
+}
+
+@media only screen and (max-width: 768px) {
+	.results-btn {
+		width:100%;
+	}
+}
+
+#read-btn {
+	background-color: #404041;
+}
+
+#fb-btn {
+	background-color: #3b5998;
+}
+
+#tw-btn {
+	background-color: #55acee;
+}
+
+#read-btn:hover {
+	background-color: #303031;
+}
+
+#fb-btn:hover {
+	background-color: #2a4887;
+}
+
+#tw-btn:hover {
+	background-color: #449bdd;
 }
 
 /*-----------------*\
