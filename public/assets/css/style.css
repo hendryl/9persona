@@ -290,14 +290,6 @@ Quiz content
 	animation: slideInRight 1.0s;
 }
 
-[animate-on-change] {
-  transition: all 1s;
-  -webkit-transition: all 1s;
-}
-[animate-on-change].changed {
-  background-color: red;
-}
-
 .results-anim.ng-hide-remove {
 	z-index: 1;
 	-webkit-animation: bounceInUp 2.0s;
