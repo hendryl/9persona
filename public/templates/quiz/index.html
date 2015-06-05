@@ -3,14 +3,30 @@
     <instruction></instruction>
   </div>
   <div class="gender-anim" ng-show="quiz.isGenderPage()">
-    <gender-page></gender-page>
+  <gender-page></gender-page>
+</div>
+<div class="question-anim" ng-repeat="question in quiz.questions">
+  <div class="question-anim" ng-show="quiz.questionNumber == question.number">
+    <question-page ng-class=""></question-page>
   </div>
-  <div class="question-anim" ng-repeat="question in quiz.questions">
-    <div class="question-anim" ng-show="quiz.questionNumber == question.number">
-      <question-page ng-class=""></question-page>
+  <!-- Progress bar -->
+  <div ng-show="quiz.questionNumber == question.number">
+    <div class="row">
+      <div class="col-xs-6 col-xs-offset-3">
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="1"
+            aria-valuemin="1" aria-valuemax="36" ng-style="{width: question.number / quiz.questions.length * 100 + '%'}">
+            <span class="sr-only">{{question.number}} dari 36</span>
+          </div>
+        </div>
+        <p class="text-center headText">
+          <strong>{{question.number / quiz.questions.length * 100 | number : 0 }}%</strong>
+        </p>
+      </div>
     </div>
   </div>
-  <div class="results-anim" ng-show="quiz.questionNumber > quiz.questions.length">
-    <results-page></results-page>
-  </div>
+</div>
+<div class="results-anim" ng-show="quiz.questionNumber > quiz.questions.length">
+  <results-page></results-page>
+</div>
 </div>
