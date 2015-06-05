@@ -556,9 +556,16 @@ Results page
 .results-btn {
 	margin: 1em 1em 0.3em 0;
 	color: #f1f1f2;
+	word-wrap: break-word;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
+	.results-btn {
+		width:100%;
+	}
+}
+
+@media only screen and (max-width: 767px) {
 	.results-btn {
 		width:100%;
 	}
