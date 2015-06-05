@@ -272,6 +272,17 @@ Quiz content
 	width:100%;
 }
 
+.instruction-anim.ng-hide-add {
+	overflow: hidden;
+	left: 0;
+	right: 0;
+	margin-right: 0;
+	margin-left: 0;
+	z-index: -1;
+	-webkit-animation: slideOutLeft 0.8s;
+	animation: slideOutLeft 0.8s;
+}
+
 .gender-anim.ng-hide-add {
 	overflow: hidden;
 	position:absolute;
@@ -290,10 +301,28 @@ Quiz content
 	animation: slideInRight 1.0s;
 }
 
+.question-anim.ng-hide-add {
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-right: 0;
+	margin-left: 0;
+	z-index: -1;
+	-webkit-animation: slideOutLeft 1.0s;
+	animation: slideOutLeft 1.0s;
+}
+
+.question-anim.ng-hide-remove {
+	z-index: 1;
+	-webkit-animation: slideInRight 1.0s;
+	animation: slideInRight 1.0s;
+}
+
 .results-anim.ng-hide-remove {
 	z-index: 1;
-	-webkit-animation: bounceInUp 2.0s;
-	animation: bounceInUp 2.0s;
+	-webkit-animation: bounceInUp ease 3.0s;
+	animation: bounceInUp ease 3.0s;
 }
 
 .quizHeader {

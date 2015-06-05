@@ -1,5 +1,5 @@
-<div class="" ng-controller="quizController as quiz">
-  <div class="question-anim" ng-show="quiz.questionNumber <= quiz.questions.length">
+<div ng-controller="quizController as quiz">
+  <div class="instruction-anim" ng-show="quiz.questionNumber <= quiz.questions.length">
     <instruction></instruction>
   </div>
   <div class="gender-anim" ng-show="quiz.isGenderPage()">
