@@ -615,6 +615,29 @@ Persona detail page
 	background-color: #57BAD5;
 }
 
+/*carousel animation*/
+.car-left.ng-hide-add {
+	overflow: hidden;
+	position:absolute;
+	left: 0;
+	right: 0;
+	margin-right: 0;
+	margin-left: 0;
+	z-index: -1;
+	-webkit-animation: slideOutLeft 0.7s;
+	animation: slideOutLeft 0.7s;
+}
+
+.car-left.ng-hide-remove {
+	z-index: 1;
+	-webkit-animation: slideInLeft 0.7s;
+	animation: slideInLeft 0.7s;
+}
+
+.car-right {
+
+}
+
 /*buttons*/
 .carousel-button {
 	font-size: 200%;
