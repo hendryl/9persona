@@ -656,6 +656,38 @@ Persona detail page
 	background-color: #57BAD5;
 }
 
+.text-instinct {
+	color: #00AC80;
+}
+
+.text-feeling {
+	color: #EF5E4C;
+}
+
+.text-thinking {
+	color: #57BAD5;
+}
+
+/*characteristics*/
+.characteristics-container {
+	margin-top: 60px;
+	background-color: #f1f1f2;
+}
+
+.characteristics-content {
+	width:80%;
+	margin: 0 auto;
+}
+
+.characteristics-content {
+	width:80%;
+	margin: 0 auto;
+}
+
+.img-chr {
+	max-width: 160px;
+}
+
 /*carousel animation*/
 .car-left.ng-hide-add {
 	overflow: hidden;
