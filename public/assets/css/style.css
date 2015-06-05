@@ -211,6 +211,18 @@ Jumbotron
 	height: auto;
 }
 
+.jumbotron.ng-enter {
+	-webkit-animation: slideInUp 2.0s;
+	-o-animation: slideInUp 2.0s;
+	animation: slideInUp 2.0s;
+}
+
+.jumbotron.ng-leave {
+	-webkit-animation: slideOutUp 2.0s;
+	-o-animation: slideOutUp 2.0s;
+	animation: slideOutUp 2.0s;
+}
+
 @media screen {
 	.jumbotron {
 		background-color: transparent;
@@ -247,6 +259,47 @@ Quiz content
 	border: 0 none;
 	margin-top: 22px;
 	margin-bottom: 22px;
+	overflow: hidden;
+}
+
+.square-image {
+	width:100%;
+}
+
+.question-anim.ng-enter {
+	z-index: 1;
+	-webkit-animation: fadeInUp 1.0s;
+	animation: fadeInUp 1.0s;
+}
+/*
+.question-anim.ng-leave {
+	z-index
+	-webkit-animation: fadeOutUp 1.0s;
+	animation: fadeOutUp 1.0s;
+}*/
+
+.question-anim.ng-hide-add {
+	overflow: hidden;
+	position:absolute;
+	left: 0;
+	right: 0;
+	margin-right: 0;
+	margin-left: 0;
+	z-index: -1;
+	-webkit-animation: fadeOutUp 1.0s;
+	animation: fadeOutUp 1.0s;
+}
+
+.question-anim.ng-hide-remove {
+	z-index: 1;
+	-webkit-animation: fadeInUp 1.0s;
+	animation: fadeInUp 1.0s;
+}
+
+.results-anim.ng-hide-remove {
+		z-index: 1;
+	-webkit-animation: bounceInUp 2.0s;
+	animation: bounceInUp 2.0s;
 }
 
 .quizHeader {
@@ -289,6 +342,8 @@ Quiz content
 	padding-left: 0;
 	padding-right: 0;
 }
+
+/*Animation*/
 
 
 /*Hover effects*/

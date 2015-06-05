@@ -1,16 +1,16 @@
-<div ng-controller="quizController as quiz">
-  <div ng-show="quiz.questionNumber <= quiz.questions.length">
+<div class="" ng-controller="quizController as quiz">
+  <div class="question-anim" ng-show="quiz.questionNumber <= quiz.questions.length">
     <instruction></instruction>
   </div>
-  <div ng-show="quiz.isGenderPage()">
+  <div class="question-anim" ng-show="quiz.isGenderPage()">
     <gender-page></gender-page>
   </div>
-  <div ng-repeat="question in quiz.questions">
-    <div ng-show="quiz.questionNumber == question.number">
-      <question-page></question-page>
+  <div class="question-anim" ng-repeat="question in quiz.questions">
+    <div class="question-anim" ng-show="quiz.questionNumber == question.number">
+      <question-page ng-class=""></question-page>
     </div>
   </div>
-  <div ng-show="quiz.questionNumber > quiz.questions.length">
+  <div class="results-anim" ng-show="quiz.questionNumber > quiz.questions.length">
     <results-page></results-page>
   </div>
 </div>
