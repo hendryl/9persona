@@ -1,139 +1,165 @@
-<!-- carousel -->
-<div class="container-fluid" ng-controller="detailController as detailCtrl">
-    <!-- Controls -->
-    <div class="row">
-        <carousel-menu></carousel-menu>
-    </div>
+<div ng-controller="detailController as detailCtrl">
     <!-- carousel -->
-    <div class="row">
-        <carousel></carousel>
-    </div>
-    <div class="row">
-        <button ng-click="detailController.toggleDropdown()"
-        class="img-circle dropdowner-button
-        ng-class:{'instinct': detailCtrl.type == 1,
-        'feeling': detailCtrl.type == 2,
-        'thinking': detailCtrl.type == 3}">
-        </button>
-    </div>
-</div>
-<!-- karakteristik -->
-<div class="container-fluid characteristics-container">
-    <div class="row characteristics-content">
-        <div class="col-xs-12">
-            <h3 class="center-block text-center text-instruction-header">
-            Karakteristik
-            </h3>
+    <div class="container-fluid">
+        <!-- Controls -->
+        <div class="row">
+            <carousel-menu></carousel-menu>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-4">
-            <img src="http://placehold.it/160x160" class="img-chr square-image img-responsive center-block">
-            <h4 class="text-center text-instinct">
-            
-            </h4>
-            <p class="text-center">
-                
-            </p>
+        <!-- carousel -->
+        <div class="row">
+            <carousel></carousel>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-4">
-            <img src="http://placehold.it/160x160" class="img-chr square-image img-responsive center-block">
-            <h4 class="text-center text-instinct">
-            
-            </h4>
-            <p class="text-center">
-            </p>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4">
-            <img src="http://placehold.it/160x160" class="img-chr square-image img-responsive center-block">
-            <h4 class="text-center text-instinct">
-            
-            </h4>
-            <p class="text-center">
-                
-            </p>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4">
-            <img src="http://placehold.it/160x160" class="img-chr square-image img-responsive center-block">
-            <h4 class="text-center text-instinct">
-            
-            </h4>
-            <p class="text-center">
-                
-            </p>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4">
-            <img src="http://placehold.it/160x160" class="img-chr square-image img-responsive center-block">
-            <h4 class="text-center text-instinct">
-            
-            </h4>
-            <p class="text-center">
-                
-            </p>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4">
-            <img src="http://placehold.it/160x160" class="img-chr square-image img-responsive center-block">
-            <h4 class="text-center text-instinct">
-            
-            </h4>
-            <p class="text-center">
-                
-            </p>
-        </div>
-    </div>
-</div>
-<!-- sayap -->
-<div class="container">
-    <div class="row">
-        <div class="col-xs-12">
-            <h3 class="center-block text-center text-instruction-header">
-            Sayap
-            </h3>
-        </div>
-        <div class="col-xs-12">
-            <p class="center-block wing-head text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, officiis nulla! Sequi enim tempora, repudiandae dignissimos repellat deleniti nostrum ullam amet blanditiis sed eos impedit, suscipit dicta eveniet libero iure.</p>
-        </div>
-        <div class="col-xs-12">
-            <div class="img-wing center-block">
-                <img src="http://placehold.it/860x550/f0fff3/" class="img-responsive center-block">
-                <span class="left-wing">
-                    <h4 class="text-instinct">
-                    happy
-                    </h4>
-                    <p>
-                        happy
-                    </p>
-                </span>
-                
-                <span class="right-wing">
-                    <h4 class="text-instinct">
-                    fasddfafads
-                    </h4>
-                    <p class="">
-                        afsdafdsfdas
-                    </p>
-                </span>
+        <div class="row">
+            <div class="col-xs-12">
+                <button data-toggle="collapse" href="#persona-dropdown" aria-expanded="false" aria-controls="persona-dropdown" ng-click="detailController.toggleDropdown()"
+                class="img-circle center-block dropdowner-button
+                ng-class:{'instinct': detailCtrl.type == 1,
+                'feeling': detailCtrl.type == 2,
+                'thinking': detailCtrl.type == 3}">
+                </button>
             </div>
         </div>
     </div>
-    <div class="row">
-    </div>
-</div>
-<!-- Panah -->
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-xs-12">
-            <h3 class="center-block text-center text-instruction-header">
-            Panah
-            </h3>
+    <div class="collapse" id="persona-dropdown">
+        <div class="container-fluid ng-class:{'instinct': detailCtrl.type == 1,
+            'feeling': detailCtrl.type == 2,
+            'thinking': detailCtrl.type == 3}">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="dropdown-box">
+                        <img src="http://placehold.it/120x120" class="img-circle img-responsive center-block">
+                        <h4 class="center-block text-center">
+                        Lorem ipsum dolor sit amet
+                        </h4>
+                        <p class="center-block text-center">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt vero laudantium voluptatibus quae doloribus dolorem earum dicta quasi cupiditate, temporibus tempore ab, fugit eligendi corporis, deleniti perferendis accusantium. Nisi, eaque.
+                        </p>
+                        <p class="center-block text-center">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis incidunt eaque distinctio sed amet facere nemo sunt dolorum est, animi nulla mollitia iure odio ex consequuntur delectus eius nostrum ratione? Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur temporibus nemo delectus quas earum dolores, blanditiis odio dignissimos aliquam saepe labore, nostrum dolorem tenetur asperiores, libero qui perferendis quibusdam.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
-<!-- Relasi -->
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-xs-12">
-            <h3 class="center-block text-center text-instruction-header">
-            Relasi dengan Tipe Lain
-            </h3>
+    <!-- karakteristik -->
+    <div class="container-fluid characteristics-container">
+        <div class="row characteristics-content">
+            <div class="col-xs-12">
+                <h3 class="center-block text-center text-instruction-header">
+                Karakteristik
+                </h3>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <img src="http://placehold.it/160x160" class="img-chr square-image img-responsive center-block">
+                <h4 class="text-center text-instinct">
+                
+                </h4>
+                <p class="text-center">
+                    
+                </p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <img src="http://placehold.it/160x160" class="img-chr square-image img-responsive center-block">
+                <h4 class="text-center text-instinct">
+                
+                </h4>
+                <p class="text-center">
+                </p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <img src="http://placehold.it/160x160" class="img-chr square-image img-responsive center-block">
+                <h4 class="text-center text-instinct">
+                
+                </h4>
+                <p class="text-center">
+                    
+                </p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <img src="http://placehold.it/160x160" class="img-chr square-image img-responsive center-block">
+                <h4 class="text-center text-instinct">
+                
+                </h4>
+                <p class="text-center">
+                    
+                </p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <img src="http://placehold.it/160x160" class="img-chr square-image img-responsive center-block">
+                <h4 class="text-center text-instinct">
+                
+                </h4>
+                <p class="text-center">
+                    
+                </p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <img src="http://placehold.it/160x160" class="img-chr square-image img-responsive center-block">
+                <h4 class="text-center text-instinct">
+                
+                </h4>
+                <p class="text-center">
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- sayap -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h3 class="center-block text-center text-instruction-header">
+                Sayap
+                </h3>
+            </div>
+            <div class="col-xs-12">
+                <p class="center-block wing-head text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, officiis nulla! Sequi enim tempora, repudiandae dignissimos repellat deleniti nostrum ullam amet blanditiis sed eos impedit, suscipit dicta eveniet libero iure.</p>
+            </div>
+            <div class="col-xs-12">
+                <div class="img-wing center-block">
+                    <img src="http://placehold.it/860x550/f0fff3/" class="img-responsive center-block">
+                    <span class="left-wing">
+                        <h4 class="text-instinct">
+                        happy
+                        </h4>
+                        <p>
+                            happy
+                        </p>
+                    </span>
+                    
+                    <span class="right-wing">
+                        <h4 class="text-instinct">
+                        fasddfafads
+                        </h4>
+                        <p class="">
+                            afsdafdsfdas
+                        </p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+        </div>
+    </div>
+    <!-- Panah -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12">
+                <h3 class="center-block text-center text-instruction-header">
+                Panah
+                </h3>
+            </div>
+        </div>
+    </div>
+    <!-- Relasi -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12">
+                <h3 class="center-block text-center text-instruction-header">
+                Relasi dengan Tipe Lain
+                </h3>
+            </div>
         </div>
     </div>
 </div>
