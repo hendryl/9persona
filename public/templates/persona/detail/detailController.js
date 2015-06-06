@@ -2,11 +2,19 @@ angular.module("personaApp")
 .controller('detailController', ['$routeParams', '$http', function($routeParams, $http){
     var ctrl = this;
     ctrl.current = 1;
-    ctrl.popInVisible = false;
     ctrl.type = 1;
 
-    ctrl.toggleDropdown = function(){
-        ctrl.dropdownVisible = !ctrl.dropdownVisible;
+    ctrl.previous = function(){
+        var num = Number(ctrl.current);
+
+        num = num === 1 ? 9 : num - 1;
+        window.location.href = '#/persona/' + num;
+    }
+
+    ctrl.next = function(){
+        var num = Number(ctrl.current);
+        num = num === 9 ? 1 : num + 1;
+        window.location.href = '#/persona/' + num;
     }
 
     ctrl.checkType = function(){
@@ -24,18 +32,7 @@ angular.module("personaApp")
         else ctrl.type = 3;
     }
 
-    ctrl.previous = function(){
-        var num = Number(ctrl.current);
 
-        num = num === 1 ? 9 : num - 1;
-        window.location.href = '#/persona/' + num;
-    }
-
-    ctrl.next = function(){
-        var num = Number(ctrl.current);
-        num = num === 9 ? 1 : num + 1;
-        window.location.href = '#/persona/' + num;
-    }
 
     if($routeParams.typeNumber){
         ctrl.current = $routeParams.typeNumber;
