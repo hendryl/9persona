@@ -670,6 +670,13 @@ Persona detail page
 	color: #f1f1f2;
 }
 
+.text-persona-header {
+	color: #404041;
+	margin-bottom: 16px;
+	background-color: #FBCE4A;
+	max-width: 360px;
+}
+
 /*carousel animation*/
 .car-left.ng-hide-add {
 	overflow: hidden;
