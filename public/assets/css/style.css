@@ -278,6 +278,7 @@ Jumbotron
 	min-height: 100% !important;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 50px;
 }
 
 @media screen {
@@ -372,8 +373,8 @@ Quiz content
 
 .results-anim.ng-hide-remove {
 	z-index: 1;
-	-webkit-animation: bounceInRight ease 3.0s;
-	animation: bounceInRight ease 3.0s;
+	-webkit-animation: bounceInRight ease 4.0s;
+	animation: bounceInRight ease 4.0s;
 }
 
 .quizHeader {
@@ -831,6 +832,7 @@ Persona detail page
 .characteristics-content {
 	width:80%;
 	margin: 0 auto;
+	max-width: 860px;
 }
 
 .characteristics-text {
