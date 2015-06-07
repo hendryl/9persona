@@ -301,7 +301,8 @@ Instruction
 .text-instruction-header {
 	color: #404041;
 	background-color: #FBCE4A;
-	margin-bottom: 16px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 	max-width: 450px;
 }
 
@@ -541,17 +542,18 @@ Results page
 	width: 80%;
 	max-width: 740px;
 	border: 0 none;
-	margin-top: 22px;
-	margin-bottom: 22px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 .resultsContent {
-	padding-top: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	background-color: #F1F1F2;
 	border-radius: 1em;
 }
 
 .results-btn {
-	margin: 1em 1em 0.3em 0;
+	margin-top: 30px;
 	color: #f1f1f2;
 	word-wrap: break-word;
 }
@@ -566,6 +568,10 @@ Results page
 	.results-btn {
 		width:100%;
 	}
+}
+
+.img-result {
+	padding: 0;
 }
 
 #read-btn {
