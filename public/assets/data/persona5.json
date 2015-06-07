@@ -1,12 +1,12 @@
 [
   {
     "carousel": {
-      "image": "",
+      "image": "./assets/images/carousel/5.png",
       "text": ""
     },
     "dropdown": {
-      "image": "",
-      "text": ""
+      "image": "./assets/images/icon/05.png",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quo accusamus tempora ratione vitae cumque corporis, amet numquam temporibus odio quaerat error alias libero nobis et perspiciatis voluptas iure quam."
     },
     "characteristics": [
       {
@@ -41,7 +41,7 @@
       }
     ],
     "wing": {
-      "image": "",
+      "image": "./assets/images/sayap/05.png",
       "description": "",
       "left": {
         "header": "",
@@ -53,7 +53,7 @@
       }
     },
     "arrow": {
-      "image": "",
+      "image": "./assets/images/panah/05.png",
       "description": "",
       "left": {
         "type": "",
@@ -75,7 +75,7 @@
       }
     },
     "relation": {
-      "image": "",
+      "image": "./assets/images/relasi/05-left.png",
       "paragraphs": [
         {
           "good": [
