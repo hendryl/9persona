@@ -27,15 +27,12 @@
             <div class="row">
                 <div class="col-xs-12">
                     <div class="dropdown-box">
-                        <img src="http://placehold.it/78x78" class="img-circle img-responsive center-block">
+                        <img ng-src={{detailCtrl.data.dropdown.image}} class="img-dropdown img-circle img-responsive center-block">
                         <h4 class="center-block text-center">
-                        Lorem ipsum dolor sit amet
+                            {{detailCtrl.data.dropdown.header}}
                         </h4>
                         <p class="center-block text-center">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt vero laudantium voluptatibus quae doloribus dolorem earum dicta quasi cupiditate, temporibus tempore ab, fugit eligendi corporis, deleniti perferendis accusantium. Nisi, eaque.
-                        </p>
-                        <p class="center-block text-center">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis incidunt eaque distinctio sed amet facere nemo sunt dolorum est, animi nulla mollitia iure odio ex consequuntur delectus eius nostrum ratione? Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur temporibus nemo delectus quas earum dolores, blanditiis odio dignissimos aliquam saepe labore, nostrum dolorem tenetur asperiores, libero qui perferendis quibusdam.
+                            {{detailCtrl.data.dropdown.text}}
                         </p>
                     </div>
                 </div>
@@ -138,7 +135,7 @@
                 </div>
                 <div class="col-xs-12">
                     <div class="img-wing center-block">
-                        <img src="http://placehold.it/860x550/f0fff3/" class="img-responsive center-block">
+                        <img ng-src={{detailCtrl.data.wing.image}} class="img-responsive center-block">
                         
                         <span class="left-wing visible-sm visible-md visible-lg">
                             <h4 class="text-center
@@ -237,7 +234,7 @@
                     </div>
                 </div>
                 <div class="hidden-xs visible-sm visible-md visible-lg col-sm-4 center-block">
-                    <img src="http://placehold.it/260x550/00fff3/" class="img-responsive center-block">
+                    <img ng-src={{detailCtrl.data.arrow.image}} class="img-responsive center-block">
                 </div>
                 <div class="col-xs-12 col-sm-4 center-block ng-class:{'instinct-darker': detailCtrl.type == 1,
                     'feeling-darker': detailCtrl.type == 2,
@@ -282,7 +279,7 @@
         <div class="row">
             <div class="col-xs-12 center-block">
                 <div class="text-center headText pos-0">
-                    1
+                    {{detailCtrl.current}}
                 </div>
             </div>
             <div class="col-xs-12 center-block">
@@ -400,7 +397,7 @@
             </div>
         </div>
         <div class="left-relation-pic hidden-xs visible-sm visible-md visible-lg">
-            <img src="./assets/images/illus/relasi/01-left.png" class="img-responsive">
+            <img ng-src={{detailCtrl.data.relation.image}} class="img-responsive">
         </div>
         <div class="right-relation-pic hidden-xs visible-sm visible-md visible-lg">
             <img src="./assets/images/illus/relasi/02-right.png" class="img-responsive">

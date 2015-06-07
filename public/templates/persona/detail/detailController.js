@@ -3,7 +3,7 @@ angular.module("personaApp")
     var ctrl = this;
     ctrl.current = 1;
     ctrl.type = 1;
-    ctrl.data = [];
+    ctrl.data = null;
     ctrl.previous = function(){
         var num = Number(ctrl.current);
 
