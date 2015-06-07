@@ -608,6 +608,10 @@ Persona page
 
 /*top page*/
 
+.container-menu-carousel {
+	margin-top: 30px;
+}
+
 .persona-box {
 	box-sizing:border-box;
 	-moz-box-sizing:border-box;
