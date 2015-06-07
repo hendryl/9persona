@@ -843,13 +843,13 @@ Persona detail page
 	margin: 0 auto;
 }
 
-.characteristics-content {
-	width:80%;
-	margin: 0 auto;
+.characteristics-text {
+	max-width: 240px;
 }
 
 .img-chr {
 	max-width: 160px;
+	border-radius: 1.5em;
 }
 
 /*wings*/
