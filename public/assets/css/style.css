@@ -4,57 +4,57 @@ Global
  /*//Debugging
 * {
 	border: 1px solid red !important;
-}*/
+	}*/
 
-html {
-	margin: 0;
-	padding: 0;
-	font-size: 100%;
-	height: 100%;
-	position: relative;
-}
-
-body { 
-	min-height: 100%;
-	padding: 50px 0 50px 0;
-	font-family: "Cabin";
-	font-size: 0.875em;
-}
-
-@media only screen and (min-width: 768px) {
-	body {
-		font-size: 1em; /*16px*/
+	html {
+		margin: 0;
+		padding: 0;
+		font-size: 100%;
+		height: 100%;
+		position: relative;
 	}
-}
 
-h1, h2, h3,
-h4, h5, h6, .headText {
-	font-family: "Roboto Slab";
-}
+	body { 
+		min-height: 100%;
+		padding: 50px 0 50px 0;
+		font-family: "Cabin";
+		font-size: 0.875em;
+	}
 
-h1 {
-	font-size: 200%;
-}
+	@media only screen and (min-width: 768px) {
+		body {
+			font-size: 1em; /*16px*/
+		}
+	}
 
-h2 {
-	font-size: 170%;
-}
+	h1, h2, h3,
+	h4, h5, h6, .headText {
+		font-family: "Roboto Slab";
+	}
 
-h3 {
-	font-size: 140%;
-}
+	h1 {
+		font-size: 200%;
+	}
 
-h4 {
-	font-size: 112.5%;
-}
-.menuFont {
-	font-family: "Jaapokki Regular";
-	font-size: 125%;
-}
+	h2 {
+		font-size: 170%;
+	}
 
-.img-responsive {
-	padding: 1em;
-}
+	h3 {
+		font-size: 140%;
+	}
+
+	h4 {
+		font-size: 112.5%;
+	}
+	.menuFont {
+		font-family: "Jaapokki Regular";
+		font-size: 125%;
+	}
+
+	.img-responsive {
+		padding: 1em;
+	}
 
 /*----------------*\
 Route animations
@@ -153,8 +153,8 @@ Buttons - Global
 \*----------------*/
 
 a:hover, a:active, a:focus {
-  outline: 0;
-  box-shadow: none;
+	outline: 0;
+	box-shadow: none;
 }
 
 button:focus,button:active {
@@ -163,8 +163,8 @@ button:focus,button:active {
 }
 
 .btn:focus,.btn:active {
-   outline: none !important;
-   box-shadow: none;
+	outline: none !important;
+	box-shadow: none;
 }
 
 .btn {
@@ -603,8 +603,8 @@ Persona page
 
 .persona-box {
 	box-sizing:border-box;
- 	-moz-box-sizing:border-box;
-  	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
 	background-color: #f1f1f2;
 	border: 5px solid white;
 	margin-bottom: 20px;
@@ -819,38 +819,38 @@ Persona detail page
 
 @keyframes glowInstinct {
 	0% { border-color: rgba(0, 172, 128, 0); }
-    50% { border-color: rgba(0, 172, 128, 0.5); }
-    100% { border-color: rgba(0, 172, 128, 0); }
+	50% { border-color: rgba(0, 172, 128, 0.5); }
+	100% { border-color: rgba(0, 172, 128, 0); }
 }
 
 @-webkit-keyframes glowInstinct {
 	0%   { border-color: rgba(0, 172, 128, 0); }
-    50% { border-color: rgba(0, 172, 128, 0.5); }
-    100% { border-color: rgba(0, 172, 128, 0.5); }
+	50% { border-color: rgba(0, 172, 128, 0.5); }
+	100% { border-color: rgba(0, 172, 128, 0.5); }
 }
 
 @keyframes glowFeeling {
 	0% { border-color: rgba(239, 94, 76, 0); }
-    50% { border-color: rgba(239, 94, 76, 0.5); }
-    100% { border-color: rgba(239, 94, 76, 0); }
+	50% { border-color: rgba(239, 94, 76, 0.5); }
+	100% { border-color: rgba(239, 94, 76, 0); }
 }
 
 @-webkit-keyframes glowFeeling {
 	0%   { border-color: rgba(239, 94, 76, 0); }
-    50% { border-color: rgba(239, 94, 76, 0.5); }
-    100% { border-color: rgba(239, 94, 76, 0); }
+	50% { border-color: rgba(239, 94, 76, 0.5); }
+	100% { border-color: rgba(239, 94, 76, 0); }
 }
 
 @keyframes glowThinking {
 	0% { border-color: rgba(87, 186, 213, 0); }
-    50% { border-color: rgba(87, 186, 213, 0.5); }
-    100% { border-color: rgba(87, 186, 213, 0); }
+	50% { border-color: rgba(87, 186, 213, 0.5); }
+	100% { border-color: rgba(87, 186, 213, 0); }
 }
 
 @-webkit-keyframes glowThinking {
 	0%   { border-color: rgba(87, 186, 213, 0); }
-    50% { border-color: rgba(87, 186, 213, 0.5); }
-    100% { border-color: rgba(87, 186, 213, 0); }
+	50% { border-color: rgba(87, 186, 213, 0.5); }
+	100% { border-color: rgba(87, 186, 213, 0); }
 }
 
 /*characteristics*/
@@ -874,6 +874,10 @@ Persona detail page
 }
 
 /*wings*/
+
+.container-wing {
+	margin: 20px 0 20px 0;
+}
 
 .desc-head {
 	max-width: 860px;
@@ -908,17 +912,67 @@ Persona detail page
 
 /*arrow*/
 
-.arrow-instinct {
-
+.container-arrow {
+	max-width: 960px;
 }
 
-.arrow-feeling {
 
+.instinct-twotone {
+	background: #00ac80; /* Old browsers */
+	background: -moz-linear-gradient(left, #00ac80 0%, #00ac80 50%, #00906b 50%, #00906b 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#00ac80), color-stop(50%,#00ac80), color-stop(50%,#00906b), color-stop(100%,#00906b)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, #00ac80 0%,#00ac80 50%,#00906b 50%,#00906b 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #00ac80 0%,#00ac80 50%,#00906b 50%,#00906b 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, #00ac80 0%,#00ac80 50%,#00906b 50%,#00906b 100%); /* IE10+ */
+	background: linear-gradient(to right, #00ac80 0%,#00ac80 50%,#00906b 50%,#00906b 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ac80', endColorstr='#00906b',GradientType=1 ); /* IE6-9 */
 }
 
-.arrow-thinking {
-
+.feeling-twotone {
+	background: #ef5e4c; /* Old browsers */
+	background: -moz-linear-gradient(left, #ef5e4c 0%, #ef5e4c 50%, #c64e3e 50%, #c64e3e 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ef5e4c), color-stop(50%,#ef5e4c), color-stop(50%,#c64e3e), color-stop(100%,#c64e3e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, #ef5e4c 0%,#ef5e4c 50%,#c64e3e 50%,#c64e3e 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #ef5e4c 0%,#ef5e4c 50%,#c64e3e 50%,#c64e3e 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, #ef5e4c 0%,#ef5e4c 50%,#c64e3e 50%,#c64e3e 100%); /* IE10+ */
+	background: linear-gradient(to right, #ef5e4c 0%,#ef5e4c 50%,#c64e3e 50%,#c64e3e 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef5e4c', endColorstr='#c64e3e',GradientType=1 ); /* IE6-9 */
 }
+
+.thinking-twotone {
+	background: #57bad5; /* Old browsers */
+	background: -moz-linear-gradient(left, #57bad5 0%, #57bad5 50%, #499cb3 50%, #499cb3 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#57bad5), color-stop(50%,#57bad5), color-stop(50%,#499cb3), color-stop(100%,#499cb3)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, #57bad5 0%,#57bad5 50%,#499cb3 50%,#499cb3 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #57bad5 0%,#57bad5 50%,#499cb3 50%,#499cb3 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, #57bad5 0%,#57bad5 50%,#499cb3 50%,#499cb3 100%); /* IE10+ */
+	background: linear-gradient(to right, #57bad5 0%,#57bad5 50%,#499cb3 50%,#499cb3 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#57bad5', endColorstr='#499cb3',GradientType=1 ); /* IE6-9 */
+}
+
+.arrow-box {
+	padding: 1em;
+	margin: 1em;
+	border-radius: 1em;
+}
+
+@media only screen and (max-width: 767px) {
+	.instinct-twotone{
+		background: #00ac80;
+	}
+	.feeling-twotone{
+		background: #ef5e4c;
+	}
+	.thinking-twotone{
+		background: #57bad5;
+	}
+
+	.arrow-box {
+	margin-left: 100px;
+	margin-right: 100px;
+	}
+}
+
 
 /*-----------------*\
 About page
