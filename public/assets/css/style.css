@@ -697,7 +697,7 @@ Persona detail page
 
 .text-persona-header {
 	color: #404041;
-	margin-bottom: 16px;
+	margin-bottom: 30px;
 	background-color: #FBCE4A;
 	max-width: 360px;
 }
@@ -858,7 +858,7 @@ Persona detail page
 /*characteristics*/
 .characteristics-container {
 	background-color: #f1f1f2;
-	padding: 20px 0 30px 0;
+	padding: 20px 0 0px 0;
 }
 
 .characteristics-content {
@@ -869,17 +869,19 @@ Persona detail page
 
 .characteristics-text {
 	max-width: 240px;
+	margin-bottom: 40px;
 }
 
 .img-chr {
 	max-width: 160px;
 	border-radius: 1.5em;
+	padding-top: 0;
 }
 
 /*wings*/
 
 .container-wing {
-	margin: 20px 0 20px 0;
+	margin: 20px 0 40px 0;
 }
 
 .desc-head {
@@ -887,14 +889,18 @@ Persona detail page
 	padding: 0 15px 0 15px;
 }
 
-.img-wing {
+.wing-block {
 	position: relative;
 	max-width: 860px;
 }
 
-.img-wing>.img-responsive {
+.wing-block>.img-responsive {
 	padding-left: 0;
 	padding-right: 0;
+}
+
+.img-wing {
+	padding: 0;
 }
 
 .left-wing {
@@ -923,6 +929,8 @@ Persona detail page
 
 .container-arrow {
 	max-width: 960px;
+	margin-top: 20px;
+	margin-bottom: 40px;
 }
 
 
@@ -967,6 +975,7 @@ Persona detail page
 
 .img-arrow {
 	opacity: 0.8;
+	padding: 0;
 }
 
 @media only screen and (max-width: 767px) {
