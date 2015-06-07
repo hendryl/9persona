@@ -3,7 +3,7 @@ angular.module("personaApp")
     var ctrl = this;
     ctrl.current = 1;
     ctrl.type = 1;
-
+    ctrl.data = [];
     ctrl.previous = function(){
         var num = Number(ctrl.current);
 
@@ -32,7 +32,13 @@ angular.module("personaApp")
         else ctrl.type = 3;
     }
 
-
+    ctrl.load = function(){
+        var asset = '/assets/data/persona' + ctrl.current + '.json';
+        $http.get(asset).success(function(data){
+            ctrl.data = data;
+            console.log("Successfully loaded persona " + ctrl.current + " data");
+        });
+    }
 
     if($routeParams.typeNumber){
         ctrl.current = $routeParams.typeNumber;
@@ -40,4 +46,5 @@ angular.module("personaApp")
     else ctrl.current = 1;
 
     ctrl.checkType();
+    ctrl.load();
 }]);
