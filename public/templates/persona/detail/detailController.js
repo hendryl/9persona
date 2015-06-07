@@ -20,6 +20,16 @@ angular.module("personaApp")
         window.location.href = '#/persona/' + num;
     }
 
+    ctrl.relationNumberChecker = function(num){
+        var current = ctrl.currentRelation + num;
+        current = current > 9 ? current - 9 : current < 1 ? current + 9 : current;
+        return current;
+    }
+
+    ctrl.setRelationNumber = function(num){
+        ctrl.currentRelation = ctrl.relationNumberChecker(num);
+    }
+
     ctrl.checkType = function(){
         if(ctrl.current == 1 ||
             ctrl.current == 8 ||
@@ -49,10 +59,11 @@ angular.module("personaApp")
     }
 
     if($routeParams.typeNumber){
-        ctrl.current = $routeParams.typeNumber;
+        ctrl.current = Number($routeParams.typeNumber);
     }
     else ctrl.current = 1;
 
     ctrl.checkType();
     ctrl.load();
+    ctrl.currentRelation = ctrl.current;
 }]);

@@ -291,36 +291,36 @@
                 <div class="center-block">
                     <ul class="num-carousel">
                         <li class="text-center headText pos-3">
-                            <a>
-                                6
+                            <a ng-click="detailCtrl.setRelationNumber(-3)">
+                                {{detailCtrl.relationNumberChecker(-3)}}
                             </a>
                         </li>
                         <li class="text-center headText pos-2">
-                            <a>
-                                5
+                            <a ng-click="detailCtrl.setRelationNumber(-2)">
+                                {{detailCtrl.relationNumberChecker(-2)}}
                             </a>
                         </li>
                         <li class="text-center headText pos-1">
-                            <a>
-                                4
+                            <a ng-click="detailCtrl.setRelationNumber(-1)">
+                                {{detailCtrl.relationNumberChecker(-1)}}
                             </a>
                         </li>
                         <li class="text-center headText pos-0">
-                            3
+                            {{detailCtrl.currentRelation}}
                         </li>
                         <li class="text-center headText pos-1">
-                            <a>
-                                2
+                            <a ng-click="detailCtrl.setRelationNumber(1)">
+                                {{detailCtrl.relationNumberChecker(1)}}
                             </a>
                         </li>
                         <li class="text-center headText pos-2">
-                            <a>
-                                1
+                            <a ng-click="detailCtrl.setRelationNumber(2)">
+                                {{detailCtrl.relationNumberChecker(2)}}
                             </a>
                         </li>
                         <li class="text-center headText pos-3">
-                            <a>
-                                9
+                            <a ng-click="detailCtrl.setRelationNumber(3)">
+                                {{detailCtrl.relationNumberChecker(3)}}
                             </a>
                         </li>
                     </ul>
