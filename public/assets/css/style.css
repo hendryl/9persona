@@ -310,6 +310,10 @@ Instruction
 	max-width:240px;
 }
 
+.img-instruction {
+	padding-top: 0;
+}
+
 /*----------------*\
 Quiz content
 \*----------------*/
