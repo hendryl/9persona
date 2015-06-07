@@ -872,13 +872,13 @@ Persona detail page
 .left-wing {
 	position: absolute;
 	left: 0;
-	bottom: 0;
+	bottom: 20px;
 }
 
 .right-wing {
 	position: absolute;
 	right: 0;
-	bottom: 0;
+	bottom: 20px;
 }
 
 .text-wing {
