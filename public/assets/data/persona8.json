@@ -1,209 +1,208 @@
-[
-  {
-    "carousel": {
-      "image": "./assets/images/carousel/8.png",
-      "text": ""
+{
+  "carousel": {
+    "image": "./assets/images/illus/carousel/8.png",
+    "text": ""
+  },
+  "dropdown": {
+    "image": "./assets/images/illus/icon/08.png",
+    "header": "Lorem ipsum dolor sit amet",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quo accusamus tempora ratione vitae cumque corporis, amet numquam temporibus odio quaerat error alias libero nobis et perspiciatis voluptas iure quam."
+  },
+  "characteristics": [
+    {
+      "image": "",
+      "header": "",
+      "paragraph": ""
     },
-    "dropdown": {
-      "image": "./assets/images/icon/08.png",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quo accusamus tempora ratione vitae cumque corporis, amet numquam temporibus odio quaerat error alias libero nobis et perspiciatis voluptas iure quam."
+    {
+      "image": "",
+      "header": "",
+      "paragraph": ""
     },
-    "characteristics": [
-      {
-        "image": "",
-        "header": "",
-        "paragraph": ""
-      },
-      {
-        "image": "",
-        "header": "",
-        "paragraph": ""
-      },
-      {
-        "image": "",
-        "header": "",
-        "paragraph": ""
-      },
-      {
-        "image": "",
-        "header": "",
-        "paragraph": ""
-      },
-      {
-        "image": "",
-        "header": "",
-        "paragraph": ""
-      },
-      {
-        "image": "",
-        "header": "",
-        "paragraph": ""
-      }
-    ],
-    "wing": {
-      "image": "./assets/images/sayap/08.png",
-      "description": "",
-      "left": {
-        "header": "",
-        "paragraph": ""
-      },
-      "right": {
-        "header": "",
-        "paragraph": ""
-      }
+    {
+      "image": "",
+      "header": "",
+      "paragraph": ""
     },
-    "arrow": {
-      "image": "./assets/images/panah/08.png",
-      "description": "",
-      "left": {
-        "type": "",
-        "paragraphs": [
-          "",
-          "",
-          "",
-          ""
-        ]
-      },
-      "right": {
-        "type": "",
-        "paragraphs": [
-          "",
-          "",
-          "",
-          ""
-        ]
-      }
+    {
+      "image": "",
+      "header": "",
+      "paragraph": ""
     },
-    "relation": {
-      "image": "./assets/images/relasi/08-left.png",
+    {
+      "image": "",
+      "header": "",
+      "paragraph": ""
+    },
+    {
+      "image": "",
+      "header": "",
+      "paragraph": ""
+    }
+  ],
+  "wing": {
+    "image": "./assets/images/illus/sayap/08.png",
+    "description": "",
+    "left": {
+      "header": "",
+      "paragraph": ""
+    },
+    "right": {
+      "header": "",
+      "paragraph": ""
+    }
+  },
+  "arrow": {
+    "image": "./assets/images/illus/panah/08.png",
+    "description": "",
+    "left": {
+      "type": "",
       "paragraphs": [
-        {
-          "good": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "bad": [
-            "",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "good": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "bad": [
-            "",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "good": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "bad": [
-            "",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "good": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "bad": [
-            "",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "good": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "bad": [
-            "",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "good": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "bad": [
-            "",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "good": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "bad": [
-            "",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "good": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "bad": [
-            "",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "good": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "bad": [
-            "",
-            "",
-            "",
-            ""
-          ]
-        }
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "right": {
+      "type": "",
+      "paragraphs": [
+        "",
+        "",
+        "",
+        ""
       ]
     }
+  },
+  "relation": {
+    "image": "./assets/images/illus/relasi/08-left.png",
+    "paragraphs": [
+      {
+        "good": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "bad": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "good": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "bad": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "good": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "bad": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "good": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "bad": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "good": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "bad": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "good": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "bad": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "good": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "bad": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "good": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "bad": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "good": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "bad": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
   }
-]
+}
