@@ -4,6 +4,9 @@ angular.module("personaApp")
     ctrl.current = 1;
     ctrl.type = 1;
     ctrl.data = null;
+    ctrl.rightImages = null;
+    ctrl.currentRelation = 1;
+
     ctrl.previous = function(){
         var num = Number(ctrl.current);
 
@@ -38,6 +41,11 @@ angular.module("personaApp")
             ctrl.data = data;
             console.log("Successfully loaded persona " + ctrl.current + " data");
         });
+
+        $http.get('/assets/data/relationRight.json').success(function(data){
+            ctrl.rightImages = data;
+            console.log("Successfully loaded right picture data");
+        });        
     }
 
     if($routeParams.typeNumber){
