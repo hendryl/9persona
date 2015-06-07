@@ -1,4 +1,4 @@
-<div class="col-xs-4 text-right">
+<div class="col-xs-4 text-right persona-dark-text">
     <a ng-click="detailCtrl.previous();detailCtrl.anim='car-left';" id="l-car-button" class="btn carousel-button" role="button">
     &lt;
     </a>
@@ -6,11 +6,11 @@
 <div class="col-xs-4">
     <div ng-repeat="num in [1,2,3,4,5,6,7,8,9]">
         <div ng-class="detailCtrl.anim" ng-show="num == detailCtrl.current">
-            <h3 class="text-center">Tipe {{detailCtrl.current}}</h3>
+            <h3 class="text-center persona-dark-text">Tipe {{detailCtrl.current}}</h3>
         </div>
     </div>
 </div>
-<div class="col-xs-4 text-left">
+<div class="col-xs-4 text-left persona-dark-text">
     <a ng-click="detailCtrl.next();detailCtrl.anim='car-right';" id="r-car-button" class="btn carousel-button">
     &gt;
     </a>

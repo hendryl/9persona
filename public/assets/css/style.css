@@ -656,6 +656,18 @@ Persona detail page
 	background-color: #57BAD5;
 }
 
+.instinct-darker {
+	background-color: #00906B;
+}
+
+.feeling-darker {
+	background-color: #C64E3E;
+}
+
+.thinking-darker {
+	background-color: #499CB3;
+}
+
 .text-instinct {
 	color: #00AC80;
 }
@@ -666,6 +678,14 @@ Persona detail page
 
 .text-thinking {
 	color: #57BAD5;
+}
+
+.persona-dark-text {
+	color: #404041;
+}
+
+.persona-light-text {
+	color: #f1f1f2;
 }
 
 /*carousel animation*/
@@ -855,8 +875,9 @@ Persona detail page
 
 /*wings*/
 
-.wing-head {
+.desc-head {
 	max-width: 860px;
+	padding: 0 15px 0 15px;
 }
 
 .img-wing {
@@ -883,6 +904,20 @@ Persona detail page
 
 .text-wing {
 	max-width: 240px;
+}
+
+/*arrow*/
+
+.arrow-instinct {
+
+}
+
+.arrow-feeling {
+
+}
+
+.arrow-thinking {
+
 }
 
 /*-----------------*\
