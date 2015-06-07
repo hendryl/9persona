@@ -57,6 +57,11 @@ h4 {
 	padding: 1em;
 }
 
+.highlighter {
+	background-color: #FBCE4A;
+	padding: 0 30px 0 30px;
+}
+
 /*----------------*\
 Route animations
 \*----------------*/
@@ -300,7 +305,6 @@ Instruction
 \*----------------*/
 .text-instruction-header {
 	color: #404041;
-	background-color: #FBCE4A;
 	margin-top: 30px;
 	margin-bottom: 30px;
 	max-width: 450px;
@@ -702,8 +706,6 @@ Persona detail page
 .text-persona-header {
 	color: #404041;
 	margin-bottom: 30px;
-	background-color: #FBCE4A;
-	max-width: 360px;
 }
 
 /*buttons*/
@@ -930,10 +932,6 @@ Persona detail page
 }
 
 /*arrow*/
-
-.wrapper-arrow {
-
-}
 
 .container-arrow {
 	max-width: 960px;
