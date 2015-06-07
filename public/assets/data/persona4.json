@@ -1,0 +1,209 @@
+[
+  {
+    "carousel": {
+      "image": "",
+      "text": ""
+    },
+    "dropdown": {
+      "image": "",
+      "text": ""
+    },
+    "characteristics": [
+      {
+        "image": "",
+        "header": "",
+        "paragraph": ""
+      },
+      {
+        "image": "",
+        "header": "",
+        "paragraph": ""
+      },
+      {
+        "image": "",
+        "header": "",
+        "paragraph": ""
+      },
+      {
+        "image": "",
+        "header": "",
+        "paragraph": ""
+      },
+      {
+        "image": "",
+        "header": "",
+        "paragraph": ""
+      },
+      {
+        "image": "",
+        "header": "",
+        "paragraph": ""
+      }
+    ],
+    "wing": {
+      "image": "",
+      "description": "",
+      "left": {
+        "header": "",
+        "paragraph": ""
+      },
+      "right": {
+        "header": "",
+        "paragraph": ""
+      }
+    },
+    "arrow": {
+      "image": "",
+      "description": "",
+      "left": {
+        "type": "",
+        "paragraphs": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "right": {
+        "type": "",
+        "paragraphs": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    },
+    "relation": {
+      "image": "",
+      "paragraphs": [
+        {
+          "good": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "bad": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "good": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "bad": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "good": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "bad": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "good": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "bad": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "good": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "bad": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "good": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "bad": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "good": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "bad": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "good": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "bad": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "good": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "bad": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    }
+  }
+]
