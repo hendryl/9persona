@@ -927,12 +927,55 @@ Persona detail page
 
 /*arrow*/
 
+.wrapper-arrow {
+
+}
+
 .container-arrow {
 	max-width: 960px;
 	margin-top: 20px;
 	margin-bottom: 40px;
 }
 
+.content-arrow {
+	margin-top: 60px;
+}
+
+.arrow-box {
+	padding: 1em;
+	margin: 1em;
+	border-radius: 1em;
+}
+
+.img-arrow {
+	opacity: 0.8;
+	padding: 0;
+}
+
+@media only screen and (max-width: 767px) {
+	.content-arrow {
+		width: 100%;
+		margin: 0;
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	.container-arrow {
+		max-width: 960px;
+		margin-top: 20px;
+		margin-bottom: 0px;
+	}
+
+	.wrapper-arrow {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.arrow-box {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+}
 
 .instinct-twotone {
 	background: #00ac80; /* Old browsers */
@@ -967,16 +1010,6 @@ Persona detail page
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#57bad5', endColorstr='#499cb3',GradientType=1 ); /* IE6-9 */
 }
 
-.arrow-box {
-	padding: 1em;
-	margin: 1em;
-	border-radius: 1em;
-}
-
-.img-arrow {
-	opacity: 0.8;
-	padding: 0;
-}
 
 @media only screen and (max-width: 767px) {
 	.instinct-twotone{
@@ -988,13 +1021,7 @@ Persona detail page
 	.thinking-twotone{
 		background: #57bad5;
 	}
-
-	.arrow-box {
-		margin-left: 10%;
-		margin-right: 10%;
-	}
 }
-
 
 /*relation*/
 
@@ -1058,6 +1085,7 @@ Persona detail page
 
 .relative-container {
 	position: relative;
+	padding-top: 20px;
 }
 
 .relation-container {
@@ -1067,7 +1095,7 @@ Persona detail page
 .relation-box {
 	padding-top: 5px;
 	border-radius: 1em;
-	margin: 20px auto;
+	margin: 30px auto;
 	max-width: 400px;
 }
 
