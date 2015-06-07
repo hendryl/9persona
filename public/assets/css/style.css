@@ -733,8 +733,9 @@ Persona detail page
 /*dropdown*/
 
 .img-dropdown {
-	background-color: #f1f1f2;
 	padding: 0;
+	width:80px;
+	height:80px;
 }
 
 .dropdown-container {
