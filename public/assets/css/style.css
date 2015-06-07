@@ -729,6 +729,11 @@ Persona detail page
 
 /*dropdown*/
 
+.img-dropdown {
+	background-color: #f1f1f2;
+	padding: 0;
+}
+
 .dropdown-container {
 	position: relative;
 }
