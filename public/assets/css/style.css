@@ -727,6 +727,11 @@ Persona detail page
 	-webkit-transform-origin: 50% 50%;
 }
 
+.img-carousel {
+	padding: 0;
+	margin-bottom: 10px;
+}
+
 /*dropdown*/
 
 .img-dropdown {
