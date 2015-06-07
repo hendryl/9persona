@@ -80,8 +80,8 @@ Route animations
 
 .quiz-animation.ng-enter {
 	z-index: 1;
-	-webkit-animation: fadeInRight 1.0s;
-	animation: fadeInRight 1.0s;
+	-webkit-animation: fadeInUp 1.0s;
+	animation: fadeInUp 1.0s;
 }
 
 .quiz-animation.ng-leave  {
@@ -92,32 +92,14 @@ Route animations
 	margin-right: 0;
 	margin-left: 0;
 	z-index: -1;
-	-webkit-animation: fadeOutLeft 1.0s;
-	animation: fadeOutLeft 1.0s;
-}
-
-.quiz-animation.ng-enter {
-	z-index: 1;
-	-webkit-animation: fadeInRight 1.0s;
-	animation: fadeInRight 1.0s;
-}
-
-.quiz-animation.ng-leave  {
-	overflow: hidden;
-	position:absolute;
-	left: 0;
-	right: 0;
-	margin-right: 0;
-	margin-left: 0;
-	z-index: -1;
-	-webkit-animation: fadeOutLeft 1.0s;
-	animation: fadeOutLeft 1.0s;
+	-webkit-animation: fadeOutUp 1.0s;
+	animation: fadeOutUp 1.0s;
 }
 
 .grid-animation.ng-enter {
 	z-index: 1;
-	-webkit-animation: slideInDown 1.0s;
-	animation: slideInDown 1.0s;
+	-webkit-animation: fadeInUp 1.0s;
+	animation: fadeInUp 1.0s;
 }
 
 .grid-animation.ng-leave {
@@ -128,8 +110,8 @@ Route animations
 	margin-right: 0;
 	margin-left: 0;
 	z-index: -1;
-	-webkit-animation: fadeOutDown 1.0s;
-	animation: fadeOutDown 1.0s;
+	-webkit-animation: fadeOutUp 1.0s;
+	animation: fadeOutUp 1.0s;
 }
 
 .detail-animation.ng-enter {
