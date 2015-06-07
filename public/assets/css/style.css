@@ -1036,6 +1036,10 @@ Persona detail page
 	border-color: #57BAD5;
 }
 
+.relative-container {
+	position: relative;
+}
+
 .relation-container {
 	max-width: 840px;
 }
@@ -1062,6 +1066,28 @@ Persona detail page
 
 .relation-last {
 	border-radius: 0 0 1em 1em;
+}
+
+.left-relation-pic {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+
+.left-relation-pic>.img-responsive  {
+	padding-left: 0;
+}
+
+.right-relation-pic {
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: -1;
+}
+
+.right-relation-pic>.img-responsive  {
+	padding-right: 0;
 }
 
 /*-----------------*\
