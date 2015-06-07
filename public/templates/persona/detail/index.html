@@ -27,7 +27,7 @@
             <div class="row">
                 <div class="col-xs-12">
                     <div class="dropdown-box">
-                        <img ng-src={{detailCtrl.data.dropdown.image}} class="img-dropdown img-circle img-responsive center-block">
+                        <img ng-src={{detailCtrl.data.dropdown.image}} class="img-circle img-responsive center-block">
                         <h4 class="center-block text-center">
                             {{detailCtrl.data.dropdown.header}}
                         </h4>
@@ -234,7 +234,7 @@
                     </div>
                 </div>
                 <div class="hidden-xs visible-sm visible-md visible-lg col-sm-4 center-block">
-                    <img ng-src={{detailCtrl.data.arrow.image}} class="img-responsive center-block">
+                    <img ng-src={{detailCtrl.data.arrow.image}} class="img-arrow img-responsive center-block">
                 </div>
                 <div class="col-xs-12 col-sm-4 center-block ng-class:{'instinct-darker': detailCtrl.type == 1,
                     'feeling-darker': detailCtrl.type == 2,
@@ -396,10 +396,10 @@
                 </div>
             </div>
         </div>
-        <div class="left-relation-pic hidden-xs visible-sm visible-md visible-lg">
+        <div class="left-relation-pic hidden-xs hidden-sm visible-md visible-lg">
             <img ng-src={{detailCtrl.data.relation.image}} class="img-responsive">
         </div>
-        <div class="right-relation-pic hidden-xs visible-sm visible-md visible-lg">
+        <div class="right-relation-pic hidden-xs hidden-sm visible-md visible-lg">
             <img ng-src={{detailCtrl.rightImages.images[detailCtrl.currentRelation-1]}} class="img-responsive">
         </div>
     </div>
