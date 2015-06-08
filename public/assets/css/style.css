@@ -356,16 +356,13 @@ Jumbotron
 }
 
 #main-bottom {
-	position: relative;
+	position: fixed;
 	bottom: 50px;
-	left: 0;
-	right: 0;
-	margin-left: auto;
-	margin-right: auto;
-	z-index: -1;
-	max-height: 300px;
-	margin-bottom: 0;
-	overflow: hidden;
+	left: 50%;
+	transform: translate(-50%, 0);
+	-webkit-transform: translate(-50%, 0);
+	margin: 0 auto;
+	z-index: -2;
 	transition: 0.3s all;
 	-webkit-transition: 0.3s all;
 }
@@ -376,6 +373,12 @@ Jumbotron
 	}
 
 	#main-bottom-left {
+		opacity: 0;
+	}
+}
+
+@media only screen and (max-height: 820px) {
+	#main-bottom {
 		opacity: 0;
 	}
 }
