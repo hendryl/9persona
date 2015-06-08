@@ -39,7 +39,7 @@ angular.module("personaApp")
 
     quiz.showNextQuestion = function() {
         if(quiz.gender < 0){
-            alert("Pilih cowo apa cewe dulu");
+            alert("Pilih dahulu gender kamu sebelum melanjutkan.");
             return;
         }
 
