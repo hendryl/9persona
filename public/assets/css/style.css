@@ -62,6 +62,19 @@ h4 {
 	padding: 0 30px 0 30px;
 }
 
+.persona-dark-text {
+	color: #404041;
+}
+
+.persona-light-text {
+	color: #f1f1f2;
+}
+
+.text-persona-header {
+	color: #404041;
+	margin-bottom: 30px;
+}
+
 /*----------------*\
 Route animations
 \*----------------*/
@@ -307,7 +320,6 @@ Instruction
 	color: #404041;
 	margin-top: 30px;
 	margin-bottom: 30px;
-	max-width: 450px;
 }
 
 .text-instruction {
@@ -613,10 +625,6 @@ Persona page
 
 /*top page*/
 
-.container-menu-carousel {
-	margin-top: 30px;
-}
-
 .persona-box {
 	box-sizing:border-box;
 	-moz-box-sizing:border-box;
@@ -696,19 +704,6 @@ Persona detail page
 	color: #57BAD5;
 }
 
-.persona-dark-text {
-	color: #404041;
-}
-
-.persona-light-text {
-	color: #f1f1f2;
-}
-
-.text-persona-header {
-	color: #404041;
-	margin-bottom: 30px;
-}
-
 /*buttons*/
 .carousel-button {
 	font-size: 200%;
@@ -716,6 +711,9 @@ Persona detail page
 	background-color: transparent;
 	transition: all 0.3s;
 	-webkit-transition: all 0.3s;
+	
+	padding-right: 0;
+	padding-left: 0;
 }
 
 .carousel-button:hover {
@@ -726,6 +724,11 @@ Persona detail page
 .carousel-button:focus {
 	outline:none;
 	box-shadow: none;
+}
+
+#l-car-button {
+	position: absolute;
+	right: 0;
 }
 
 #l-car-button:hover {
@@ -740,6 +743,22 @@ Persona detail page
 	-webkit-transform: translateX(5px);
 	transform-origin: 50% 50%;
 	-webkit-transform-origin: 50% 50%;
+}
+
+.container-menu-carousel {
+	margin-top: 30px;
+	position: relative;
+}
+
+.img-header-carousel.img-responsive {
+	position:relative;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+	padding-top: 0;
+	padding-left: 0;
+	padding-right: 0;
 }
 
 .img-carousel {

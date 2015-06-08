@@ -1,7 +1,7 @@
 {
   "carousel": {
     "image": "./assets/images/illus/carousel/4.png",
-    "text": ""
+    "header": "./assets/images/illus/title/04.png"
   },
   "dropdown": {
     "image": "./assets/images/illus/icon/04.png",

@@ -1,17 +1,17 @@
 <div class="row container-menu-carousel">
-    <div class="col-xs-4 text-right persona-dark-text">
-        <a ng-click="detailCtrl.previous();detailCtrl.anim='car-left';" id="l-car-button" class="btn carousel-button" role="button">
+    <div class="col-xs-2 col-sm-3 col-md-4">
+            <a ng-click="detailCtrl.previous();detailCtrl.anim='car-left';" id="l-car-button" class="btn carousel-button" role="button">
             &lt;
         </a>
     </div>
-    <div class="col-xs-4">
+    <div class="col-xs-8 col-sm-6 col-md-4">
         <div ng-repeat="num in [1,2,3,4,5,6,7,8,9]">
             <div ng-class="detailCtrl.anim" ng-show="num == detailCtrl.current">
-                <h3 class="text-center persona-dark-text">Tipe {{detailCtrl.current}}</h3>
+                <img class="img-header-carousel img-responsive" ng-src={{detailCtrl.data.carousel.header}}>
             </div>
         </div>
     </div>
-    <div class="col-xs-4 text-left persona-dark-text">
+    <div class="col-xs-2 col-sm-3 col-md-4">
         <a ng-click="detailCtrl.next();detailCtrl.anim='car-right';" id="r-car-button" class="btn carousel-button">
             &gt;
         </a>
