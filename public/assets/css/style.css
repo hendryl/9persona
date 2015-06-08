@@ -710,16 +710,12 @@ Persona page
 }
 
 .persona-box:hover {
-	background-color: #404041;
+	background-color: #e1e1e2;
 }
 
 .persona-box>a {
 	text-decoration: none;
 	color: #404041;
-}
-
-.persona-box:hover>a {
-	color: #f1f1f2;
 }
 
 .persona-box>h4 {
@@ -729,6 +725,17 @@ Persona page
 
 .persona-box:hover>h4 {
 	font-size: 125%;
+}
+
+.img-grid {
+	width: 135px;
+	height: 135px;
+	vertical-align: middle;
+	margin-top: 7px;
+}
+
+.grid-text {
+	line-height: 500%;
 }
 
 /*-----------------*\
