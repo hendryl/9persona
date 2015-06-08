@@ -972,8 +972,9 @@ Persona detail page
 }
 
 .characteristics-text {
-	max-width: 240px;
+	max-width: 250px;
 	margin-bottom: 40px;
+	min-height: 88px;
 }
 
 .img-chr {
@@ -1203,14 +1204,19 @@ Persona detail page
 
 .relation-content {
 	background-color: #f1f1f2;
-	margin: 0;
-	padding: 0.5em 1em 0.5em 1em;
 }
 
 .relation-content-dark {
 	background-color: #e1e1e2;
+}
+
+.relation-content, .relation-content-dark {
 	margin: 0;
 	padding: 0.5em 1em 0.5em 1em;
+}
+
+.relation-content>p, .relation-content-dark>p {
+	min-height: 44px;
 }
 
 .relation-last {

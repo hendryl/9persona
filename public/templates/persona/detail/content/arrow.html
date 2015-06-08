@@ -8,10 +8,7 @@
             <span class="highlighter">Panah</span>
             </h3>
             <p class="center-block text-center desc-head persona-light-text">
-                Panah adalah garis yang menghubungkan setiap persona dalam tipe kepribadian Enneagram
-                (selengkapnya dapat dibaca di sini). Kamu yang Tipe 1 memiliki hubungan dengan Tipe 4 dan 7. Di
-                saat berkembang, kamu akan mengarah pada karakter positif Tipe 7, sebaliknya kamu yang sedang
-                mengalami stress akan mengarah pada karakter negatif Tipe 4.
+                {{detailCtrl.data.arrow.description}}
             </p>
         </div>
         
@@ -22,25 +19,25 @@
                 ng-class:{'instinct-darker': detailCtrl.type == 1,
                 'feeling-darker': detailCtrl.type == 2,
                 'thinking-darker': detailCtrl.type == 3}">
-                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p class="text-center">{{detailCtrl.data.arrow.left.paragraphs[0]}}</p>
             </div>
             <div class="arrow-box persona-light-text center-block
                 ng-class:{'instinct-darker': detailCtrl.type == 1,
                 'feeling-darker': detailCtrl.type == 2,
                 'thinking-darker': detailCtrl.type == 3}">
-                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p class="text-center">{{detailCtrl.data.arrow.left.paragraphs[1]}}</p>
             </div>
             <div class="arrow-box persona-light-text center-block
                 ng-class:{'instinct-darker': detailCtrl.type == 1,
                 'feeling-darker': detailCtrl.type == 2,
                 'thinking-darker': detailCtrl.type == 3}">
-                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p class="text-center">{{detailCtrl.data.arrow.left.paragraphs[2]}}</p>
             </div>
             <div class="arrow-box persona-light-text center-block
                 ng-class:{'instinct-darker': detailCtrl.type == 1,
                 'feeling-darker': detailCtrl.type == 2,
                 'thinking-darker': detailCtrl.type == 3}">
-                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p class="text-center">{{detailCtrl.data.arrow.left.paragraphs[3]}}</p>
             </div>
         </div>
         <div class="hidden-xs visible-sm visible-md visible-lg col-sm-4 center-block">
@@ -53,25 +50,25 @@
                 ng-class:{'instinct': detailCtrl.type == 1,
                 'feeling': detailCtrl.type == 2,
                 'thinking': detailCtrl.type == 3}">
-                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p class="text-center">{{detailCtrl.data.arrow.right.paragraphs[0]}}.</p>
             </div>
             <div class="arrow-box persona-light-text center-block
                 ng-class:{'instinct': detailCtrl.type == 1,
                 'feeling': detailCtrl.type == 2,
                 'thinking': detailCtrl.type == 3}">
-                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                <p class="text-center">{{detailCtrl.data.arrow.right.paragraphs[1]}}</p>
             </div>
             <div class="arrow-box persona-light-text center-block
                 ng-class:{'instinct': detailCtrl.type == 1,
                 'feeling': detailCtrl.type == 2,
                 'thinking': detailCtrl.type == 3}">
-                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                <p class="text-center">{{detailCtrl.data.arrow.right.paragraphs[2]}}</p>
             </div>
             <div class="arrow-box persona-light-text center-block
                 ng-class:{'instinct': detailCtrl.type == 1,
                 'feeling': detailCtrl.type == 2,
                 'thinking': detailCtrl.type == 3}">
-                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, numquam! Iure veniam quam.</p>
+                <p class="text-center">{{detailCtrl.data.arrow.right.paragraphs[3]}}</p>
             </div>
         </div>
     </div>

@@ -12,7 +12,7 @@
     {
       "image": "",
       "header": "Adil, jujur, dan setia",
-      "paragraph": "bisa menyatukan fakta-fakta untuk mendapatkan pemahaman yang baik dan benar sehingga menemukan solusi yang bijaksana"
+      "paragraph": "Bisa menyatukan fakta-fakta untuk mendapatkan pemahaman yang baik dan benar sehingga menemukan solusi yang bijaksana."
     },
     {
       "image": "",
@@ -79,6 +79,20 @@
     "paragraphs": [
       {
         "good": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "bad": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "good": [
           "Suka membantuku dan menghargai apa yang kulakukan untuk mereka",
           "Baik hati, hangat, dan sangat memerhatikan saya",
           "Sikapnya yang ceria dan menyenangkan membantu saya untuk lebih santai",
@@ -89,20 +103,6 @@
           "Menginginkan perhatian yang lebih dibandingkan yang mampu kuberikan",
           "Tidak selalu memikirkan segala sesuatu secara metodis",
           "Kadang acuh memikirkan akibat-akibat tindakannya"
-        ]
-      },
-      {
-        "good": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "bad": [
-          "",
-          "",
-          "",
-          ""
         ]
       },
       {
