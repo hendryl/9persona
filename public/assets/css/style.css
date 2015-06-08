@@ -80,8 +80,8 @@ Route animations
 \*----------------*/
 .home-animation.ng-enter {
 	z-index: 1;
-	-webkit-animation: slideInUp 1.0s;
-	animation: slideInUp 1.0s;
+	-webkit-animation: slideInDown 1.0s;
+	animation: slideInDown 1.0s;
 }
 
 /*for leaving items*/

@@ -1,12 +1,20 @@
 angular.module("personaApp", ['ngRoute', 'ngAnimate'])
-.controller('AppController', function($rootScope){
+.controller('AppController', function($rootScope, $location){
 	var app = this;
 
-  app.hideDropdown = function () {
+  app.hideDropdown = function() {
     var needToHideDropdown = !$(".navbar-toggle").hasClass("collapsed");
     if(needToHideDropdown){
       $(".navbar-toggle").click();
     }
+  };
+
+  app.isHome = function() {
+    var location = $location.path(); // '/'
+    if(location === '/') {
+      console.log('/');
+      return true;
+    } else return false;
   };
 
   $rootScope.$on('$routeChangeStart', function(event, currRoute, prevRoute){
@@ -18,13 +26,26 @@ angular.module("personaApp", ['ngRoute', 'ngAnimate'])
   });
 })
 
+.controller('homeController', function(){
+  var homeCtrl = this;
+  homeCtrl.isAnimating = function() {
+    var x = $(".home-animation");
+    var y = x.hasClass("ng-enter");
+    console.log(x);
+    console.log(y);
+    return y;
+  };
+})
+
 .config(function($routeProvider) {
   $routeProvider
 
   .when('/', {
     title: 'Home',
     animation: 'home-animation',
-    templateUrl: '/templates/home/index.html'
+    templateUrl: '/templates/home/index.html',
+    controller: 'homeController',
+    controllerAs:'home'
   })
 
   .when('/quiz', {
