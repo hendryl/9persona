@@ -42,35 +42,35 @@
   ],
   "wing": {
     "image": "./assets/images/illus/sayap/06.png",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, voluptates, repellendus! Vel, eum. Officia similique culpa repellat atque quo incidunt nam quaerat aspernatur tempore fuga. Quasi, animi, quam! Deserunt, vero!",
     "left": {
-      "header": "",
-      "paragraph": ""
+      "header": "Lorem ipsum dolor sit amet",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     },
     "right": {
-      "header": "",
-      "paragraph": ""
+      "header": "Lorem ipsum dolor sit amet",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     }
   },
   "arrow": {
     "image": "./assets/images/illus/panah/06.png",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque quae aspernatur veniam asperiores non accusantium doloremque corrupti nesciunt voluptas in, quasi pariatur, itaque animi voluptate dignissimos dolorum quibusdam, aperiam facilis.",
     "left": {
       "type": "",
       "paragraphs": [
-        "",
-        "",
-        "",
-        ""
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
       ]
     },
     "right": {
       "type": "",
       "paragraphs": [
-        "",
-        "",
-        "",
-        ""
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
       ]
     }
   },
@@ -79,128 +79,128 @@
     "paragraphs": [
       {
         "good": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
         ],
         "bad": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
         ]
       },
       {
         "good": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
         ],
         "bad": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
         ]
       },
       {
         "good": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
         ],
         "bad": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
         ]
       },
       {
         "good": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
         ],
         "bad": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
         ]
       },
       {
         "good": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
         ],
         "bad": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
         ]
       },
       {
         "good": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
         ],
         "bad": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
         ]
       },
       {
         "good": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
         ],
         "bad": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
         ]
       },
       {
         "good": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
         ],
         "bad": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
         ]
       },
       {
         "good": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
         ],
         "bad": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
         ]
       }
     ]

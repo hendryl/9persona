@@ -12,65 +12,65 @@
     {
       "image": "./assets/images/illus/karakteristik/91.png",
       "header": "Tenang dan sabar",
-      "paragraph": ""
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
     },
     {
       "image": "./assets/images/illus/karakteristik/92.png",
       "header": "Tidak menghakimi dan menerima",
-      "paragraph": ""
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
     },
     {
       "image": "./assets/images/illus/karakteristik/93.png",
       "header": "Diplomatis",
-      "paragraph": ""
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
     },
     {
       "image": "./assets/images/illus/karakteristik/94.png",
       "header": "Keras kepala",
-      "paragraph": ""
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
     },
     {
       "image": "./assets/images/illus/karakteristik/95.png",
       "header": "Pasif-agresif",
-      "paragraph": ""
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
     },
     {
       "image": "./assets/images/illus/karakteristik/96.png",
       "header": "Apatis",
-      "paragraph": ""
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
     }
   ],
   "wing": {
     "image": "./assets/images/illus/sayap/09.png",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore magnam in illo possimus sit error ad quaerat obcaecati earum, a mollitia sed. Commodi tempora ab, dolor assumenda consequuntur quod fuga.",
     "left": {
-      "header": "",
-      "paragraph": ""
+      "header": "Lorem ipsum",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
     },
     "right": {
-      "header": "",
-      "paragraph": ""
+      "header": "Lorem ipsum",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
     }
   },
   "arrow": {
     "image": "./assets/images/illus/panah/09.png",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a. Maxime animi, expedita neque nam pariatur enim repudiandae officia voluptatem consectetur odio, magni accusamus ipsa consequatur aperiam laboriosam.",
     "left": {
       "type": "",
       "paragraphs": [
-        "",
-        "",
-        "",
-        ""
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
       ]
     },
     "right": {
       "type": "",
       "paragraphs": [
-        "",
-        "",
-        "",
-        ""
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
       ]
     }
   },
@@ -79,128 +79,128 @@
     "paragraphs": [
       {
         "good": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
         ],
         "bad": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
         ]
       },
       {
         "good": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
         ],
         "bad": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
         ]
       },
       {
         "good": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
         ],
         "bad": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
         ]
       },
       {
         "good": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
         ],
         "bad": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
         ]
       },
       {
         "good": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
         ],
         "bad": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
         ]
       },
       {
         "good": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
         ],
         "bad": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
         ]
       },
       {
         "good": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
         ],
         "bad": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
         ]
       },
       {
         "good": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
         ],
         "bad": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
         ]
       },
       {
         "good": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
         ],
         "bad": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
         ]
       }
     ]

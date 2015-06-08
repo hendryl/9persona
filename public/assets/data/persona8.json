@@ -12,65 +12,65 @@
     {
       "image": "./assets/images/illus/karakteristik/81.png",
       "header": "Jujur dan setia",
-      "paragraph": ""
+      "paragraph": "Lorem ipsum amet, consectetur adipisicing elit. Quae rerum totam."
     },
     {
       "image": "./assets/images/illus/karakteristik/82.png",
       "header": "Dominan",
-      "paragraph": ""
+      "paragraph": "Lorem ipsum amet, consectetur adipisicing elit. Quae rerum totam."
     },
     {
       "image": "./assets/images/illus/karakteristik/83.png",
       "header": "Protektif",
-      "paragraph": ""
+      "paragraph": "Lorem ipsum amet, consectetur adipisicing elit. Quae rerum totam."
     },
     {
       "image": "./assets/images/illus/karakteristik/84.png",
       "header": "Tidak peka",
-      "paragraph": ""
+      "paragraph": "Lorem ipsum amet, consectetur adipisicing elit. Quae rerum totam."
     },
     {
       "image": "./assets/images/illus/karakteristik/85.png",
       "header": "Egosentris",
-      "paragraph": ""
+      "paragraph": "Lorem ipsum amet, consectetur adipisicing elit. Quae rerum totam."
     },
     {
       "image": "./assets/images/illus/karakteristik/86.png",
       "header": "Tidak sabar",
-      "paragraph": ""
+      "paragraph": "Lorem ipsum amet, consectetur adipisicing elit. Quae rerum totam."
     }
   ],
   "wing": {
     "image": "./assets/images/illus/sayap/08.png",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi reprehenderit asperiores ea minus omnis voluptatum aperiam illo, aspernatur libero impedit quod excepturi perspiciatis nulla ducimus, error accusamus neque maxime officiis.",
     "left": {
-      "header": "",
-      "paragraph": ""
+      "header": "Lorem ipsum dolor",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Mollitia fuga commodi distinctio labore?"
     },
     "right": {
-      "header": "",
-      "paragraph": ""
+      "header": "Lorem ipsum dolor",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Mollitia fuga commodi distinctio labore?"
     }
   },
   "arrow": {
     "image": "./assets/images/illus/panah/08.png",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio vitae architecto est ut totam eum commodi amet enim dolores maiores, nihil dolore nobis, fugit pariatur officiis mollitia consequatur quo blanditiis.",
     "left": {
       "type": "",
       "paragraphs": [
-        "",
-        "",
-        "",
-        ""
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
       ]
     },
     "right": {
       "type": "",
       "paragraphs": [
-        "",
-        "",
-        "",
-        ""
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
       ]
     }
   },
@@ -79,128 +79,128 @@
     "paragraphs": [
       {
         "good": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
         ],
         "bad": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
         ]
       },
       {
         "good": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
         ],
         "bad": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
         ]
       },
       {
         "good": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
         ],
         "bad": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
         ]
       },
       {
         "good": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
         ],
         "bad": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
         ]
       },
       {
         "good": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
         ],
         "bad": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
         ]
       },
       {
         "good": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
         ],
         "bad": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
         ]
       },
       {
         "good": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
         ],
         "bad": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
         ]
       },
       {
         "good": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
         ],
         "bad": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
         ]
       },
       {
         "good": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
         ],
         "bad": [
-          "",
-          "",
-          "",
-          ""
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
         ]
       }
     ]
