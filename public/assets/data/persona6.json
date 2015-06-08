@@ -11,33 +11,33 @@
   "characteristics": [
     {
       "image": "./assets/images/illus/karakteristik/61.png",
-      "header": "",
-      "paragraph": ""
+      "header": "Jujur dan setia",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     },
     {
       "image": "./assets/images/illus/karakteristik/62.png",
-      "header": "",
-      "paragraph": ""
+      "header": "Bertanggung jawab dan bisa diandalkan",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     },
     {
       "image": "./assets/images/illus/karakteristik/63.png",
-      "header": "",
-      "paragraph": ""
+      "header": "Penuh perhatian dan kasih",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     },
     {
       "image": "./assets/images/illus/karakteristik/64.png",
-      "header": "",
-      "paragraph": ""
+      "header": "Paranoid",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     },
     {
       "image": "./assets/images/illus/karakteristik/65.png",
-      "header": "",
-      "paragraph": ""
+      "header": "Defensif",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     },
     {
       "image": "./assets/images/illus/karakteristik/66.png",
-      "header": "",
-      "paragraph": ""
+      "header": "Tidak terduga",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     }
   ],
   "wing": {

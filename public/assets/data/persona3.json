@@ -11,66 +11,66 @@
   "characteristics": [
     {
       "image": "./assets/images/illus/karakteristik/31.png",
-      "header": "",
-      "paragraph": ""
+      "header": "Optimis, ramah dan ceria",
+      "paragraph": "Orang yang energik dan memberikan kesan positif pada lingkungannya"
     },
     {
       "image": "./assets/images/illus/karakteristik/32.png",
-      "header": "",
-      "paragraph": ""
+      "header": "Oportunis",
+      "paragraph": "Selalu melihat ke depan, kompeten dan mampu bekerja dengan efisien"
     },
     {
       "image": "./assets/images/illus/karakteristik/33.png",
-      "header": "",
-      "paragraph": ""
+      "header": "Mampu memotivasi orang lain",
+      "paragraph": "Berkepribadian menarik, disukai banyak orang dan dihormati di lingkungannya"
     },
     {
       "image": "./assets/images/illus/karakteristik/34.png",
-      "header": "",
-      "paragraph": ""
+      "header": "Suka pamer dan narsis",
+      "paragraph": "Mengumbar kesuksesan dan sangat menjaga citra diri di hadapan orang lain"
     },
     {
       "image": "./assets/images/illus/karakteristik/35.png",
-      "header": "",
-      "paragraph": ""
+      "header": "Bermuka manis",
+      "paragraph": "Berjuang keras untuk mendapat kesan baik dan berpura-pura"
     },
     {
       "image": "./assets/images/illus/karakteristik/36.png",
-      "header": "",
-      "paragraph": ""
+      "header": "Terlalu kompetitif",
+      "paragraph": "Ambisius dan selalu membandingkan diri sendiri dengan orang lain yang lebih baik. Bisa menjadi cuek terhadap lingkungan sekitarnya."
     }
   ],
   "wing": {
     "image": "./assets/images/illus/sayap/03.png",
-    "description": "",
+    "description": "Dalam tipe kepribadian Enneagram, setiap persona dapat terpengaruh dengan persona lain di sebelah kiri maupun kanannya (selengkapnya dapat dibaca di sini). Hal tersebut dinamakan sayap. Kamu yang Tipe 3 kemungkinan memiliki Sayap 2 atau Sayap 4, atau bahkan keduanya.",
     "left": {
-      "header": "",
-      "paragraph": ""
+      "header": "Tipe 3 dengan Sayap 2",
+      "paragraph": "Cenderung lebih hangat, mendukung, beradaptasi sosial dengan baik, memahami orang lain, menawan dan senang menyanjung."
     },
     "right": {
-      "header": "",
-      "paragraph": ""
+      "header": "Tipe 3 dengan Sayap 4",
+      "paragraph": "Cenderung lebih introspektif, peka, artistik, imajinatif namun suka pamer, dan memiliki suasana hati yang berubah-ubah."
     }
   },
   "arrow": {
     "image": "./assets/images/illus/panah/03.png",
-    "description": "",
+    "description": "Panah adalah garis yang menghubungkan setiap persona dalam tipe kepribadian Enneagram (selengkapnya dapat dibaca di sini). Kamu yang Tipe 3 memiliki hubungan dengan Tipe 6 dan 9. Di saat berkembang, kamu akan mengarah pada karakter positif Tipe 6, sebaliknya kamu yang sedang mengalami stress akan mengarah pada karakter negatif Tipe 9.",
     "left": {
-      "type": "",
+      "type": "6",
       "paragraphs": [
-        "",
-        "",
-        "",
-        ""
+        "Lebih banyak meluangkan waktu dan lebih berkomitmen pada keluargadan teman",
+        "Menghargai apa yang terbaik bagi kelompok",
+        "Lebih peka terhadap perasaannya",
+        "Mengupayakan pikiran-pikiran yang diyakini"
       ]
     },
     "right": {
-      "type": "",
+      "type": "9",
       "paragraphs": [
-        "",
-        "",
-        "",
-        ""
+        "Menunda pekerjaan dan menjadi tidak tegas",
+        "Menjadi apatis / cuek",
+        "Mengabaikan diri sendiri dan menjadi tidak produktif",
+        "Bertindak pasif-agresif pada orang yang melihat kekurangan mereka"
       ]
     }
   },
@@ -79,122 +79,122 @@
     "paragraphs": [
       {
         "good": [
-          "",
-          "",
-          "",
-          ""
+          "Menyelesaikan banyak hal seperti aku",
+          "Menampilkan diri dengan baik",
+          "Mengejar nilai-nilai ideal dan tugas-tugas dengan kemauan keras",
+          "Realistis, efisien, dan bisa diandalkan"
         ],
         "bad": [
-          "",
-          "",
-          "",
-          ""
+          "Tegang dan membuat aku tidak nyaman",
+          "Mengkritik aku karena tidak menjaga prinsip sekuat mereka",
+          "Melupakan kekhilafan dan jarang meminta maaf",
+          "Memandang cara hidup mereka lebih baik dibandingkan aku lewat kacamata mereka sendiri"
         ]
       },
       {
         "good": [
-          "",
-          "",
-          "",
-          ""
+          "Memberi banyak perhatian dan kepedulian",
+          "Hangat, memahami, dan menyenangkan",
+          "Memberi kesan baik kepada orang lain",
+          "Mudah bersosialisasi dengan berbagai orang"
         ],
         "bad": [
-          "",
-          "",
-          "",
-          ""
+          "Terlalu emosional terhadap hal-hal sepele",
+          "Merajuk jika tidak berbuat seperti yang mereka ekspektasikan",
+          "Mencoba menipuku untuk melakukan hal-hal yang mereka inginkan",
+          "Terlalu banyak menuntut perhatian"
         ]
       },
       {
         "good": [
-          "",
-          "",
-          "",
-          ""
+          "Sama-sama bangga dengan penampilan",
+          "Memahami kebutuhan satu sama lain untuk bekerja keras",
+          "Senang melakukan aktivitas fisik bersama-sama",
+          "Tahu bagaimana menyelesaikan pekerjaan dan sama-sama sangat produktif"
         ],
         "bad": [
-          "",
-          "",
-          "",
-          ""
+          "Memaksakan diri sehingga menjadi stres dan lelah",
+          "Menarik diri ketika muncul persoalan dalam hubungan",
+          "Sama-sama tidak terlalu baik dalam mengekspresikan perasaan",
+          "Teralihkan dengan pekerjaan dan sama-sama kurang memberi perhatian"
         ]
       },
       {
         "good": [
-          "",
-          "",
-          "",
-          ""
+          "Mengapresiasi dan mendorong bakat serta kemampuanku",
+          "Memiliki selera tinggi dan elegan dalam berpakaian",
+          "Sangat menghibur dan ekspresif",
+          "Hangat dan ramah dalam memperlakukan orang lain"
         ],
         "bad": [
-          "",
-          "",
-          "",
-          ""
+          "Menarik diri tanpa diduga-duga",
+          "Membuatku malu ketika tingkah atau pakaian mereka kurang lazim",
+          "Membuatku tidak tenang dengan suasana hati mereka yang berubah-ubah",
+          "Bisa luar biasa membutuhkan secara emosional"
         ]
       },
       {
         "good": [
-          "",
-          "",
-          "",
-          ""
+          "Tertarik dengan proyekku dan memberikan masukan yang membantu",
+          "Memiliki cara pandang baru terhadap berbagai hal",
+          "Membagi pengetahuan mereka yang luas",
+          "Lembut terhadapku"
         ],
         "bad": [
-          "",
-          "",
-          "",
-          ""
+          "Bisa tidak terlalu ambisius",
+          "Tidak terlalu memerhatikan penampilan",
+          "Terlalu tertutup dan tidak senang bergaul",
+          "Menarik diri, merajuk, atau uring-uringan, meski kelihatannya serius menjalin hubungan"
         ]
       },
       {
         "good": [
-          "",
-          "",
-          "",
-          ""
+          "Bersungguh-sungguh dan bertanggung jawab",
+          "Biasanya memiliki pemikiran yang menarik dan selera humor yang baik",
+          "Menghargai pekerjaan dan prestasiku",
+          "Hangat dan setia"
         ],
         "bad": [
-          "",
-          "",
-          "",
-          ""
+          "Menyalahkan orang lain atas persoalan yang menimpa mereka",
+          "Mengartikan isyarat remeh sebagai penolakan total",
+          "Menghina orang dan menunjukkan kesan paling hebat",
+          "Tidak pernah berlapang dada dengan kemungkinan bahwa persoalan akan berakhir dengan baik"
         ]
       },
       {
         "good": [
-          "",
-          "",
-          "",
-          ""
+          "Positif, bersemangat, ceria",
+          "Kaya dengan kejutan menyenangkan",
+          "Selalu memikirkan hal-hal menyenangkan yang bisa dilakukan",
+          "Tertarik dan pandai melakukan berbagai hal"
         ],
         "bad": [
-          "",
-          "",
-          "",
-          ""
+          "Kurang bertanggung jawab",
+          "Biasanya tidak terlalu rapi",
+          "Sering berubah pikiran",
+          "Kurang pandai berkonsentrasi dan membebankan tanggung jawab kepadaku"
         ]
       },
       {
         "good": [
-          "",
-          "",
-          "",
-          ""
+          "Mengerahkan seluruh energi ke pekerjaan apapun yang sedang mereka lakukan",
+          "Mendorongku untuk jujur dan berterus terang",
+          "Memberi teladan baik dengan tidak memusingkan pendapat orang lain terhadap mereka",
+          "Setia, dermawan, penyayang"
         ],
         "bad": [
-          "",
-          "",
-          "",
-          ""
+          "Cepat menyalahkanku karena mementingkan penampilan",
+          "Tidak selalu memperlakukan orang dengan baik",
+          "Kadang menggunakan bahasa yang mengejutkan, menyebalkan, atau tidak sopan",
+          "Posesif, sok berkuasa, dan terlalu mencemaskan sesuatu"
         ]
       },
       {
         "good": [
-          "",
-          "",
-          "",
-          ""
+          "Memahamiku dengan cara yang mendasar",
+          "Mendengarkan dan mendukungku",
+          "Memberi pengaruh yang menenangkan dan menyejukkan",
+          "Menyertaiku saat melakukan hal-hal yang kusukai"
         ],
         "bad": [
           "",
