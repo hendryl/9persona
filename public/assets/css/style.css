@@ -965,6 +965,10 @@ Persona detail page
 	padding: 20px 0 0px 0;
 }
 
+.chr-box {
+	height: 305px;
+}
+
 .characteristics-content {
 	width:80%;
 	margin: 0 auto;
