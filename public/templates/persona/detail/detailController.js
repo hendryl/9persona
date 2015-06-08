@@ -6,6 +6,7 @@ angular.module("personaApp")
     ctrl.data = null;
     ctrl.rightImages = null;
     ctrl.currentRelation = 1;
+    ctrl.dropdownData = null;
 
     ctrl.previous = function(){
         var num = Number(ctrl.current);
@@ -55,7 +56,12 @@ angular.module("personaApp")
         $http.get('/assets/data/relationRight.json').success(function(data){
             ctrl.rightImages = data;
             console.log("Successfully loaded right picture data");
-        });        
+        });
+
+        $http.get('/assets/data/quizResults.json').success(function(data){
+            ctrl.dropdownData = data;
+            console.log("Successfully loaded results data");
+        });  
     }
 
     if($routeParams.typeNumber){

@@ -5,72 +5,72 @@
   },
   "dropdown": {
     "image": "./assets/images/illus/icon/01.png",
-    "header": "Lorem ipsum dolor sit amet",
+    "header": "Tipe Realistis dan Idealis",
     "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quo accusamus tempora ratione vitae cumque corporis, amet numquam temporibus odio quaerat error alias libero nobis et perspiciatis voluptas iure quam."
   },
   "characteristics": [
     {
       "image": "",
-      "header": "",
-      "paragraph": ""
+      "header": "Adil, jujur, dan setia",
+      "paragraph": "bisa menyatukan fakta-fakta untuk mendapatkan pemahaman yang baik dan benar sehingga menemukan solusi yang bijaksana"
     },
     {
       "image": "",
-      "header": "",
-      "paragraph": ""
+      "header": "Disiplin dan cekatan",
+      "paragraph": "Bekerja secara efisien dan teratur sehingga dapat diandalkan untuk menyelesaikan banyak hal."
     },
     {
       "image": "",
-      "header": "",
-      "paragraph": ""
+      "header": "Pekerja keras",
+      "paragraph": "Selalu berusaha, memiliki dedikasi tinggi, serta berkeinginan untuk menjadikan dunia ini lebih baik."
     },
     {
       "image": "",
-      "header": "",
-      "paragraph": ""
+      "header": "Orang yang kaku",
+      "paragraph": "Suka merasa tegang, gelisah dan memandang segala hal terlalu serius. Tidak dapat berkompromi dan suka memperdebatkan hal-hal remeh."
     },
     {
       "image": "",
-      "header": "",
-      "paragraph": ""
+      "header": "Suka mengkritik",
+      "paragraph": "Memiliki ekspektasi tinggi terhadap orang lain sehingga sering merasa kecewa."
     },
     {
       "image": "",
-      "header": "",
-      "paragraph": ""
+      "header": "Cenderung perfeksionis",
+      "paragraph": "Memiliki standar dan etika tinggi serta memiliki obsesi untuk menjadi yang terbaik."
     }
   ],
   "wing": {
     "image": "./assets/images/illus/sayap/01.png",
-    "description": "",
+    "description": "Dalam tipe kepribadian Enneagram, setiap persona dapat terpengaruh dengan persona lain di sebelah kiri maupun kanannya (selengkapnya dapat dibaca di sini). Hal tersebut dinamakan sayap. Kamu yang Tipe 1 kemungkinan memiliki Sayap 9 atau Sayap 2, atau bahkan keduanya.",
     "left": {
-      "header": "",
-      "paragraph": ""
+      "header": "Tipe 1 dengan Sayap 9",
+      "paragraph": "Cenderung lebih tenang, lebih santai, objektif, tidak memihak, namun keras kepala dan suka menarik diri."
     },
     "right": {
-      "header": "",
-      "paragraph": ""
+      "header": "Tipe 1 dengan Sayap 2",
+      "paragraph": "Cenderung hangat, lebih suka menolong, sangat memperhatikan citra diri, mencari perhatian, dan suka mengatur."
     }
   },
   "arrow": {
     "image": "./assets/images/illus/panah/01.png",
-    "description": "",
+    "description": "Panah adalah garis yang menghubungkan setiap persona dalam tipe kepribadian Enneagram (selengkapnya dapat dibaca di sini). Kamu yang Tipe 1 memiliki hubungan dengan Tipe 4 dan 7. Di saat berkembang, kamu akan mengarah pada karakter positif Tipe 7, sebaliknya kamu yang sedang mengalami stress akan mengarah pada karakter negatif Tipe 4.",
     "left": {
-      "type": "",
+      "type": "7",
       "paragraphs": [
-        "",
-        "",
-        "",
-        ""
+        "Menjadi tidak terlalu mengkritik dan lebih dapat menerima diri sendiri",
+        "Menjadi lebih antusias dan optimis",
+        "Bertindak lebih alamiah dan spontan",
+        "Lebih banyak merencanakan kegiatan yang menyenangkan diri"
       ]
     },
     "right": {
-      "type": "",
+      "type": "4",
       "paragraphs": [
-        "",
-        "",
-        "",
-        ""
+        "Merasa kesal karena ekspektasi yang tidak bisa dipenuhi diri sendiri maupun sekitarnya",
+        "Mengarahkan amarah pada diri sendiri dan menjadi depresi",
+        "Hilang kepercayaan pada diri sendiri",
+        "Menginginkan hal yang tidak mereka miliki dan putus asa untuk memilikinya"
       ]
     }
   },
@@ -79,16 +79,16 @@
     "paragraphs": [
       {
         "good": [
-          "",
-          "",
-          "",
-          ""
+          "Suka membantuku dan menghargai apa yang kulakukan untuk mereka",
+          "Baik hati, hangat, dan sangat memerhatikan saya",
+          "Sikapnya yang ceria dan menyenangkan membantu saya untuk lebih santai",
+          "Menangkap apa yang terjadi pada diriku, kadang bahkan sebelum kumenyadarinya"
         ],
         "bad": [
-          "",
-          "",
-          "",
-          ""
+          "Tersinggung karena kritik yang terkecil sekalipun",
+          "Menginginkan perhatian yang lebih dibandingkan yang mampu kuberikan",
+          "Tidak selalu memikirkan segala sesuatu secara metodis",
+          "Kadang acuh memikirkan akibat-akibat tindakannya"
         ]
       },
       {
