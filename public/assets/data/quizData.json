@@ -1,6 +1,22 @@
 [
   {
     "number": 1,
+    "question": "",
+    "answer": [
+      "",
+      ""
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/1a.png",
+      "./assets/images/illus/quiz/1b.png"
+    ],
+    "points": [
+      4,
+      6
+    ]
+  },
+  {
+    "number": 2,
     "question": "Aku cenderung",
     "answer": [
       "menantang konflik",
@@ -16,7 +32,7 @@
     ]
   },
   {
-    "number": 2,
+    "number": 3,
     "question": "Aku biasanya",
     "answer": [
       "diplomatis, menarik dan ambisius",
@@ -32,7 +48,7 @@
     ]
   },
   {
-    "number": 3,
+    "number": 4,
     "question": "Aku cenderung untuk",
     "answer": [
       "fokus dan tegang",
@@ -48,7 +64,7 @@
     ]
   },
   {
-    "number": 4,
+    "number": 5,
     "question": "Aku adalah orang yang",
     "answer": [
       "senang mendapat teman baru dalam hidupku",
@@ -64,7 +80,7 @@
     ]
   },
   {
-    "number": 5,
+    "number": 6,
     "question": "Pada umumnya aku",
     "answer": [
       "mudah untuk dibuat kesal",
@@ -79,8 +95,24 @@
       9
     ]
   },
+    {
+    "number": 7,
+    "question": "",
+    "answer": [
+      "",
+      ""
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/7a.png",
+      "./assets/images/illus/quiz/7b.png"
+    ],
+    "points": [
+      8,
+      1
+    ]
+  },
   {
-    "number": 6,
+    "number": 8,
     "question": "Aku",
     "answer": [
       "membutuhkan perhatian dari orang lain",
@@ -95,8 +127,24 @@
       5
     ]
   },
+    {
+    "number": 9,
+    "question": "",
+    "answer": [
+      "",
+      ""
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/9a.png",
+      "./assets/images/illus/quiz/9b.png"
+    ],
+    "points": [
+      3,
+      7
+    ]
+  },
   {
-    "number": 7,
+    "number": 10,
     "question": "Aku lebih fokus pada",
     "answer": [
       "diri sendiri",
@@ -111,8 +159,24 @@
       9
     ]
   },
+    {
+    "number": 11,
+    "question": "",
+    "answer": [
+      "",
+      ""
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/11a.png",
+      "./assets/images/illus/quiz/11b.png"
+    ],
+    "points": [
+      5,
+      8
+    ]
+  },
   {
-    "number": 8,
+    "number": 12,
     "question": "Aku adalah orang yang",
     "answer": [
       "kurang yakin pada diri sendiri",
@@ -128,7 +192,7 @@
     ]
   },
   {
-    "number": 9,
+    "number": 13,
     "question": "Aku lebih",
     "answer": [
       "fokus pada hubungan daripada tujuan",
@@ -143,8 +207,168 @@
       3
     ]
   },
+    {
+    "number": 14,
+    "question": "",
+    "answer": [
+      "",
+      ""
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/14a.png",
+      "./assets/images/illus/quiz/14b.png"
+    ],
+    "points": [
+      4,
+      7
+    ]
+  },
+    {
+    "number": 15,
+    "question": "",
+    "answer": [
+      "",
+      ""
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/15a.png",
+      "./assets/images/illus/quiz/15b.png"
+    ],
+    "points": [
+      5,
+      1
+    ]
+  },
+    {
+    "number": 16,
+    "question": "",
+    "answer": [
+      "",
+      ""
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/16a.png",
+      "./assets/images/illus/quiz/16b.png"
+    ],
+    "points": [
+      6,
+      8
+    ]
+  },
+    {
+    "number": 17,
+    "question": "",
+    "answer": [
+      "",
+      ""
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/17a.png",
+      "./assets/images/illus/quiz/17b.png"
+    ],
+    "points": [
+      9,
+      2
+    ]
+  },
+    {
+    "number": 18,
+    "question": "",
+    "answer": [
+      "",
+      ""
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/18a.png",
+      "./assets/images/illus/quiz/18b.png"
+    ],
+    "points": [
+      3,
+      4
+    ]
+  },
+    {
+    "number": 19,
+    "question": "",
+    "answer": [
+      "",
+      ""
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/19a.png",
+      "./assets/images/illus/quiz/19b.png"
+    ],
+    "points": [
+      6,
+      7
+    ]
+  },
+    {
+    "number": 20,
+    "question": "",
+    "answer": [
+      "",
+      ""
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/20a.png",
+      "./assets/images/illus/quiz/20b.png"
+    ],
+    "points": [
+      2,
+      1
+    ]
+  },
+    {
+    "number": 21,
+    "question": "",
+    "answer": [
+      "",
+      ""
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/21a.png",
+      "./assets/images/illus/quiz/21b.png"
+    ],
+    "points": [
+      8,
+      3
+    ]
+  },
+    {
+    "number": 22,
+    "question": "",
+    "answer": [
+      "",
+      ""
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/22a.png",
+      "./assets/images/illus/quiz/22b.png"
+    ],
+    "points": [
+      5,
+      9
+    ]
+  },
+    {
+    "number": 23,
+    "question": "",
+    "answer": [
+      "",
+      ""
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/23a.png",
+      "./assets/images/illus/quiz/23b.png"
+    ],
+    "points": [
+      6,
+      2
+    ]
+  },
   {
-    "number": 10,
+    "number": 24,
     "question": "Aku kuatir jika aku",
     "answer": [
       "melewatkan sesuatu yang lebih baik",
@@ -157,6 +381,198 @@
     "points": [
       7,
       8
+    ]
+  },
+    {
+    "number": 25,
+    "question": "",
+    "answer": [
+      "",
+      ""
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/25a.png",
+      "./assets/images/illus/quiz/25b.png"
+    ],
+    "points": [
+      4,
+      1
+    ]
+  },
+    {
+    "number": 26,
+    "question": "",
+    "answer": [
+      "",
+      ""
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/26a.png",
+      "./assets/images/illus/quiz/26b.png"
+    ],
+    "points": [
+      9,
+      7
+    ]
+  },
+    {
+    "number": 27,
+    "question": "",
+    "answer": [
+      "",
+      ""
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/27a.png",
+      "./assets/images/illus/quiz/27b.png"
+    ],
+    "points": [
+      6,
+      3
+    ]
+  },
+    {
+    "number": 28,
+    "question": "",
+    "answer": [
+      "",
+      ""
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/28a.png",
+      "./assets/images/illus/quiz/28b.png"
+    ],
+    "points": [
+      5,
+      4
+    ]
+  },
+    {
+    "number": 29,
+    "question": "",
+    "answer": [
+      "",
+      ""
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/29a.png",
+      "./assets/images/illus/quiz/29b.png"
+    ],
+    "points": [
+      8,
+      2
+    ]
+  },
+    {
+    "number": 30,
+    "question": "",
+    "answer": [
+      "",
+      ""
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/30a.png",
+      "./assets/images/illus/quiz/30b.png"
+    ],
+    "points": [
+      7,
+      1
+    ]
+  },
+    {
+    "number": 31,
+    "question": "",
+    "answer": [
+      "",
+      ""
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/31a.png",
+      "./assets/images/illus/quiz/31b.png"
+    ],
+    "points": [
+      9,
+      3
+    ]
+  },
+    {
+    "number": 32,
+    "question": "",
+    "answer": [
+      "",
+      ""
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/32a.png",
+      "./assets/images/illus/quiz/32b.png"
+    ],
+    "points": [
+      5,
+      6
+    ]
+  },
+    {
+    "number": 33,
+    "question": "",
+    "answer": [
+      "",
+      ""
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/33a.png",
+      "./assets/images/illus/quiz/33b.png"
+    ],
+    "points": [
+      4,
+      8
+    ]
+  },
+    {
+    "number": 34,
+    "question": "",
+    "answer": [
+      "",
+      ""
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/34a.png",
+      "./assets/images/illus/quiz/34b.png"
+    ],
+    "points": [
+      9,
+      1
+    ]
+  },
+    {
+    "number": 35,
+    "question": "",
+    "answer": [
+      "",
+      ""
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/35a.png",
+      "./assets/images/illus/quiz/35b.png"
+    ],
+    "points": [
+      7,
+      2
+    ]
+  },
+    {
+    "number": 36,
+    "question": "",
+    "answer": [
+      "",
+      ""
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/36a.png",
+      "./assets/images/illus/quiz/36b.png"
+    ],
+    "points": [
+      3,
+      5
     ]
   }
 ]
