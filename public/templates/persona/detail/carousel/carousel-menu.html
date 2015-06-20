@@ -1,3 +1,4 @@
+<!-- Controls -->
 <div class="row container-menu-carousel">
     <div class="col-xs-2 col-sm-3 col-md-4">
             <a ng-click="detailCtrl.previous();detailCtrl.anim='car-left';" id="l-car-button" class="btn carousel-button" role="button">
@@ -16,4 +17,8 @@
             &gt;
         </a>
     </div>
+</div>
+<!-- Carousel -->
+<div id="big-carousel" class="row">
+    <img class="img-carousel img-responsive center-block" ng-src={{detailCtrl.data.carousel.image}}>
 </div>

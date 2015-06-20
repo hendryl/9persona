@@ -4,7 +4,8 @@ Global
 /*
 * {
 	border: 1px red solid  !important;
-}*/
+}
+*/
 
 html {
 	margin: 0;
@@ -78,25 +79,6 @@ h4 {
 /*----------------*\
 Route animations
 \*----------------*/
-.home-animation.ng-enter {
-	z-index: 1;
-	-webkit-animation: slideInDown 1.0s;
-	animation: slideInDown 1.0s;
-}
-
-/*for leaving items*/
-.home-animation.ng-leave  {
-	overflow: hidden;
-	position:absolute;
-	left: 0;
-	right: 0;
-	margin-right: 0;
-	margin-left: 0;
-	z-index: -1;
-	-webkit-animation: fadeOutUp 0.5s;
-	animation: fadeOutUp 0.5s;
-}
-
 .quiz-animation.ng-enter {
 	z-index: 1;
 	-webkit-animation: fadeInUp 1.0s;
@@ -104,6 +86,16 @@ Route animations
 }
 
 .quiz-animation.ng-leave  {
+		overflow: hidden;
+	position:absolute;
+	left: 0;
+	right: 0;
+	margin-right: 0;
+	margin-left: 0;
+	z-index: -1;
+	-webkit-animation: fadeOut 0.5s;
+	animation: fadeOut 0.5s;
+/*
 	overflow: hidden;
 	position:absolute;
 	left: 0;
@@ -113,6 +105,7 @@ Route animations
 	z-index: -1;
 	-webkit-animation: fadeOutUp 0.5s;
 	animation: fadeOutUp 0.5s;
+	*/
 }
 
 .grid-animation.ng-enter {
@@ -139,6 +132,7 @@ Route animations
 	animation: zoomInUp 1.0s;
 }
 
+/*
 .detail-animation.ng-leave {
 	overflow: hidden;
 	position:absolute;
@@ -148,7 +142,7 @@ Route animations
 	margin-left: 0;
 	z-index: -1;
 }
-
+*/
 /*----------------*\
 Buttons - Global
 \*----------------*/
@@ -296,6 +290,52 @@ footer p {
 /*----------------*\
 Jumbotron
 \*----------------*/
+.logo-animation {
+	z-index: 1;
+	-webkit-animation: slideInDownLogo 1.0s;
+	animation: slideInDownLogo 1.0s;
+}
+
+.logo-animation.ng-leave {
+	-webkit-animation: fadeOutUp 1s;
+	animation: fadeOutUp 1s;
+}
+
+@keyframes slideInDownLogo {
+  0% {
+    -webkit-transform: translate3d(0, -750px, 0);
+    transform: translate3d(0, -750px, 0);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInDownLogo {
+  -webkit-animation-name: slideInDownLogo;
+  animation-name: slideInDownLogo;
+}
+
+
+.home-animation.ng-enter {
+}
+
+/*for leaving items*/
+.home-animation.ng-leave  {
+			overflow: hidden;
+	position:absolute;
+	left: 0;
+	right: 0;
+	margin-right: 0;
+	margin-left: 0;
+	z-index: -1;
+	-webkit-animation: fadeOut 0.5s;
+	animation: fadeOut 0.5s;
+}
+
 .jumbotron {
 	min-height: 100% !important;
 	margin-left: auto;
@@ -317,6 +357,11 @@ Jumbotron
 	position: relative;
 	width: 100%;
 	height: 100%;
+}
+
+.main-image {
+	-webkit-animation: fadeIn 2.2s;
+	animation: fadeIn 2.2s;
 }
 
 #main-top-left {
@@ -837,6 +882,10 @@ Persona detail page
 	padding-top: 0;
 	padding-left: 0;
 	padding-right: 0;
+}
+
+#big-carousel {
+	
 }
 
 .img-carousel {

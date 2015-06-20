@@ -9,14 +9,6 @@ angular.module("personaApp", ['ngRoute', 'ngAnimate'])
     }
   };
 
-  app.isHome = function() {
-    var location = $location.path(); // '/'
-    if(location === '/') {
-      console.log('/');
-      return true;
-    } else return false;
-  };
-
   $rootScope.$on('$routeChangeStart', function(event, currRoute, prevRoute){
     $rootScope.animation = currRoute.animation;
   });
@@ -24,17 +16,6 @@ angular.module("personaApp", ['ngRoute', 'ngAnimate'])
   $(window).resize(function() {
     app.hideDropdown();
   });
-})
-
-.controller('homeController', function(){
-  var homeCtrl = this;
-  homeCtrl.isAnimating = function() {
-    var x = $(".home-animation");
-    var y = x.hasClass("ng-enter");
-    console.log(x);
-    console.log(y);
-    return y;
-  };
 })
 
 .config(function($routeProvider) {
@@ -62,7 +43,7 @@ angular.module("personaApp", ['ngRoute', 'ngAnimate'])
 
   .when('/persona/:typeNumber', {
     title: 'Tipe ', 
-    animation: '',
+    animation: 'detail-animation',
     templateUrl:'/templates/persona/detail/index.html'
   })
 
