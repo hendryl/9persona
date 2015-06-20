@@ -359,11 +359,6 @@ Jumbotron
 	height: 100%;
 }
 
-.main-image {
-	-webkit-animation: fadeIn 2.2s;
-	animation: fadeIn 2.2s;
-}
-
 #main-top-left {
 	position: fixed;
 	top: 0;
@@ -371,6 +366,8 @@ Jumbotron
 	z-index: -1;
 	transition: 0.3s all;
 	-webkit-transition: 0.3s all;
+	-webkit-animation: slideInLeft 1.5s;
+	animation: slideInLeft 1.5s;
 }
 
 #main-top-right {
@@ -380,6 +377,8 @@ Jumbotron
 	z-index: -1;
 	transition: 0.3s all;
 	-webkit-transition: 0.3s all;
+	-webkit-animation: slideInRight 1.5s;
+	animation: slideInRight 1.5s;
 }
 
 #main-bottom-right {
