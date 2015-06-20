@@ -15,6 +15,7 @@ angular.module("personaApp")
 
     quiz.setGender = function(gender) {
         quiz.gender = gender;
+        console.log("Successfully set gender to " + gender)
     }
 
     quiz.setAnswer = function(number) {
@@ -29,7 +30,10 @@ angular.module("personaApp")
         }
     }
 
-        quiz.start = function() {
+    quiz.start = function(number) {
+
+        quiz.setGender(number);
+
         $http.get('/assets/data/quizData.json').success(function(data){
             quiz.questions = data;
             console.log("Successfully loaded " + quiz.questions.length + " questions");
@@ -38,13 +42,9 @@ angular.module("personaApp")
     };
 
     quiz.showNextQuestion = function() {
-        if(quiz.gender < 0){
-            alert("Pilih dahulu gender kamu sebelum melanjutkan.");
-            return;
-        }
-
+         console.log("In showNextQuestion");
         quiz.questionNumber++;
-
+        console.log(quiz.questionNumber);
         if(quiz.questionNumber > quiz.questions.length){
             $http.get('/assets/data/quizResults.json').success(function(data){
                 quiz.results = data;

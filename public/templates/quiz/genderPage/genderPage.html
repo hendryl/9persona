@@ -7,23 +7,16 @@
   <div class="row chooser quizContent">
     <input type="radio" name="gender" value="" checked="checked" />
     <div class="col-xs-6">
-      <label class="left-gender-content" ng-click="quiz.setGender(0)">
-        <input type="radio" name="gender" value="male" />
+      <label class="left-gender-content" ng-click="quiz.start(0)">
+        
         <img class="img-responsive center-block" src="./assets/images/illus/gender/male.png">
       </label>
     </div>
     <div class="col-xs-6">
-      <label class="right-gender-content" ng-click="quiz.setGender(1)">
-        <input type="radio" name="gender" value="female" />
+      <label class="right-gender-content" ng-click="quiz.start(1)">
+        
         <img class="img-responsive center-block" src="./assets/images/illus/gender/female.png">
       </label>
-    </div>
-    <div class="col-xs-12">
-      <div class="text-center">
-        <a class="btn nextButton" href="" role="button" ng-click="quiz.start()">
-          selanjutnya &gt;
-        </a>
-      </div>
     </div>
   </div>
 </div>
