@@ -95,17 +95,6 @@ Route animations
 	z-index: -1;
 	-webkit-animation: fadeOut 0.5s;
 	animation: fadeOut 0.5s;
-/*
-	overflow: hidden;
-	position:absolute;
-	left: 0;
-	right: 0;
-	margin-right: 0;
-	margin-left: 0;
-	z-index: -1;
-	-webkit-animation: fadeOutUp 0.5s;
-	animation: fadeOutUp 0.5s;
-	*/
 }
 
 .grid-animation.ng-enter {
@@ -128,11 +117,11 @@ Route animations
 
 .detail-animation.ng-enter {
 	z-index: 1;
-	-webkit-animation: zoomInUp 1.0s;
-	animation: zoomInUp 1.0s;
+	-webkit-animation: fadeIn ease-in 0.5s;
+	animation: fadeIn ease-in 0.5s;
 }
 
-/*
+
 .detail-animation.ng-leave {
 	overflow: hidden;
 	position:absolute;
@@ -141,8 +130,10 @@ Route animations
 	margin-right: 0;
 	margin-left: 0;
 	z-index: -1;
+	-webkit-animation: fadeOut 0.5s;
+	animation: fadeOut 0.5s;
 }
-*/
+
 /*----------------*\
 Buttons - Global
 \*----------------*/
