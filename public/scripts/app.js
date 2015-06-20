@@ -24,9 +24,7 @@ angular.module("personaApp", ['ngRoute', 'ngAnimate'])
   .when('/', {
     title: 'Home',
     animation: 'home-animation',
-    templateUrl: '/templates/home/index.html',
-    controller: 'homeController',
-    controllerAs:'home'
+    templateUrl: '/templates/home/index.html'
   })
 
   .when('/quiz', {
