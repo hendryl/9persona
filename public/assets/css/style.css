@@ -1229,7 +1229,7 @@ Persona detail page
 	opacity: 1;
 }
 
-/*box part*/
+/*RELATION BOX part*/
 
 .relative-container {
 	position: relative;
@@ -1241,10 +1241,20 @@ Persona detail page
 }
 
 .relation-box {
-	padding-top: 5px;
-	border-radius: 1em;
+	
 	margin: 30px auto;
 	max-width: 400px;
+}
+
+.relation-header {
+	border-radius: 1em 1em 0 0;
+}
+
+.relation-header>h4 {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 .relation-content {
