@@ -3,7 +3,8 @@ angular.module("personaApp", ['ngRoute', 'ngAnimate'])
 	var app = this;
 
   app.atTop = true;
-
+  $('.navbar-fixed-top').css('background-color','rgba(248,248,248,0.6');
+    
   app.isAtTop = function() {
     return app.atTop;
   };
