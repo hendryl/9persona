@@ -4,7 +4,7 @@ angular.module("personaApp", ['ngRoute', 'ngAnimate'])
 
   app.atTop = true;
   $('.navbar-fixed-top').css('background-color','rgba(248,248,248,0.6');
-    
+
   app.isAtTop = function() {
     return app.atTop;
   };
@@ -31,22 +31,6 @@ angular.module("personaApp", ['ngRoute', 'ngAnimate'])
         $('.navbar-fixed-top').css('background-color','rgba(248,248,248,0.6');
     }
   });
-})
-
-.directive('scrollPosition', function($window) {
-  return {
-    scope: {
-      scroll: '=scrollPosition'
-    },
-    link: function(scope, element, attrs) {
-      var windowEl = angular.element($window);
-      var handler = function() {
-        scope.scroll = windowEl.scrollTop();
-      }
-      windowEl.on('scroll', scope.$apply.bind(scope, handler));
-      handler();
-    }
-  };
 })
 
 .config(function($routeProvider) {
