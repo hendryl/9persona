@@ -285,15 +285,17 @@ Footer
 footer {
 	position: absolute;
 	background-color: #f1f1f2;
-	height:45px;
+	height:40px;
 }
 
 footer.navbar {
 	margin-bottom: 0px;
+	height:40px !important;
 }
 
 footer p {
-	line-height: 45px;
+	font-size: 0.875em;
+	line-height: 40px;
 	vertical-align: middle;
 	font-family: "Roboto Slab";
 	margin: 0 auto;
