@@ -28,7 +28,7 @@ angular.module("personaApp")
         if(changeHighest){
             quiz.highest = n-1;
         }
-    }
+    };
 
     quiz.start = function(number) {
 
