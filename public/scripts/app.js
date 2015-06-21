@@ -4,6 +4,10 @@ angular.module("personaApp", ['ngRoute', 'ngAnimate'])
 
   app.atTop = true;
 
+  app.isAtTop = function() {
+    return app.atTop;
+  };
+
   app.hideDropdown = function() {
     var needToHideDropdown = !$(".navbar-toggle").hasClass("collapsed");
     if(needToHideDropdown){
@@ -19,18 +23,29 @@ angular.module("personaApp", ['ngRoute', 'ngAnimate'])
     app.hideDropdown();
   });
 
-  $(window).scroll(function (event) {
-    var scroll = $(window).scrollTop();
-    if(scroll === 0) {
-      app.atTop = true;
-      console.log("Is At Top");
-    }
-
-    else {
-      app.hideDropdown();
-      app.atTop = false;
+  $(window).scroll(function(event) {
+    if ($(window).scrollTop() > 0) {
+        $('.navbar-fixed-top').css('background-color','rgba(248,248,248,1');
+    } else {
+        $('.navbar-fixed-top').css('background-color','rgba(248,248,248,0.6');
     }
   });
+})
+
+.directive('scrollPosition', function($window) {
+  return {
+    scope: {
+      scroll: '=scrollPosition'
+    },
+    link: function(scope, element, attrs) {
+      var windowEl = angular.element($window);
+      var handler = function() {
+        scope.scroll = windowEl.scrollTop();
+      }
+      windowEl.on('scroll', scope.$apply.bind(scope, handler));
+      handler();
+    }
+  };
 })
 
 .config(function($routeProvider) {
