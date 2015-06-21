@@ -2,6 +2,8 @@ angular.module("personaApp", ['ngRoute', 'ngAnimate'])
 .controller('AppController', function($rootScope, $location){
 	var app = this;
 
+  app.atTop = true;
+
   app.hideDropdown = function() {
     var needToHideDropdown = !$(".navbar-toggle").hasClass("collapsed");
     if(needToHideDropdown){
@@ -15,6 +17,19 @@ angular.module("personaApp", ['ngRoute', 'ngAnimate'])
 
   $(window).resize(function() {
     app.hideDropdown();
+  });
+
+  $(window).scroll(function (event) {
+    var scroll = $(window).scrollTop();
+    if(scroll === 0) {
+      app.atTop = true;
+      console.log("Is At Top");
+    }
+
+    else {
+      app.hideDropdown();
+      app.atTop = false;
+    }
   });
 })
 
