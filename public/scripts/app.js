@@ -2,9 +2,6 @@ angular.module("personaApp", ['ngRoute', 'ngAnimate'])
 .controller('AppController', function($rootScope, $location){
 	var app = this;
 
-  app.atTop = true;
-  $('.navbar-fixed-top').css('background-color','rgba(248,248,248,0');
-
   app.isAtTop = function() {
     return app.atTop;
   };
@@ -24,13 +21,26 @@ angular.module("personaApp", ['ngRoute', 'ngAnimate'])
     app.hideDropdown();
   });
 
+  app.styleNavbar = function() {
+    $('.navbar-fixed-top').css('background-color','rgba(248,248,248,0.6');
+
+    $('.navbar-fixed-top').mouseover(function() {
+      $(this).css('background-color','rgba(248,248,248,1');
+    }).mouseout(function() {
+      $('.navbar-fixed-top').css('background-color','rgba(248,248,248,0.6');
+    });
+  };
+
   $(window).scroll(function(event) {
     if ($(window).scrollTop() > 0) {
-        $('.navbar-fixed-top').css('background-color','rgba(248,248,248,1');
+      $('.navbar-fixed-top').css('background-color','rgba(248,248,248,1');
     } else {
-        $('.navbar-fixed-top').css('background-color','rgba(248,248,248,0');
+      app.styleNavbar();
     }
   });
+
+  app.atTop = true;
+  app.styleNavbar();
 })
 
 .config(function($routeProvider) {
