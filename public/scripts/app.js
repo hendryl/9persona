@@ -3,7 +3,7 @@ angular.module("personaApp", ['ngRoute', 'ngAnimate'])
 	var app = this;
 
   app.atTop = true;
-  $('.navbar-fixed-top').css('background-color','rgba(248,248,248,0.6');
+  $('.navbar-fixed-top').css('background-color','rgba(248,248,248,0');
 
   app.isAtTop = function() {
     return app.atTop;
@@ -28,7 +28,7 @@ angular.module("personaApp", ['ngRoute', 'ngAnimate'])
     if ($(window).scrollTop() > 0) {
         $('.navbar-fixed-top').css('background-color','rgba(248,248,248,1');
     } else {
-        $('.navbar-fixed-top').css('background-color','rgba(248,248,248,0.6');
+        $('.navbar-fixed-top').css('background-color','rgba(248,248,248,0');
     }
   });
 })
