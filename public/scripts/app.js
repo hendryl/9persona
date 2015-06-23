@@ -1,4 +1,12 @@
+
+function easeInOut(t) {
+  return t<.5 ? 16*t*t*t*t*t : 1+16*(--t)*t*t*t*t;
+}
+
 angular.module("personaApp", ['ngRoute', 'ngAnimate', 'duScroll'])
+.value('duScrollEasing', easeInOut)
+.value('duScrollOffset', 30)
+.value('duScrollBottomSpy', true)
 .controller('AppController', function($rootScope, $location){
 	var app = this;
 

@@ -1,11 +1,12 @@
 <div ng-controller="detailController as detailCtrl">
-    <!-- Fixed scrollers -->
-    <div class="fixed-links">
-        <li><a du-smooth-scroll="carousel" offset="100" du-scrollspy>Link 1</a></li>
-        <li><a du-smooth-scroll="characteristics" du-scrollspy>Link 2</a></li>
-        <li><a du-smooth-scroll="wings" du-scrollspy>Link 3</a></li>
-        <li><a du-smooth-scroll="arrow" du-scrollspy>Link 4</a></li>
-        <li><a du-smooth-scroll="relations" du-scrollspy>Link 5</a></li>
+    <div class="fixed-links-wrapper hidden-xs visible-sm visible-md visible-lg">
+        <ul class="fixed-links">
+            <a du-smooth-scroll="carousel" offset="100" du-scrollspy><li id="link-1"></li></a>
+            <a du-smooth-scroll="characteristics" du-scrollspy><li id="link-2"></li></a>
+            <a du-smooth-scroll="wings" du-scrollspy><li id="link-3"></li></a>
+            <a du-smooth-scroll="arrow" du-scrollspy><li id="link-4"></li></a>
+            <a du-smooth-scroll="relations" du-scrollspy><li id="link-5"></li></a>
+        </ul>
     </div>
     <!-- carousel -->
     <div class="container-fluid">
@@ -47,7 +48,7 @@
     <!-- sayap -->
     <wings id="wings"></wings>
     <!-- Panah -->
-<arrow id="arrow"></arrow>
-<!-- Relasi -->
-<relations id="relations"></relations>
+    <arrow id="arrow"></arrow>
+    <!-- Relasi -->
+    <relations id="relations"></relations>
 </div>
