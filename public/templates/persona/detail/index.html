@@ -1,8 +1,16 @@
 <div ng-controller="detailController as detailCtrl">
+    <!-- Fixed scrollers -->
+    <div class="fixed-links">
+        <li><a du-smooth-scroll="carousel" offset="100" du-scrollspy>Link 1</a></li>
+        <li><a du-smooth-scroll="characteristics" du-scrollspy>Link 2</a></li>
+        <li><a du-smooth-scroll="wings" du-scrollspy>Link 3</a></li>
+        <li><a du-smooth-scroll="arrow" du-scrollspy>Link 4</a></li>
+        <li><a du-smooth-scroll="relations" du-scrollspy>Link 5</a></li>
+    </div>
     <!-- carousel -->
     <div class="container-fluid">
         <!-- Carousel -->
-        <carousel-menu></carousel-menu>
+        <carousel-menu id="carousel"></carousel-menu>
         <!-- dropdown -->
         <div class="row">
             <div class="col-xs-12">
@@ -24,7 +32,7 @@
                     <div class="dropdown-box">
                         <img ng-src={{detailCtrl.data.dropdown.image}} class="img-dropdown img-circle img-responsive center-block">
                         <h4 class="center-block text-center">
-                            {{detailCtrl.data.dropdown.header}}
+                        {{detailCtrl.data.dropdown.header}}
                         </h4>
                         <p class="center-block text-center">
                             {{detailCtrl.dropdownData[detailCtrl.current-1].description}}
@@ -35,11 +43,11 @@
         </div>
     </div>
     <!-- karakteristik -->
-<characteristics></characteristics>
+    <characteristics id="characteristics"></characteristics>
     <!-- sayap -->
-<wings></wings>
-<!-- Panah -->
-<arrow></arrow>
+    <wings id="wings"></wings>
+    <!-- Panah -->
+<arrow id="arrow"></arrow>
 <!-- Relasi -->
-<relations></relations>
+<relations id="relations"></relations>
 </div>
