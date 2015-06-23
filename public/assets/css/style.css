@@ -911,22 +911,6 @@ Fixed scrolling links
 	color: #FBCE4A;
 	list-style-type: disc;
 }
-/*
-#link-1 {
-	top : 0; 
-}
-#link-2 {
-	top : 20px; 
-}
-#link-3 {
-	top : 40px; 
-}
-#link-4 {
-	top : calc(45% + 60px); 
-}
-#link-5 {
-	top : calc(45% + 80px); 
-}*/
 
 /*buttons*/
 .carousel-button {
