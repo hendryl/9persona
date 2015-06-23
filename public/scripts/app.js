@@ -1,4 +1,4 @@
-angular.module("personaApp", ['ngRoute', 'ngAnimate'])
+angular.module("personaApp", ['ngRoute', 'ngAnimate', 'duScroll'])
 .controller('AppController', function($rootScope, $location){
 	var app = this;
 
@@ -15,6 +15,7 @@ angular.module("personaApp", ['ngRoute', 'ngAnimate'])
 
   $rootScope.$on('$routeChangeStart', function(event, currRoute, prevRoute){
     $rootScope.animation = currRoute.animation;
+    $(document).duScrollTop(0, 100);
   });
 
   $(window).resize(function() {
@@ -41,6 +42,7 @@ angular.module("personaApp", ['ngRoute', 'ngAnimate'])
 
   app.atTop = true;
   app.styleNavbar();
+  $(document).duScrollTop(-100, 2000);
 })
 
 .config(function($routeProvider) {
