@@ -23,7 +23,10 @@ angular.module("personaApp", ['ngRoute', 'ngAnimate', 'duScroll'])
 
   $rootScope.$on('$routeChangeStart', function(event, currRoute, prevRoute){
     $rootScope.animation = currRoute.animation;
-    $(document).duScrollTop(0, 100);
+  });
+
+    $rootScope.$on('$routeChangeSuccess', function(event, currRoute, prevRoute){
+    $(document).duScrollTop(0, 1100);
   });
 
   $(window).resize(function() {
