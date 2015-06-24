@@ -46,6 +46,13 @@ angular.module("personaApp", ['ngRoute', 'ngAnimate', 'duScroll'])
   $(window).scroll(function(event) {
     if ($(window).scrollTop() > 0) {
       $('.navbar-fixed-top').css('background-color','rgba(248,248,248,1');
+
+         $('.navbar-fixed-top').mouseover(function() {
+      $(this).css('background-color','rgba(248,248,248,1');
+    }).mouseout(function() {
+      $('.navbar-fixed-top').css('background-color','rgba(248,248,248,1');
+    });
+
     } else {
       app.styleNavbar();
     }
