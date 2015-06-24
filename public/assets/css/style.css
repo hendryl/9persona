@@ -99,8 +99,8 @@ Route animations
 
 .grid-animation.ng-enter {
 	z-index: 1;
-	-webkit-animation: fadeInUp 1.0s;
-	animation: fadeInUp 1.0s;
+	-webkit-animation: fadeInDown 1.0s;
+	animation: fadeInDown 1.0s;
 }
 
 .grid-animation.ng-leave {
