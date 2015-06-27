@@ -1535,13 +1535,26 @@ About page
 }
 
 .about-mid {
+	padding-top: 30px;
 	width: 100%;
 	background-color: #F1F1F2;
 }
 
 .about-bottom {
+	padding-top: 30px;
 	width: 100%;
 	background-color: #404041;
+}
+
+.about-bottom-text {
+	margin: 0 auto;
+	max-width: 700px;
+	padding: 0 30px;
+}
+
+.about-bottom-head {
+	margin-top: 20px;
+	color: #FBCE4A;
 }
 
 /*-----------------*\
