@@ -13,14 +13,12 @@ angular.module("personaApp")
 
         num = num === 1 ? 9 : num - 1;
         window.location.href = '#/persona/' + num;
-        $scope.$apply()
     }
 
     ctrl.next = function(){
         var num = Number(ctrl.current);
         num = num === 9 ? 1 : num + 1;
         window.location.href = '#/persona/' + num;
-        $scope.$apply()
     }
 
     ctrl.relationNumberChecker = function(num){
