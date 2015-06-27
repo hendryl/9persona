@@ -1,5 +1,5 @@
 angular.module("personaApp")
-.controller('detailController', ['$animate', '$routeParams', '$http', '$scope', function($animate, $routeParams, $http, $scope){
+.controller('detailController', ['$animate', '$routeParams', '$http', function($animate, $routeParams, $http){
     var ctrl = this;
     ctrl.current = 1;
     ctrl.type = 1;
