@@ -86,7 +86,7 @@ Route animations
 }
 
 .quiz-animation.ng-leave  {
-		overflow: hidden;
+	overflow: hidden;
 	position:absolute;
 	left: 0;
 	right: 0;
@@ -316,21 +316,21 @@ Jumbotron
 }
 
 @keyframes slideInDownLogo {
-  0% {
-    -webkit-transform: translate3d(0, -750px, 0);
-    transform: translate3d(0, -750px, 0);
-    visibility: visible;
-  }
+	0% {
+		-webkit-transform: translate3d(0, -750px, 0);
+		transform: translate3d(0, -750px, 0);
+		visibility: visible;
+	}
 
-  100% {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
+	100% {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
 }
 
 .slideInDownLogo {
-  -webkit-animation-name: slideInDownLogo;
-  animation-name: slideInDownLogo;
+	-webkit-animation-name: slideInDownLogo;
+	animation-name: slideInDownLogo;
 }
 
 
@@ -339,7 +339,7 @@ Jumbotron
 
 /*for leaving items*/
 .home-animation.ng-leave  {
-			overflow: hidden;
+	overflow: hidden;
 	position:absolute;
 	left: 0;
 	right: 0;
@@ -960,10 +960,10 @@ Fixed scrolling links
 
 .img-header-carousel.img-responsive {
 	position:relative;
-    left:0;
-    right:0;
-    margin-left:auto;
-    margin-right:auto;
+	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
 	padding-top: 0;
 	padding-left: 0;
 	padding-right: 0;
@@ -1409,15 +1409,16 @@ About page
 
 @media only screen and (min-width: 767px) {
 	#about-bigText {
-	font-size: 3.5em;
-	height: 210px;
-	line-height: 105px;
-}
+		font-size: 3.5em;
+		height: 200px;
+		line-height: 100px;
+		margin-bottom: 0;
+	}
 
-#about-bigMark {
-	left: 260px;
-	height: 210px;
-}
+	#about-bigMark {
+		left: 260px;
+		height: 200px;
+	}
 }
 
 @media only screen and (max-width: 766px) {
@@ -1430,9 +1431,9 @@ About page
 		height: 180px;
 		line-height: 90px;
 		position: absolute;
-  		left: 40%;
-  		transform: translateX(-40%);
-  		-webkit-transform: translateX(-40%);
+		left: 40%;
+		transform: translateX(-40%);
+		-webkit-transform: translateX(-40%);
 
 	}
 	
@@ -1444,16 +1445,21 @@ About page
 	}
 
 	.about-header-img {
+	}
+
+	.about-header-desc {
+		padding: 0 30px;
 		margin-top: 210px;
 	}
+
 }
 
 @media only screen and (max-width: 490px) {
 	#about-bigText {
 		position: absolute;
 		left: 40%;
-  		transform: translateX(-40%);
-  		-webkit-transform: translateX(-40%);
+		transform: translateX(-40%);
+		-webkit-transform: translateX(-40%);
 		font-size: 3.2em;
 		height: 150px;
 		line-height: 75px;
@@ -1465,7 +1471,7 @@ About page
 		height: 150px;
 	}
 
-	.about-header-img {
+	.about-header-desc {
 		margin-top: 200px;
 	}
 }
@@ -1474,8 +1480,8 @@ About page
 	#about-bigText {
 		position: absolute;
 		left: 40%;
-  		transform: translateX(-40%);
-  		-webkit-transform: translateX(-40%);
+		transform: translateX(-40%);
+		-webkit-transform: translateX(-40%);
 		font-size: 3.2em;
 		height: 150px;
 		line-height: 75px;
@@ -1486,8 +1492,10 @@ About page
 		padding-top: 26px;
 		height: 150px;
 	}
+	
 
-	.about-header-img {
+
+	.about-header-desc {
 		margin-top: 180px;
 	}
 }
@@ -1505,7 +1513,7 @@ About page
 		left: 155px;
 	}
 
-	.about-header-img {
+	.about-header-desc {
 		margin-top: 140px;
 	}
 }
