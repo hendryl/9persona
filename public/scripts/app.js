@@ -10,10 +10,6 @@ angular.module("personaApp", ['ngRoute', 'ngAnimate', 'duScroll'])
 .controller('AppController', function($rootScope, $location){
 	var app = this;
 
-  app.isAtTop = function() {
-    return app.atTop;
-  };
-
   app.hideDropdown = function() {
     var needToHideDropdown = !$(".navbar-toggle").hasClass("collapsed");
     if(needToHideDropdown){
@@ -58,9 +54,7 @@ angular.module("personaApp", ['ngRoute', 'ngAnimate', 'duScroll'])
     }
   });
 
-  app.atTop = true;
   app.styleNavbar();
-  $(document).duScrollTop(-100, 2000);
 })
 
 .config(function($routeProvider) {
