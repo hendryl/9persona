@@ -1396,7 +1396,117 @@ Fixed scrolling links
 /*-----------------*\
 About page
 \*-----------------*/
+.about-top {
+	background-color: #FBCE4A;
+}
 
+#about-bigMark {
+	font-size: 4em;
+	position: absolute;
+	padding-top: 45px;
+}
+
+@media only screen and (min-width: 767px) {
+	#about-bigText {
+	font-size: 3.5em;
+	height: 210px;
+	line-height: 105px;
+}
+
+#about-bigMark {
+	left: 260px;
+	height: 210px;
+}
+}
+
+@media only screen and (max-width: 766px) {
+	.about-texts {
+		display: relative;
+	}
+
+	#about-bigText {
+		font-size: 3.5em;
+		height: 180px;
+		line-height: 90px;
+		position: absolute;
+  		left: 40%;
+  		transform: translateX(-40%);
+  		-webkit-transform: translateX(-40%);
+
+	}
+	
+	#about-bigMark {
+		left: 210px;
+		height: 180px;
+		padding-top: 35px;
+	}
+
+	.about-header-img {
+		margin-top: 210px;
+	}
+}
+
+@media only screen and (max-width: 490px) {
+	#about-bigText {
+		position: absolute;
+		left: 40%;
+  		transform: translateX(-40%);
+  		-webkit-transform: translateX(-40%);
+		font-size: 3.2em;
+		height: 150px;
+		line-height: 75px;
+	}
+	
+	#about-bigMark {
+		left: 190px;
+		padding-top: 26px;
+		height: 150px;
+	}
+
+	.about-header-img {
+		margin-top: 200px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	#about-bigText {
+		position: absolute;
+		left: 40%;
+  		transform: translateX(-40%);
+  		-webkit-transform: translateX(-40%);
+		font-size: 3.2em;
+		height: 150px;
+		line-height: 75px;
+	}
+	
+	#about-bigMark {
+		left: 190px;
+		padding-top: 26px;
+		height: 150px;
+	}
+
+	.about-header-img {
+		margin-top: 180px;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+	#about-bigText {
+		position: absolute;
+		font-size: 2.5em;
+		height: 100px;
+		line-height: 50px;
+	}
+	
+	#about-bigMark {
+		font-size: 3em;
+		left: 155px;
+	}
+
+	.about-header-img {
+		margin-top: 140px;
+	}
+}
 
 /*-----------------*\
 Download page
