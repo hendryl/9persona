@@ -1545,7 +1545,20 @@ About page
 .about-mid {
 	padding-top: 30px;
 	width: 100%;
-	background-color: #F1F1F2;
+	background-color: #FFF;
+}
+
+.about-buttons {
+	border: 0;
+	background: none;
+}
+
+.about-buttons:hover {
+
+}
+
+.about-button-img {
+	padding: 0 0 10px 0;
 }
 
 .about-bottom {
