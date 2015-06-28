@@ -138,6 +138,23 @@ Route animations
 	animation: fadeOut 0.5s;
 }
 
+.about-animation.ng-enter {
+	-webkit-animation: fadeInUp 1.0s;
+	animation: fadeInUp 1.0s;
+}
+
+.about-animation.ng-leave {
+	overflow: hidden;
+	position:absolute;
+	left: 0;
+	right: 0;
+	margin-right: 0;
+	margin-left: 0;
+	z-index: -1;
+	-webkit-animation: fadeOut 0.5s;
+	animation: fadeOut 0.5s;
+}
+
 /*----------------*\
 Buttons - Global
 \*----------------*/
