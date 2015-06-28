@@ -17,14 +17,6 @@ angular.module("personaApp", ['ngRoute', 'ngAnimate', 'duScroll'])
     }
   };
 
-  $rootScope.$on('$routeChangeStart', function(event, currRoute, prevRoute){
-    $rootScope.animation = currRoute.animation;
-  });
-
-  $rootScope.$on('$routeChangeSuccess', function(event, currRoute, prevRoute){
-      $(document).duScrollTop(0, 1100);
-  });
-
   $(window).resize(function() {
     app.hideDropdown();
   });
@@ -102,13 +94,26 @@ angular.module("personaApp", ['ngRoute', 'ngAnimate', 'duScroll'])
 })
 
 .run(['$location', '$rootScope', function($location, $rootScope) {
+  $rootScope.$on('$routeChangeStart', function(event, current, previous){
+    if(previous){
+      if(current.pathParams.typeNumber && previous.pathParams.typeNumber){
+        return;
+      }
+    }
+
+    $rootScope.animation = current.animation;
+  });
+
+
   $rootScope.$on('$routeChangeSuccess', function (event, current, previous) {
     if (current.hasOwnProperty('$$route')) {
       $rootScope.title = current.$$route.title;
     }
 
-    if(current.pathParams.typeNumber){
+    if(current.pathParams.typeNumber) {
       $rootScope.title += current.pathParams.typeNumber;
     }
+
+    $(document).duScrollTop(0, 1100);
   });
 }]);
