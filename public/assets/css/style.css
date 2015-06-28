@@ -1582,14 +1582,28 @@ About page
 }
 
 .about-bottom-text {
+	font-size: 0.9em;
 	margin: 0 auto;
 	max-width: 700px;
 	padding: 0 30px;
 }
 
 .about-bottom-head {
+	font-size: 0.9em;
 	margin-top: 20px;
 	color: #FBCE4A;
+}
+
+@media only screen and (max-width: 766px) {
+	.about-bottom-text {
+		font-size: 1em;
+		max-width: 550px;
+		padding-bottom: 10px;
+	}
+
+	.about-bottom-head {
+		font-size: 1em;
+	}
 }
 
 /*-----------------*\
