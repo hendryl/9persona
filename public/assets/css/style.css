@@ -1403,7 +1403,14 @@ About page
 	padding-bottom: 40px;
 }
 
+#about-bigText {
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+}
+
 #about-bigMark {
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
 	font-size: 4em;
 	position: absolute;
 	padding-top: 45px;
@@ -1525,8 +1532,9 @@ About page
 	}
 	
 	#about-bigMark {
-		font-size: 3em;
+		font-size: 3.2em;
 		left: 155px;
+		padding-top: 22px;
 	}
 
 	.about-header-desc {
