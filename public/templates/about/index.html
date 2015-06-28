@@ -40,25 +40,41 @@
                 <div class="col-xs-12 col-sm-8 col-sm-offset-2">
                     <div class="row">
                         <div class="col-xs-3 text-center">
-                            <div class="about-buttons active">
+                            <div class="about-buttons 
+                            ng-class:{
+                                'active' : about.getStatus(1),
+                                'inactive': !about.getStatus(1)}" 
+                                ng-click="about.setStatus(1)">
                                 <img src="http://placehold.it/35/123456/ffffff" class="about-button-img" alt="">
                                 <p class="about-button-text">simbol</p>
                             </div>
                         </div>
                         <div class="col-xs-3 text-center">
-                            <div class="about-buttons">
+                            <div class="about-buttons 
+                             ng-class:{
+                                'active' : about.getStatus(2),
+                                'inactive': !about.getStatus(2)}"  
+                                ng-click="about.setStatus(2)">
                                 <img src="http://placehold.it/35/654321/ffffff" class="about-button-img" alt="">
                                 <p class="about-button-text">pusat</p>
                             </div>
                         </div>
                         <div class="col-xs-3 text-center">
-                            <div class="about-buttons">
+                            <div class="about-buttons 
+                            ng-class:{
+                                'active' : about.getStatus(3),
+                                'inactive': !about.getStatus(3)}"  
+                                ng-click="about.setStatus(3)">
                                 <img src="http://placehold.it/35/b3d501/ffffff" class="about-button-img" alt="">
                                 <p class="about-button-text">sayap</p>
                             </div>
                         </div>
                         <div class="col-xs-3 text-center">
-                            <div class="about-buttons">
+                            <div class="about-buttons 
+                             ng-class:{
+                                'active' : about.getStatus(4),
+                                'inactive': !about.getStatus(4)}" " 
+                                ng-click="about.setStatus(4)">
                                 <img src="http://placehold.it/35/987654/ffffff" class="about-button-img" alt="">
                                 <p class="about-button-text">panah</p>
                             </div>
@@ -66,6 +82,8 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="container" ng-show="about.getStatus(1)">
             <div class="row">
                 <div class="col-xs-12 col-sm-4">
                     <img src="http://placehold.it/380/abcdef/000" alt="" class="center-block img-responsive">
@@ -113,7 +131,7 @@
             </div>
         </div>
         <!-- pusat -->
-        <div class="container">
+        <div class="container" ng-show="about.getStatus(2)">
             <div class="row">
                 <div class="col-xs-12 col-sm-4 about-pusat-img">
                     <img class="img-circle img-responsive center-block" src="http://placehold.it/230/ff0000" alt="">
@@ -132,7 +150,7 @@
             </div>
         </div>
         <!-- sayap -->
-        <div class="container">
+        <div class="container" ng-show="about.getStatus(3)">
             <div class="row">
                 <div class="col-xs-12 center-block about-pusat-desc">
                     <p class="persona-dark-text text-center">
@@ -142,7 +160,7 @@
             </div>
         </div>
         <!-- panah -->
-        <div class="container">
+        <div class="container" ng-show="about.getStatus(4)">
             <div class="row">
                 <div class="col-xs-12 col-sm-7 center-block about-pusat-desc">
                     <p class="persona-dark-text">
