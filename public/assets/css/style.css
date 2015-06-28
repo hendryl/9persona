@@ -1590,6 +1590,14 @@ About page
 	padding-bottom: 10px;
 }
 
+.about-pusat-img {
+	padding: 20px;
+}
+
+.about-pusat-desc {
+	padding: 50px;
+}
+
 @media only screen and (min-width: 767px) {
 	.about-symbol-list {
 		margin-left: -30px;
