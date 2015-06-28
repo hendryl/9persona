@@ -1618,6 +1618,8 @@ About page
 /*---------------------------------------------------*/
 .about-bottom {
 	padding-top: 36px;
+	padding-bottom: 56px;
+	margin-bottom: -10px;
 	width: 100%;
 	background-color: #404041;
 }
