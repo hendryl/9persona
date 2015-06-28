@@ -1400,8 +1400,8 @@ About page
 .about-top {
 	background-color: #FBCE4A;
 	width: 100%;
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-top: 36px;
+	padding-bottom: 56px;
 }
 
 #about-bigText {
@@ -1539,7 +1539,8 @@ About page
 }
 /*---------------------------------------------------*/
 .about-mid {
-	padding-top: 30px;
+	padding-top: 36px;
+	padding-bottom: 56px;
 	width: 100%;
 	background-color: #FFF;
 }
@@ -1604,7 +1605,7 @@ About page
 
 /*---------------------------------------------------*/
 .about-bottom {
-	padding-top: 30px;
+	padding-top: 36px;
 	width: 100%;
 	background-color: #404041;
 }
