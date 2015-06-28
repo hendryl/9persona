@@ -1,5 +1,5 @@
 angular.module("personaApp")
-.controller('aboutController', ['$animate', function($animate){
+.controller('aboutController', ['$scope', '$animate', function($scope, $animate){
     var ctrl = this;
 
     ctrl.status = 1;
@@ -27,7 +27,6 @@ angular.module("personaApp")
         if(ctrl.getStatus(stat)){
             if(stat < ctrl.previous) {
                 result = true;
-                console.log(stat + " shouldFadeInLeft " + result);
             }
         } else {
             result = false;
@@ -50,7 +49,6 @@ angular.module("personaApp")
 
     ctrl.shouldFadeOutLeft = function(stat) {
         var result = false;
-        console.log(ctrl.getPrevious(stat))
         if(ctrl.getPrevious(stat)) {
             if(stat < ctrl.status) {
                 result = true; 
@@ -65,7 +63,7 @@ angular.module("personaApp")
     ctrl.shouldFadeOutRight = function(stat) {
         var result = false;
 
-         if(ctrl.getPrevious(stat)) {
+        if(ctrl.getPrevious(stat)) {
             if(stat > ctrl.status) {
                 result = true;
             }
@@ -74,4 +72,22 @@ angular.module("personaApp")
         }
         return result;
     }
+/*
+    function checkDocumentHeight(callback){
+        var lastHeight = document.body.clientHeight, newHeight, timer;
+        (function run(){
+            newHeight = document.body.clientHeight;
+            if( lastHeight != newHeight )
+                callback();
+            lastHeight = newHeight;
+            timer = setTimeout(run, 200);
+        })();
+    }
+
+    function doSomthing(){
+        console.log('height changed');
+    }
+
+    checkDocumentHeight(doSomthing);
+    */
 }]);

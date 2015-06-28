@@ -49,6 +49,10 @@ h4 {
 	font-size: 112.5%;
 }
 
+.buttonFont {
+	font-family: "Jaapokki Regular"
+}
+
 .menuFont {
 	font-family: "Jaapokki Regular";
 	font-size: 125%;
@@ -1549,39 +1553,50 @@ About page
 	background-color: #FFF;
 }
 
-.about-mid.container {
-	position: relative !important;
+#about-mid-container {
+	position: relative;
 }
 
-.about-fadeInLeft {
-	z-index: 1;
-	-webkit-animation: fadeInLeft 1s;
-	-o-animation: fadeInLeft 1s;
-	animation: fadeInLeft 1s;
-}
+@media only screen and (min-width: 767px) {
+	#about-mid-container {
+		min-height: 380px;
+	}
 
-.about-fadeInRight {
-	z-index: 1;
-	-webkit-animation: fadeInRight 1s;
-	-o-animation: fadeInRight 1s;
-	animation: fadeInRight 1s;
-}
+	.about-fadeInLeft.ng-hide-remove {
+		position: absolute;
+		z-index: 1;
+		-webkit-animation: fadeInLeft 0.7s ease;
+		-o-animation: fadeInLeft 0.7s ease;
+		animation: fadeInLeft 0.7s ease;
+		animation-fill-mode: both;
+	}
 
-.about-fadeOutLeft.ng-hide.ng-hide-add-active {
-	display: block !important;
-}
+	.about-fadeInRight.ng-hide-remove {
+		position: absolute;
+		z-index: 1;
+		-webkit-animation: fadeInRight 0.7s ease;
+		-o-animation: fadeInRight 0.7s ease;
+		animation: fadeInRight 0.7s ease;
+		animation-fill-mode: both;
+	}
 
-.about-fadeOutLeft.ng-hide-add {
-	-webkit-animation: fadeOutLeft 1s;
-	-o-animation: fadeOutLeft 1s;
-	animation: fadeOutLeft 1s;
-}
+	.about-fadeOutLeft.ng-hide-add {
+		position: absolute;
+		display: block !important;
+		-webkit-animation: fadeOutLeft 0.7s ease;
+		-o-animation: fadeOutLeft 0.7s ease;
+		animation: fadeOutLeft 0.7s ease;
+		animation-fill-mode: both;
+	}
 
-.about-fadeOutRight {
-	z-index: -1;
-	-webkit-animation: fadeOutRight 1s;
-	-o-animation: fadeOutRight 1s;
-	animation: fadeOutRight 1s;
+	.about-fadeOutRight.ng-hide-add {
+		position: absolute;
+		display: block !important;
+		-webkit-animation: fadeOutRight 0.7s ease;
+		-o-animation: fadeOutRight 0.7s ease;
+		animation: fadeOutRight 0.7s ease;
+		animation-fill-mode: both;
+	}
 }
 
 .about-buttons {
@@ -1625,12 +1640,16 @@ About page
 	padding-bottom: 10px;
 }
 
+.about-symbol-img {
+	padding: 30px 0 0 0;
+}
+
 .about-pusat-img {
 	padding: 20px;
 }
 
 .about-pusat-desc {
-	padding: 50px;
+	padding: 14px 50px 0;
 }
 
 @media only screen and (min-width: 767px) {
