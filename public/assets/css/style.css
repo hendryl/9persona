@@ -1457,7 +1457,6 @@ About page
 		left: 40%;
 		transform: translateX(-40%);
 		-webkit-transform: translateX(-40%);
-
 	}
 	
 	#about-bigMark {
@@ -1466,9 +1465,13 @@ About page
 		padding-top: 35px;
 		font-size: 4em;
 	}
+	
+	.about-header-img {
+
+	}
 
 	.about-header-desc {
-		padding: 0 30px;
+		padding: 0 40px;
 		margin-top: 210px;
 	}
 
@@ -1499,9 +1502,6 @@ About page
 @media only screen and (max-width: 400px) {
 	#about-bigText {
 		position: absolute;
-		left: 40%;
-		transform: translateX(-40%);
-		-webkit-transform: translateX(-40%);
 		font-size: 3.2em;
 		height: 150px;
 		line-height: 75px;
@@ -1554,8 +1554,16 @@ About page
 }
 
 .about-buttons.active {
-	filter: grayscale(100%);
-	-webkit-filter: grayscale(100%);
+	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);
+}
+
+.about-buttons>.about-button-text {
+	color: #404041;
+}
+
+.about-buttons.active>.about-button-text {
+	color: #00AC80;
 }
 
 .about-buttons:hover {
