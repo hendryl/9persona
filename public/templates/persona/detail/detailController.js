@@ -2,7 +2,7 @@ angular.module("personaApp")
 .controller('detailController', ['detailService', '$http', function(detailService, $http){
     var ctrl = this;
     ctrl.current = 1;
-    ctrl.previous = 0;
+    ctrl.previous = null;
     ctrl.type = 1;
     ctrl.carouselImages = null;
     ctrl.data = null;
@@ -10,29 +10,15 @@ angular.module("personaApp")
     ctrl.currentRelation = 1;
     ctrl.dropdownData = null;
 
-    ctrl.left = function(){
-        var num = Number(ctrl.current);
-        ctrl.previous = num;
-        num = num === 1 ? 9 : num - 1;
-        ctrl.current = num;
-    }
-
-    ctrl.right = function(){
-        var num = Number(ctrl.current);
-        ctrl.previous = num;
-        num = num === 9 ? 1 : num + 1;
-        ctrl.current = num;
-    }
-
     ctrl.relationNumberChecker = function(num){
         var current = ctrl.currentRelation + num;
         current = current > 9 ? current - 9 : current < 1 ? current + 9 : current;
         return current;
-    }
+    };
 
     ctrl.setRelationNumber = function(num){
         ctrl.currentRelation = ctrl.relationNumberChecker(num);
-    }
+    };
 
     ctrl.checkType = function(){
         if(ctrl.current == 1 ||
@@ -47,9 +33,9 @@ angular.module("personaApp")
             ctrl.type = 2;
         }
         else ctrl.type = 3;
-    }
+    };
 
-    ctrl.load = function(){
+    ctrl.loadAll = function(){
         $http.get('/assets/data/carousel.json').success(function(data){
             ctrl.carouselImages = data;
         });
@@ -67,39 +53,65 @@ angular.module("personaApp")
         $http.get('/assets/data/quizResults.json').success(function(data){
             ctrl.dropdownData = data;
         });  
+    };
+
+    ctrl.loadContent = function() {
+        var asset = '/assets/data/persona' + ctrl.current + '.json';
+
+        $http.get(asset).success(function(data){
+            ctrl.data = data;
+        });
+
+        $http.get('/assets/data/quizResults.json').success(function(data){
+            ctrl.dropdownData = data;
+        });  
     }
 
     ctrl.shouldSlideInLeft = function(stat) {
         var result = false;
-        console.log(1);
-        if(ctrl.current === stat){
-            if(stat < ctrl.previous) {
+        if(ctrl.current === stat) {
+
+            if(ctrl.previous == 9 && ctrl.current == 1) {
+                result = false;
+            }
+            else if(stat < ctrl.previous 
+                || (ctrl.previous == 1 && ctrl.current == 9)) {
                 result = true;
             }
         } else {
             result = false;
         }
         return result;
-    }
+    };
 
     ctrl.shouldSlideInRight = function(stat) {
         var result = false;
-        console.log(2);
-        if(ctrl.current === stat){
-            if(stat > ctrl.previous) {
+        if(ctrl.current === stat) {
+
+            if(ctrl.previous == 1 && ctrl.current == 9) {
+                result = false;
+            }
+            else if(stat > ctrl.previous 
+                || (ctrl.previous == 9 && ctrl.current == 1)
+                ) {
                 result = true;
             }
         } else {
             result = false;
         }
         return result;
-    }
+    };
 
     ctrl.shouldSlideOutLeft = function(stat) {
         var result = false;
-        console.log(3);
         if(ctrl.previous === stat) {
-            if(stat < ctrl.current) {
+
+            if(ctrl.previous == 1 && ctrl.current == 9) {
+                result = false;
+            }
+            else if(stat < ctrl.current 
+                || (ctrl.previous == 9 && ctrl.current == 1)
+            ) {
                 result = true; 
             }
         } else {
@@ -107,20 +119,25 @@ angular.module("personaApp")
         }
         
         return result;
-    }
+    };
     
     ctrl.shouldSlideOutRight = function(stat) {
         var result = false;
-        console.log(4);
         if(ctrl.previous === stat) {
-            if(stat > ctrl.current) {
+            
+            if(ctrl.previous == 9 && ctrl.current == 1) {
+                result = false;
+            }
+            else if(stat > ctrl.current 
+                || (ctrl.previous == 1 && ctrl.current == 9)
+                ) {
                 result = true;
             }
         } else {
             result = false;
         }
         return result;
-    }
+    };
 
     ctrl.checkNumber = function() {
         var x = detailService.getNumber();
@@ -129,10 +146,37 @@ angular.module("personaApp")
             detailService.setNumber(null);
         }
         else ctrl.current = 1;
+    };
+
+    ctrl.start = function() {
+        ctrl.checkNumber();
+        ctrl.checkType();
+        ctrl.loadAll();
+        ctrl.currentRelation = ctrl.current;
+    };
+
+    ctrl.refresh = function() {
+        ctrl.checkNumber();
+        ctrl.checkType();
+        ctrl.loadContent();
+        ctrl.currentRelation = ctrl.current;
     }
 
-    ctrl.checkNumber();
-    ctrl.checkType();
-    ctrl.load();
-    ctrl.currentRelation = ctrl.current;
+    ctrl.left = function(){
+        var num = Number(ctrl.current);
+        ctrl.previous = num;
+        num = num === 1 ? 9 : num - 1;
+        ctrl.current = num;
+        //ctrl.refresh();
+    };
+
+    ctrl.right = function(){
+        var num = Number(ctrl.current);
+        ctrl.previous = num;
+        num = num === 9 ? 1 : num + 1;
+        ctrl.current = num;
+       // ctrl.refresh();
+    };
+
+    ctrl.start();
 }]);
