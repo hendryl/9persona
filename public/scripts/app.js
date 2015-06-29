@@ -97,6 +97,7 @@ angular.module("personaApp", ['ngRoute', 'ngAnimate', 'duScroll'])
   $rootScope.$on('$routeChangeStart', function(event, current, previous){
     if(previous){
       if(current.pathParams.typeNumber && previous.pathParams.typeNumber){
+        $rootScope.animation = '';
         return;
       }
     }
