@@ -139,8 +139,8 @@ Route animations
 }
 
 .about-animation.ng-enter {
-	-webkit-animation: fadeInUp 1.0s;
-	animation: fadeInUp 1.0s;
+	-webkit-animation: fadeInDown 1.0s;
+	animation: fadeInDown 1.0s;
 }
 
 .about-animation.ng-leave {
