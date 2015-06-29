@@ -36,8 +36,8 @@ angular.module("personaApp")
     };
 
     ctrl.loadAll = function(){
-        $http.get('/assets/data/carousel.json').success(function(data){
-            ctrl.carouselImages = data;
+        $http.get('/assets/data/quizResults.json').success(function(data){
+            ctrl.dropdownData = data;
         });
 
         $http.get('/assets/data/persona.json').success(function(data){
@@ -48,8 +48,8 @@ angular.module("personaApp")
             ctrl.rightImages = data;
         });
 
-        $http.get('/assets/data/quizResults.json').success(function(data){
-            ctrl.dropdownData = data;
+        $http.get('/assets/data/carousel.json').success(function(data){
+            ctrl.carouselImages = data;
         });
     };
 
