@@ -70,7 +70,7 @@ angular.module("personaApp", ['ngRoute', 'ngAnimate', 'duScroll'])
     templateUrl: '/templates/persona/index.html'
   })
 
-  .when('/persona/:typeNumber', {
+  .when('/persona/details', {
     title: 'Tipe ', 
     animation: 'detail-animation',
     templateUrl:'/templates/persona/detail/index.html'
@@ -95,13 +95,6 @@ angular.module("personaApp", ['ngRoute', 'ngAnimate', 'duScroll'])
 
 .run(['$location', '$rootScope', function($location, $rootScope) {
   $rootScope.$on('$routeChangeStart', function(event, current, previous){
-    if(previous){
-      if(current.pathParams.typeNumber && previous.pathParams.typeNumber){
-        $rootScope.animation = '';
-        return;
-      }
-    }
-
     $rootScope.animation = current.animation;
   });
 
@@ -109,10 +102,6 @@ angular.module("personaApp", ['ngRoute', 'ngAnimate', 'duScroll'])
   $rootScope.$on('$routeChangeSuccess', function (event, current, previous) {
     if (current.hasOwnProperty('$$route')) {
       $rootScope.title = current.$$route.title;
-    }
-
-    if(current.pathParams.typeNumber) {
-      $rootScope.title += current.pathParams.typeNumber;
     }
 
     $(document).duScrollTop(0, 1100);

@@ -1,5 +1,5 @@
 angular.module("personaApp")
-.controller('detailController', ['$routeParams', '$http', function($routeParams, $http){
+.controller('detailController', ['detailService', '$http', function(detailService, $http){
     var ctrl = this;
     ctrl.current = 1;
     ctrl.previous = 0;
@@ -14,14 +14,14 @@ angular.module("personaApp")
         var num = Number(ctrl.current);
         ctrl.previous = num;
         num = num === 1 ? 9 : num - 1;
-        window.location.href = '#/persona/' + num;
+        ctrl.current = num;
     }
 
     ctrl.right = function(){
         var num = Number(ctrl.current);
         ctrl.previous = num;
         num = num === 9 ? 1 : num + 1;
-        window.location.href = '#/persona/' + num;
+        ctrl.current = num;
     }
 
     ctrl.relationNumberChecker = function(num){
@@ -122,11 +122,16 @@ angular.module("personaApp")
         return result;
     }
 
-    if($routeParams.typeNumber){
-        ctrl.current = Number($routeParams.typeNumber);
+    ctrl.checkNumber = function() {
+        var x = detailService.getNumber();
+        if(x){
+            ctrl.current = x;
+            detailService.setNumber(null);
+        }
+        else ctrl.current = 1;
     }
-    else ctrl.current = 1;
 
+    ctrl.checkNumber();
     ctrl.checkType();
     ctrl.load();
     ctrl.currentRelation = ctrl.current;
