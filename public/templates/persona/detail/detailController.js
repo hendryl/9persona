@@ -2,6 +2,7 @@ angular.module("personaApp")
 .controller('detailController', ['$routeParams', '$http', function($routeParams, $http){
     var ctrl = this;
     ctrl.current = 1;
+    ctrl.previous = 0;
     ctrl.type = 1;
     ctrl.carouselImages = null;
     ctrl.data = null;
@@ -9,15 +10,16 @@ angular.module("personaApp")
     ctrl.currentRelation = 1;
     ctrl.dropdownData = null;
 
-    ctrl.previous = function(){
+    ctrl.left = function(){
         var num = Number(ctrl.current);
-
+        ctrl.previous = num;
         num = num === 1 ? 9 : num - 1;
         window.location.href = '#/persona/' + num;
     }
 
-    ctrl.next = function(){
+    ctrl.right = function(){
         var num = Number(ctrl.current);
+        ctrl.previous = num;
         num = num === 9 ? 1 : num + 1;
         window.location.href = '#/persona/' + num;
     }
@@ -50,25 +52,74 @@ angular.module("personaApp")
     ctrl.load = function(){
         $http.get('/assets/data/carousel.json').success(function(data){
             ctrl.carouselImages = data;
-            console.log("Successfully loaded carousel images");
         });
 
         var asset = '/assets/data/persona' + ctrl.current + '.json';
 
         $http.get(asset).success(function(data){
             ctrl.data = data;
-            console.log("Successfully loaded persona " + ctrl.current + " data");
         });
 
         $http.get('/assets/data/relationRight.json').success(function(data){
             ctrl.rightImages = data;
-            console.log("Successfully loaded right picture data");
         });
 
         $http.get('/assets/data/quizResults.json').success(function(data){
             ctrl.dropdownData = data;
-            console.log("Successfully loaded results data");
         });  
+    }
+
+    ctrl.shouldSlideInLeft = function(stat) {
+        var result = false;
+        console.log(1);
+        if(ctrl.current === stat){
+            if(stat < ctrl.previous) {
+                result = true;
+            }
+        } else {
+            result = false;
+        }
+        return result;
+    }
+
+    ctrl.shouldSlideInRight = function(stat) {
+        var result = false;
+        console.log(2);
+        if(ctrl.current === stat){
+            if(stat > ctrl.previous) {
+                result = true;
+            }
+        } else {
+            result = false;
+        }
+        return result;
+    }
+
+    ctrl.shouldSlideOutLeft = function(stat) {
+        var result = false;
+        console.log(3);
+        if(ctrl.previous === stat) {
+            if(stat < ctrl.current) {
+                result = true; 
+            }
+        } else {
+            result = false;
+        }
+        
+        return result;
+    }
+    
+    ctrl.shouldSlideOutRight = function(stat) {
+        var result = false;
+        console.log(4);
+        if(ctrl.previous === stat) {
+            if(stat > ctrl.current) {
+                result = true;
+            }
+        } else {
+            result = false;
+        }
+        return result;
     }
 
     if($routeParams.typeNumber){

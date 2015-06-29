@@ -991,12 +991,57 @@ Fixed scrolling links
 }
 
 #big-carousel {
-	
+	position: relative;
+	width: 100%;
+}
+
+
+#detail-carousel-wrapper {
+	position: relative;
 }
 
 .img-carousel {
+	top: 0;
+	padding: 0;
+	position: absolute;
+	z-index: 1;
+}
+
+.img-base {
 	padding: 0;
 	margin-bottom: 10px;
+}
+
+.carousel-slideInLeft {
+	z-index: 2;
+	-webkit-animation: slideInLeft 0.7s ease;
+	-o-animation: slideInLeft 0.7s ease;
+	animation: slideInLeft 0.7s ease;
+	animation-fill-mode: both;
+}
+
+.carousel-slideInRight {
+	z-index: 2;
+	-webkit-animation: slideInRight 0.7s ease;
+	-o-animation: slideInRight 0.7s ease;
+	animation: slideInRight 0.7s ease;
+	animation-fill-mode: both;
+}
+
+.carousel-slideOutLeft.ng-hide-add {
+	display: block !important;
+	-webkit-animation: slideOutLeft 0.7s ease;
+	-o-animation: slideOutLeft 0.7s ease;
+	animation: slideOutLeft 0.7s ease;
+	animation-fill-mode: both;
+}
+
+.carousel-slideOutRight.ng-hide-add {
+	display: block !important;
+	-webkit-animation: slideOutRight 0.7s ease;
+	-o-animation: slideOutRight 0.7s ease;
+	animation: slideOutRight 0.7s ease;
+	animation-fill-mode: both;
 }
 
 /*dropdown*/
