@@ -1,8 +1,4 @@
 {
-  "carousel": {
-    "image": "./assets/images/illus/carousel/6.png",
-    "header": "./assets/images/illus/title/06.png"
-  },
   "dropdown": {
     "image": "./assets/images/illus/icon/06.png",
     "header": "Tipe Berkomitmen dan Pencari Keamanan",

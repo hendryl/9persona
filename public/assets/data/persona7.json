@@ -1,8 +1,4 @@
 {
-  "carousel": {
-    "image": "./assets/images/illus/carousel/7.png",
-    "header": "./assets/images/illus/title/07.png"
-  },
   "dropdown": {
     "image": "./assets/images/illus/icon/07.png",
     "header": "Tipe Pencari Variasi dan Sibuk",

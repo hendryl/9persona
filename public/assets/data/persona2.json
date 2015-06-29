@@ -1,8 +1,4 @@
 {
-  "carousel": {
-    "image": "./assets/images/illus/carousel/2.png",
-    "header": "./assets/images/illus/title/02.png"
-  },
   "dropdown": {
     "image": "./assets/images/illus/icon/02.png",
     "header": "Tipe Interpersonal",

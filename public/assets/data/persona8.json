@@ -1,8 +1,4 @@
 {
-  "carousel": {
-    "image": "./assets/images/illus/carousel/8.png",
-    "header": "./assets/images/illus/title/08.png"
-  },
   "dropdown": {
     "image": "./assets/images/illus/icon/08.png",
     "header": "Tipe Kuat dan Dominan",

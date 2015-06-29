@@ -1,8 +1,4 @@
 {
-  "carousel": {
-    "image": "./assets/images/illus/carousel/1.png",
-    "header": "./assets/images/illus/title/01.png"
-  },
   "dropdown": {
     "image": "./assets/images/illus/icon/01.png",
     "header": "Tipe Realistis dan Idealis",

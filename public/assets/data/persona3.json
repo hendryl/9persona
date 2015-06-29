@@ -1,8 +1,4 @@
 {
-  "carousel": {
-    "image": "./assets/images/illus/carousel/3.png",
-    "header": "./assets/images/illus/title/03.png"
-  },
   "dropdown": {
     "image": "./assets/images/illus/icon/03.png",
     "header": "Tipe Pragmatis dan Pencari Kesuksesan",

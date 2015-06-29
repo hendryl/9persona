@@ -1,8 +1,9 @@
 angular.module("personaApp")
-.controller('detailController', ['$animate', '$routeParams', '$http', function($animate, $routeParams, $http){
+.controller('detailController', ['$routeParams', '$http', function($routeParams, $http){
     var ctrl = this;
     ctrl.current = 1;
     ctrl.type = 1;
+    ctrl.carouselImages = null;
     ctrl.data = null;
     ctrl.rightImages = null;
     ctrl.currentRelation = 1;
@@ -47,7 +48,13 @@ angular.module("personaApp")
     }
 
     ctrl.load = function(){
+        $http.get('/assets/data/carousel.json').success(function(data){
+            ctrl.carouselImages = data;
+            console.log("Successfully loaded carousel images");
+        });
+
         var asset = '/assets/data/persona' + ctrl.current + '.json';
+
         $http.get(asset).success(function(data){
             ctrl.data = data;
             console.log("Successfully loaded persona " + ctrl.current + " data");
