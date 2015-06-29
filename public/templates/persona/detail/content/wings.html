@@ -8,22 +8,22 @@
             </div>
             <div class="col-xs-12">
                 <p class="center-block desc-head text-center">
-                    {{detailCtrl.data.wing.description}}
+                    {{detailCtrl.data[detailCtrl.current-1].wing.description}}
                 </p>
             </div>
             <div class="col-xs-12">
                 <div class="wing-block center-block">
-                    <img ng-src={{detailCtrl.data.wing.image}} class="img-wing img-responsive center-block">
+                    <img ng-src={{detailCtrl.data[detailCtrl.current-1].wing.image}} class="img-wing img-responsive center-block">
                     
                     <span class="left-wing visible-sm visible-md visible-lg">
                         <h4 class="text-center
                         ng-class:{'text-instinct': detailCtrl.type == 1,
                         'text-feeling': detailCtrl.type == 2,
                         'text-thinking': detailCtrl.type == 3}">
-                            {{detailCtrl.data.wing.left.header}}
+                            {{detailCtrl.data[detailCtrl.current-1].wing.left.header}}
                         </h4>
                         <p class="text-center text-wing persona-dark-text">
-                            {{detailCtrl.data.wing.left.paragraph}}
+                            {{detailCtrl.data[detailCtrl.current-1].wing.left.paragraph}}
                         </p>
                     </span>
                     
@@ -32,10 +32,10 @@
                         ng-class:{'text-instinct': detailCtrl.type == 1,
                         'text-feeling': detailCtrl.type == 2,
                         'text-thinking': detailCtrl.type == 3}">
-                            {{detailCtrl.data.wing.right.header}}
+                            {{detailCtrl.data[detailCtrl.current-1].wing.right.header}}
                         </h4>
                         <p class="text-center text-wing persona-dark-text">
-                            {{detailCtrl.data.wing.right.paragraph}}
+                            {{detailCtrl.data[detailCtrl.current-1].wing.right.paragraph}}
                         </p>
                     </span>
                     <!-- Only in mobile -->
@@ -45,19 +45,19 @@
                     ng-class:{'text-instinct': detailCtrl.type == 1,
                     'text-feeling': detailCtrl.type == 2,
                     'text-thinking': detailCtrl.type == 3}">
-                    {{detailCtrl.data.wing.left.header}}
+                    {{detailCtrl.data[detailCtrl.current-1].wing.left.header}}
                     </h4>
                     <p class="text-center center-block text-wing persona-dark-text">
-                        {{detailCtrl.data.wing.left.paragraph}}
+                        {{detailCtrl.data[detailCtrl.current-1].wing.left.paragraph}}
                     </p>
                     <h4 class="text-center
                     ng-class:{'text-instinct': detailCtrl.type == 1,
                     'text-feeling': detailCtrl.type == 2,
                     'text-thinking': detailCtrl.type == 3}">
-                    {{detailCtrl.data.wing.right.header}}
+                    {{detailCtrl.data[detailCtrl.current-1].wing.right.header}}
                     </h4>
                     <p class="text-center center-block text-wing persona-dark-text">
-                        {{detailCtrl.data.wing.right.paragraph}}
+                        {{detailCtrl.data[detailCtrl.current-1].wing.right.paragraph}}
                     </p>
                 </div>
             </div>

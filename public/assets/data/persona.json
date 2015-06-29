@@ -1,0 +1,1837 @@
+[{
+  "dropdown": {
+    "image": "./assets/images/illus/icon/01.png",
+    "header": "Tipe Realistis dan Idealis",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quo accusamus tempora ratione vitae cumque corporis, amet numquam temporibus odio quaerat error alias libero nobis et perspiciatis voluptas iure quam."
+  },
+  "characteristics": [
+    {
+      "image": "./assets/images/illus/karakteristik/11.png",
+      "header": "Adil, jujur, dan setia",
+      "paragraph": "Bisa menyatukan fakta-fakta untuk mendapatkan pemahaman yang baik dan benar sehingga menemukan solusi yang bijaksana"
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/12.png",
+      "header": "Disiplin dan cekatan",
+      "paragraph": "Bekerja secara efisien dan teratur sehingga dapat diandalkan untuk menyelesaikan banyak hal"
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/13.png",
+      "header": "Pekerja keras",
+      "paragraph": "Selalu berusaha, memiliki dedikasi tinggi, serta berkeinginan untuk menjadikan dunia ini lebih baik"
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/14.png",
+      "header": "Orang yang kaku",
+      "paragraph": "Suka merasa tegang, gelisah dan memandang segala hal terlalu serius. Tidak dapat berkompromi dan suka memperdebatkan hal-hal remeh"
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/15.png",
+      "header": "Suka mengkritik",
+      "paragraph": "Memiliki ekspektasi tinggi terhadap orang lain sehingga sering merasa kecewa"
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/16.png",
+      "header": "Cenderung perfeksionis",
+      "paragraph": "Memiliki standar dan etika tinggi serta memiliki obsesi untuk menjadi yang terbaik"
+    }
+  ],
+  "wing": {
+    "image": "./assets/images/illus/sayap/01.png",
+    "description": "Dalam tipe kepribadian Enneagram, setiap persona dapat terpengaruh dengan persona lain di sebelah kiri maupun kanannya (selengkapnya dapat dibaca di sini). Hal tersebut dinamakan sayap. Kamu yang Tipe 1 kemungkinan memiliki Sayap 9 atau Sayap 2, atau bahkan keduanya.",
+    "left": {
+      "header": "Tipe 1 dengan Sayap 9",
+      "paragraph": "Cenderung lebih tenang, lebih santai, objektif, tidak memihak, namun keras kepala dan suka menarik diri."
+    },
+    "right": {
+      "header": "Tipe 1 dengan Sayap 2",
+      "paragraph": "Cenderung hangat, lebih suka menolong, sangat memperhatikan citra diri, mencari perhatian, dan suka mengatur."
+    }
+  },
+  "arrow": {
+    "image": "./assets/images/illus/panah/01.png",
+    "description": "Panah adalah garis yang menghubungkan setiap persona dalam tipe kepribadian Enneagram (selengkapnya dapat dibaca di sini). Kamu yang Tipe 1 memiliki hubungan dengan Tipe 4 dan 7. Di saat berkembang, kamu akan mengarah pada karakter positif Tipe 7, sebaliknya kamu yang sedang mengalami stress akan mengarah pada karakter negatif Tipe 4.",
+    "left": {
+      "type": "7",
+      "paragraphs": [
+        "Menjadi tidak terlalu mengkritik dan lebih dapat menerima diri sendiri",
+        "Menjadi lebih antusias dan optimis",
+        "Bertindak lebih alamiah dan spontan",
+        "Lebih banyak merencanakan kegiatan yang menyenangkan diri"
+      ]
+    },
+    "right": {
+      "type": "4",
+      "paragraphs": [
+        "Merasa kesal karena ekspektasi yang tidak bisa dipenuhi diri sendiri maupun sekitarnya",
+        "Mengarahkan amarah pada diri sendiri dan menjadi depresi",
+        "Hilang kepercayaan pada diri sendiri",
+        "Menginginkan hal yang tidak mereka miliki dan putus asa untuk memilikinya"
+      ]
+    }
+  },
+  "relation": {
+    "image": "./assets/images/illus/relasi/01-left.png",
+    "paragraphs": [
+      {
+        "good": [
+          "Sama-sama memiliki cita-cita yang tinggi",
+          "Saling menghargai prestasi masing-masing",
+          "Menghargai dan mengerahkan tenaga untuk menjadi keluarga dan anggota masyarakat yang baik",
+          "Saling menikmati selera humor masing-masing"
+        ],
+        "bad": [
+          "Masing-masing berpikir hanya ada satu cara untuk melakukan segala sesuatunya",
+          "Saling memperkuat kecemasan masing-masing",
+          "Bersikap terlalu serius",
+          "Mengkomunikasikan kecaman serta kemarahan melalui sikap diam dan tatapan tajam"
+        ]
+      },
+      {
+        "good": [
+          "Suka membantuku dan menghargai apa yang kulakukan untuk mereka",
+          "Baik hati, hangat, dan sangat memerhatikanku",
+          "Sikapnya yang ceria dan menyenangkan membantuku untuk lebih santai",
+          "Menangkap apa yang terjadi pada diriku, kadang bahkan sebelum aku menyadarinya"
+        ],
+        "bad": [
+          "Tersinggung karena kritik yang terkecil sekalipun",
+          "Menginginkan perhatian yang lebih dibandingkan yang mampu kuberikan",
+          "Tidak selalu memikirkan segala sesuatu secara metodis",
+          "Kadang acuh memikirkan akibat-akibat tindakannya"
+        ]
+      },
+      {
+        "good": [
+          "Bekerja keras dan memperoleh banyak hal, seperti aku",
+          "Mengajariku untuk memusatkan perhatian pada hal yang positif",
+          "Pandai melakukan berbagai hal secara efisien",
+          "Terlibat dalam diskusi yang hidup denganku"
+        ],
+        "bad": [
+          "Menyinggung perasaanku ketika mereka menggembar-gemborkan kesuksesan mereka",
+          "Terlalu sensitif terhadap kritik dan menarik diri jika ditantang",
+          "Tidak terlalu peduli untuk menyelesaikan pekerjaan secara sempurna",
+          "Cenderung mendahulukan pekerjaan mereka dibandingkan tanggung jawab keluarga"
+        ]
+      },
+      {
+        "good": [
+          "Jujur mengenai perasaan mereka dan membantuku untuk tersambung dengan perasaanku",
+          "Dapat menyenangkan, jenaka, dan menarik",
+          "Memiliki kemampuan analisis yang baik",
+          "Idealis dan berpegang teguh pada prinsip"
+        ],
+        "bad": [
+          "Meratap, mudah tersakiti, dan mengasihani diri sendiri",
+          "Terus-menerus memproses perasaan mereka",
+          "Menunda melakukan yang mestinya dilakukan sampai mereka memperoleh suasana hati yang tepat",
+          "Kadang memusatkan perhatian pada diri sendiri"
+        ]
+      },
+      {
+        "good": [
+          "Cermat, bermoral, dan tidak suka menghakimi",
+          "Berbicara dengan ketulusan, kedalaman dan substansial",
+          "Bijak dan memberikanku nasihat yang baik",
+          "Melakukan tugas mereka hingga selesai"
+        ],
+        "bad": [
+          "Menolak pergi ke acara-acara yang aku anggap wajib dihadiri",
+          "Menjadi sengit ketika aku menantang logika mereka atau bersikap tidak setuju",
+          "Memiliki ritme yang lebih lamban dibandingkan aku dan menguji kesabaranku",
+          "Memilih bersikap diam dan menarik diri daripada menyelesaikan masalah bersamaku"
+        ]
+      },
+      {
+        "good": [
+          "Hangat, mendukung, dan penyayang",
+          "Dapat diandalkan dan pekerja keras",
+          "Bekerja dengan rajin untuk alasan-alasan yang mereka yakini",
+          "Mendukungku melewati hari-hari yang sulit"
+        ],
+        "bad": [
+          "Menyerangku dan melontarkan pernyataan yang sarkastis atau menyalahkan",
+          "Memiliki kecemasan yang melebihiku",
+          "Bisa bersikap bimbang, tak tentu arah, dan mengatur",
+          "Menunda-nunda"
+        ]
+      },
+      {
+        "good": [
+          "Berjiwa bebas dan mampu menunjukkan padaku bagaimana menikmati hidup",
+          "Menunjukkan padaku bagaimana rasanya bersikap fleksibel dan spontan",
+          "Idealis dan ingin memperbaiki dunia, seperti aku",
+          "Tidak membiarkan kegagalan dan kekecewaan membuat mereka putus asa"
+        ],
+        "bad": [
+          "Kadang memusatkan perhatian pada diri sendiri",
+          "Selalu terburu-buru serta tidak mau duduk mendengarkan aku dan kecemasanku",
+          "Bersikap kritis, defensif, dan merasa benar sendiri",
+          "Tidak membuat prioritas atau mengikuti aturan, sebagaimana yang kuyakini semestinya dilakukan"
+        ]
+      },
+      {
+        "good": [
+          "Berjiwa besar dan tidak kaku sepertiku",
+          "Antusias dan dinamis - kami dapat menjadi kombinasi yang menggairahkan",
+          "Berinisiatif ketika mereka ingin meyelesaikan sesuatu",
+          "Gagah berani membela apa yang mereka yakini"
+        ],
+        "bad": [
+          "Melakukan sesuatu terlalu berlebihan",
+          "Tidak merasa bersalah atau menyesal jika mereka menyakiti hatiku",
+          "Bisa bersikap kasar dan membuatku malu",
+          "Menolak melihat sesuatu dari sudut pandangku"
+        ]
+      },
+      {
+        "good": [
+          "Menerima dan memengaruhiku untuk menerima diri sendiri",
+          "Tidak mengancam atau mencoba memanipulasiku",
+          "Memiliki pandangan yang luas dan membantuku berpikir jernih",
+          "Mendorongku untuk bersikap santai dan menikmati kehidupan"
+        ],
+        "bad": [
+          "Membuatku gila jika mereka bersikap lamban, keras kepala, dan tidak tegas",
+          "Bersikap tidak jelas atau melamun ketika aku mencoba membicarakan persoalan penting",
+          "Kadang melimpahkan tanggung jawabnya melalui aku atau orang lain",
+          "Menyepelekan permasalahan dan berharap ia akan hilang, alih-alih menyelesaikannya"
+        ]
+      }
+    ]
+  }
+},
+{
+  "dropdown": {
+    "image": "./assets/images/illus/icon/02.png",
+    "header": "Tipe Interpersonal",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quo accusamus tempora ratione vitae cumque corporis, amet numquam temporibus odio quaerat error alias libero nobis et perspiciatis voluptas iure quam."
+  },
+  "characteristics": [
+    {
+      "image": "./assets/images/illus/karakteristik/21.png",
+      "header": "Mudah bergaul dan berteman",
+      "paragraph": "Orang yang mudah beradaptasi dengan orang dan lingkungan di sekitarnya"
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/22.png",
+      "header": "Murah hati, perhatian dan hangat",
+      "paragraph": "Tahu yang dibutuhkan dan suka membantu orang lain sehingga dapat menjadikan hidup sekitarnya lebih baik"
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/23.png",
+      "header": "Antusias, menyenangkan",
+      "paragraph": "Selalu memberikan perhatian yang positif dan memiliki selera humor yang bagus"
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/24.png",
+      "header": "Tidak bisa mengatakan tidak",
+      "paragraph": "Terlalu terpengaruh dengan orang lain dan kurang menghargai diri sendiri"
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/25.png",
+      "header": "Posesif",
+      "paragraph": "Punya rasa ingin dicintai dan dihargai yang besar sehingga terlalu mengendalikan sekitarnya"
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/26.png",
+      "header": "Tidak jujur",
+      "paragraph": "Seringkali menekan perasaan atau keinginan sendiri demi orang lain karena takut dicap egois"
+    }
+  ],
+  "wing": {
+    "image": "./assets/images/illus/sayap/02.png",
+    "description": "Dalam tipe kepribadian Enneagram, setiap persona dapat terpengaruh dengan persona lain di sebelah kiri maupun kanannya (selengkapnya dapat dibaca di sini). Hal tersebut dinamakan sayap. Kamu yang Tipe 2 kemungkinan memiliki Sayap 1 atau Sayap 3, atau bahkan keduanya.",
+    "left": {
+      "header": "Tipe 2 dengan Sayap 1",
+      "paragraph": "Menjadi lebih teratur, memegang prinsip, objektif, dan lebih idealis. Kamu kritis terhadap diri sendiri, menguasai, merasa benar sendiri dan cenderung introvert."
+    },
+    "right": {
+      "header": "Tipe 2 dengan Sayap 3",
+      "paragraph": "Percaya diri, ambisius, cenderung ekstrovert dan kompetitif. Kamu dengan sayap ini lebih memerhatikan citra diri."
+    }
+  },
+  "arrow": {
+    "image": "./assets/images/illus/panah/02.png",
+    "description": "Panah adalah garis yang menghubungkan setiap persona dalam tipe kepribadian Enneagram (selengkapnya dapat dibaca di sini). Kamu yang Tipe 2 memiliki hubungan dengan Tipe 4 dan 8. Di saat berkembang, kamu akan mengarah pada karakter positif Tipe 4, sebaliknya kamu yang sedang mengalami stress akan mengarah pada karakter negatif Tipe 8.",
+    "left": {
+      "type": "4",
+      "paragraphs": [
+        "Mengakui dan menerima perasaan menyakitkan, termasuk kemarahan, kesedihan, dan kesepian",
+        "Mencari sumber lain selain menolong untuk merasa dirinya berguna. Contoh: mengekspresikan diri dengan lebih kreatif dan artistik",
+        "Lebih dapat mengekspresikan kebutuhan mereka, termasuk mengatakan tidak",
+        "Belajar menyepi dan lebih introspeksi"
+      ]
+    },
+    "right": {
+      "type": "8",
+      "paragraphs": [
+        "Tidak lagi ramah dan mengasihi; menjadi gampang marah dan menyerang dengan kasar",
+        "Menjadi tega, tidak percaya, dan menjauhkan diri",
+        "Menyalahkan dan menuntut",
+        "Menguasai dan mencoba mengendalikan setiap orang dan segala sesuatu"
+      ]
+    }
+  },
+  "relation": {
+    "image": "./assets/images/illus/relasi/02-left.png",
+    "paragraphs": [
+      {
+        "good": [
+          "Memberiku rasa aman dengan bersikap pasti, teguh dan dapat dipercaya",
+          "Selalu memenuhi janji",
+          "Ingin menjadikan dunia ini tempat yang lebih baik",
+          "Menghargai kemampuanku untuk berhubungan dengan orang lain"
+        ],
+        "bad": [
+          "Dapat memperlakukan orang lain dengan kasar dan menaruh kebencian",
+          "Tidak mengekspresikan rasa cinta yang kubutuhkan",
+          "Bekerja terlalu keras dan tak dapat menyisihkan waktu untuk bersenang-senang",
+          "Sangat berhati-hati dalam mempergunakan uang mereka"
+        ]
+      },
+      {
+        "good": [
+          "Cocok satu sama lain",
+          "Menikmati kebersamaan kami",
+          "Saling memberi kesan bahwa kami benar-benar dicintai dan dihargai",
+          "Sama-sama menghargai keluarga dan teman"
+        ],
+        "bad": [
+          "Merasa sulit untuk saling jujur dan berterus terang",
+          "Mudah tersakiti dan sangat sensitif terhadap kritik",
+          "Bersaing satu sama lain untuk memperoleh perhatian",
+          "Sama-sama berpotensi untuk menggoda dan membuat satu sama lain cemburu"
+        ]
+      },
+      {
+        "good": [
+          "Penuh semangat, optimis dan ceria",
+          "Mampu berbaur dengan baik ke dalam kelompok-kelompok yang beragam",
+          "Memberikan kesan yang baik",
+          "Memberiku kebebasan dengan tidak membebaniku untuk bertanggung jawab atas mereka"
+        ],
+        "bad": [
+          "Dapat menjadi terlalu sensitif terhadap kritik",
+          "Menjadi defensif ketika aku mencoba untuk mendiskusikan masalah dalam hubungan kami",
+          "Bersikap angkuh dan menyombongkan diri",
+          "Sibuk memberi kesan yang baik sehingga mereka melalaikan kehidupan pribadi"
+        ]
+      },
+      {
+        "good": [
+          "Berbagi dunia batiniah mereka yang kaya denganku",
+          "Peka dan menghargai sifat-sifat terbaikku",
+          "Memiliki gaya dan etestika yang unik",
+          "Penyayang dan hangat"
+        ],
+        "bad": [
+          "Tidak terlalu senang berbaur dengan banyak orang",
+          "Memiliki kebiasaan tarik-ulur dalam hubungan",
+          "Bersikap superior dan kadang menjadi marah, bersikap pedas, serta bereaksi berlebihan",
+          "Dapat kehilangan kendali atas realitas dan memuat orang tertekan berada di dekat mereka"
+        ]
+      },
+      {
+        "good": [
+          "Memiliki selera humor yang tidak terlalu kentara dan menarik hati",
+          "Mendengarkan dengan baik dan memberikan saran yang membangun",
+          "Memiliki kemampuan yang tidak aku miliki untuk mandiri, objektif, dan tak terikat",
+          "Tenang, pendiam, dan mantap"
+        ],
+        "bad": [
+          "Meremehkanku karena menganggapku terlalu emosional",
+          "Menarik diri serta membuatku merasa sakit hati dan terabaikan",
+          "Kadang terlalu abstrak",
+          "Umumnya terlalu pendiam dan menghindari pesta dan sosialisasi"
+        ]
+      },
+      {
+        "good": [
+          "Menghargaiku ketika aku mengekspresikan perasaan dengan jujur",
+          "Memiliki selera humor yang baik",
+          "Bersungguh-sungguh, setia, dan bertanggung jawab",
+          "Memberitahuku bahwa aku dapat selalu mengandalkan mereka"
+        ],
+        "bad": [
+          "Membuatku kesal dengan sikap mereka yang menganalisis, teoretis, resah, dan obsesif",
+          "Selalu berpikir bahwa aku menginginkan sesuatu dari mereka saat aku memuji mereka",
+          "Kadang kala bersikap negatif dan tak menentu",
+          "Menguji, menggoda, dan menggunakan sarkasme"
+        ]
+      },
+      {
+        "good": [
+          "Pandai bersosialisasi dan sangat menikmati kehidupan mereka",
+          "Memberiku kebebasan untuk melakukan aktivitasku sendiri",
+          "Memiliki banyak kemampuan dan bakat",
+          "Menghargai ketertarikanku terhadap harapan, impian dan rencana-rencana mereka"
+        ],
+        "bad": [
+          "Mempermalukan serta membuatku bosan dengan memonopoli pembicaraan",
+          "Kadang membuatku pening dengan semangat mereka yang berapi-api",
+          "Mengabaikan masalah dalam hubungan kami, bahkan setelah kukemukakan",
+          "Kadang bersikap negatif dan keras kepala"
+        ]
+      },
+      {
+        "good": [
+          "Memberi semangat dan gairah ke dalam kehidupan",
+          "Memberikanku kesan bahwa aku dipercaya dan istimewa",
+          "Menghargai kemampuanku untuk menjadi pendengar yang baik",
+          "Mengetahui apa yang mereka inginkan dan mengutarakan pikiran mereka"
+        ],
+        "bad": [
+          "Dapat menjadi terlalu posesif, menuntut, dan kasar",
+          "Mengatur, menghakimi, dan mendominasi",
+          "Kadang tidak peka terhadap perasaan serta kebutuhanku dan orang lainnya",
+          "Mengaktifkan rasa takutku yang terburuk, yakni bersikap lemah dan tak mampu membela diri sendiri"
+        ]
+      },
+      {
+        "good": [
+          "Pendengar yang baik",
+          "Kerap mendahulukan kepentinganku diatas kepentingannya",
+          "Menghargai prestasi dan hal-hal yang kulakukan untuk mereka",
+          "Membuatku merasa nyaman, meyakinkanku, serta membuatku merasa dicintai dan istimewa"
+        ],
+        "bad": [
+          "Bersikap pasif-agresif, dan tidak mengatakan 'tidak' secara terus terang",
+          "Terlalu apatis, tidak tegas, dan kurang motivasi",
+          "Tidak selalu mengerjakan tanggung jawab mereka",
+          "Menghukumku dengan menarik diri dan mendiamkanku"
+        ]
+      }
+    ]
+  }
+},
+{
+  "dropdown": {
+    "image": "./assets/images/illus/icon/03.png",
+    "header": "Tipe Pragmatis dan Pencari Kesuksesan",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quo accusamus tempora ratione vitae cumque corporis, amet numquam temporibus odio quaerat error alias libero nobis et perspiciatis voluptas iure quam."
+  },
+  "characteristics": [
+    {
+      "image": "./assets/images/illus/karakteristik/31.png",
+      "header": "Optimis, ramah dan ceria",
+      "paragraph": "Orang yang energik dan memberikan kesan positif pada lingkungannya"
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/32.png",
+      "header": "Oportunis",
+      "paragraph": "Selalu melihat ke depan, kompeten dan mampu bekerja dengan efisien"
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/33.png",
+      "header": "Mampu memotivasi orang lain",
+      "paragraph": "Berkepribadian menarik, disukai banyak orang dan dihormati di lingkungannya"
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/34.png",
+      "header": "Suka pamer dan narsis",
+      "paragraph": "Mengumbar kesuksesan dan sangat menjaga citra diri di hadapan orang lain"
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/35.png",
+      "header": "Bermuka manis",
+      "paragraph": "Berjuang keras untuk mendapat kesan baik dan berpura-pura"
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/36.png",
+      "header": "Terlalu kompetitif",
+      "paragraph": "Ambisius dan selalu membandingkan diri sendiri dengan orang lain yang lebih baik. Bisa menjadi cuek terhadap lingkungan sekitarnya."
+    }
+  ],
+  "wing": {
+    "image": "./assets/images/illus/sayap/03.png",
+    "description": "Dalam tipe kepribadian Enneagram, setiap persona dapat terpengaruh dengan persona lain di sebelah kiri maupun kanannya (selengkapnya dapat dibaca di sini). Hal tersebut dinamakan sayap. Kamu yang Tipe 3 kemungkinan memiliki Sayap 2 atau Sayap 4, atau bahkan keduanya.",
+    "left": {
+      "header": "Tipe 3 dengan Sayap 2",
+      "paragraph": "Cenderung lebih hangat, mendukung, beradaptasi sosial dengan baik, memahami orang lain, menawan dan senang menyanjung."
+    },
+    "right": {
+      "header": "Tipe 3 dengan Sayap 4",
+      "paragraph": "Cenderung lebih introspektif, peka, artistik, imajinatif namun suka pamer, dan memiliki suasana hati yang berubah-ubah."
+    }
+  },
+  "arrow": {
+    "image": "./assets/images/illus/panah/03.png",
+    "description": "Panah adalah garis yang menghubungkan setiap persona dalam tipe kepribadian Enneagram (selengkapnya dapat dibaca di sini). Kamu yang Tipe 3 memiliki hubungan dengan Tipe 6 dan 9. Di saat berkembang, kamu akan mengarah pada karakter positif Tipe 6, sebaliknya kamu yang sedang mengalami stress akan mengarah pada karakter negatif Tipe 9.",
+    "left": {
+      "type": "6",
+      "paragraphs": [
+        "Lebih banyak meluangkan waktu dan lebih berkomitmen pada keluargadan teman",
+        "Menghargai apa yang terbaik bagi kelompok",
+        "Lebih peka terhadap perasaannya",
+        "Mengupayakan pikiran-pikiran yang diyakini"
+      ]
+    },
+    "right": {
+      "type": "9",
+      "paragraphs": [
+        "Menunda pekerjaan dan menjadi tidak tegas",
+        "Menjadi apatis / cuek",
+        "Mengabaikan diri sendiri dan menjadi tidak produktif",
+        "Bertindak pasif-agresif pada orang yang melihat kekurangan mereka"
+      ]
+    }
+  },
+  "relation": {
+    "image": "./assets/images/illus/relasi/03-left.png",
+    "paragraphs": [
+      {
+        "good": [
+          "Menyelesaikan banyak hal seperti aku",
+          "Menampilkan diri dengan baik",
+          "Mengejar nilai-nilai ideal dan tugas-tugas dengan kemauan keras",
+          "Realistis, efisien, dan bisa diandalkan"
+        ],
+        "bad": [
+          "Tegang dan membuat aku tidak nyaman",
+          "Mengkritik aku karena tidak menjaga prinsip sekuat mereka",
+          "Melupakan kekhilafan dan jarang meminta maaf",
+          "Memandang cara hidup mereka lebih baik dibandingkan aku lewat kacamata mereka sendiri"
+        ]
+      },
+      {
+        "good": [
+          "Memberi banyak perhatian dan kepedulian",
+          "Hangat, memahami, dan menyenangkan",
+          "Memberi kesan baik kepada orang lain",
+          "Mudah bersosialisasi dengan berbagai orang"
+        ],
+        "bad": [
+          "Terlalu emosional terhadap hal-hal sepele",
+          "Merajuk jika tidak berbuat seperti yang mereka ekspektasikan",
+          "Mencoba menipuku untuk melakukan hal-hal yang mereka inginkan",
+          "Terlalu banyak menuntut perhatian"
+        ]
+      },
+      {
+        "good": [
+          "Sama-sama bangga dengan penampilan",
+          "Memahami kebutuhan satu sama lain untuk bekerja keras",
+          "Senang melakukan aktivitas fisik bersama-sama",
+          "Tahu bagaimana menyelesaikan pekerjaan dan sama-sama sangat produktif"
+        ],
+        "bad": [
+          "Memaksakan diri sehingga menjadi stres dan lelah",
+          "Menarik diri ketika muncul persoalan dalam hubungan",
+          "Sama-sama tidak terlalu baik dalam mengekspresikan perasaan",
+          "Teralihkan dengan pekerjaan dan sama-sama kurang memberi perhatian"
+        ]
+      },
+      {
+        "good": [
+          "Mengapresiasi dan mendorong bakat serta kemampuanku",
+          "Memiliki selera tinggi dan elegan dalam berpakaian",
+          "Sangat menghibur dan ekspresif",
+          "Hangat dan ramah dalam memperlakukan orang lain"
+        ],
+        "bad": [
+          "Menarik diri tanpa diduga-duga",
+          "Membuatku malu ketika tingkah atau pakaian mereka kurang lazim",
+          "Membuatku tidak tenang dengan suasana hati mereka yang berubah-ubah",
+          "Bisa luar biasa membutuhkan secara emosional"
+        ]
+      },
+      {
+        "good": [
+          "Tertarik dengan proyekku dan memberikan masukan yang membantu",
+          "Memiliki cara pandang baru terhadap berbagai hal",
+          "Membagi pengetahuan mereka yang luas",
+          "Lembut terhadapku"
+        ],
+        "bad": [
+          "Bisa tidak terlalu ambisius",
+          "Tidak terlalu memerhatikan penampilan",
+          "Terlalu tertutup dan tidak senang bergaul",
+          "Menarik diri, merajuk, atau uring-uringan, meski kelihatannya serius menjalin hubungan"
+        ]
+      },
+      {
+        "good": [
+          "Bersungguh-sungguh dan bertanggung jawab",
+          "Biasanya memiliki pemikiran yang menarik dan selera humor yang baik",
+          "Menghargai pekerjaan dan prestasiku",
+          "Hangat dan setia"
+        ],
+        "bad": [
+          "Menyalahkan orang lain atas persoalan yang menimpa mereka",
+          "Mengartikan isyarat remeh sebagai penolakan total",
+          "Menghina orang dan menunjukkan kesan paling hebat",
+          "Tidak pernah berlapang dada dengan kemungkinan bahwa persoalan akan berakhir dengan baik"
+        ]
+      },
+      {
+        "good": [
+          "Positif, bersemangat, ceria",
+          "Kaya dengan kejutan menyenangkan",
+          "Selalu memikirkan hal-hal menyenangkan yang bisa dilakukan",
+          "Tertarik dan pandai melakukan berbagai hal"
+        ],
+        "bad": [
+          "Kurang bertanggung jawab",
+          "Biasanya tidak terlalu rapi",
+          "Sering berubah pikiran",
+          "Kurang pandai berkonsentrasi dan membebankan tanggung jawab kepadaku"
+        ]
+      },
+      {
+        "good": [
+          "Mengerahkan seluruh energi ke pekerjaan apapun yang sedang mereka lakukan",
+          "Mendorongku untuk jujur dan berterus terang",
+          "Memberi teladan baik dengan tidak memusingkan pendapat orang lain terhadap mereka",
+          "Setia, dermawan, penyayang"
+        ],
+        "bad": [
+          "Cepat menyalahkanku karena mementingkan penampilan",
+          "Tidak selalu memperlakukan orang dengan baik",
+          "Kadang menggunakan bahasa yang mengejutkan, menyebalkan, atau tidak sopan",
+          "Posesif, sok berkuasa, dan terlalu mencemaskan sesuatu"
+        ]
+      },
+      {
+        "good": [
+          "Memahamiku dengan cara yang mendasar",
+          "Mendengarkan dan mendukungku",
+          "Memberi pengaruh yang menenangkan dan menyejukkan",
+          "Menyertaiku saat melakukan hal-hal yang kusukai"
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        ]
+      }
+    ]
+  }
+},
+{
+  "dropdown": {
+    "image": "./assets/images/illus/icon/04.png",
+    "header": "Tipe Sensitif dan Introspektif",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quo accusamus tempora ratione vitae cumque corporis, amet numquam temporibus odio quaerat error alias libero nobis et perspiciatis voluptas iure quam."
+  },
+  "characteristics": [
+    {
+      "image": "./assets/images/illus/karakteristik/41.png",
+      "header": "Ekspresif dan kreatif",
+      "paragraph": "Keinginan untuk ingin berbeda dari lingkungannya membuat kamu berusaha menjadi orang yang tidak biasa"
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/42.png",
+      "header": "Peka dan introspektif",
+      "paragraph": "Selalu melihat ke dalam diri untuk menemukan makna hidup ini.Karena itu mudah memahami perasaan orang lain"
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/43.png",
+      "header": "Berkepribadian hangat dan lembut",
+      "paragraph": "Terbuka dan memiliki selera humor yang baik sehingga mudah bergaul akrab dengan orang lain"
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/44.png",
+      "header": "Tenggelam dalam pikiran sendiri",
+      "paragraph": "Diselimuti perasaan kelam hampa dan putus asa serta merasa tidak pantas dicintai"
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/45.png",
+      "header": "Suasana hati mudah berubah",
+      "paragraph": "Emosional , suka mencela dan tidak toleran"
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/46.png",
+      "header": "Takut diabaikan",
+      "paragraph": "Seringkali merasa bersalah ketika mengecewakan orang ataupun sakit hati dan merasa tertolak bila orang lain salah paham"
+    }
+  ],
+  "wing": {
+    "image": "./assets/images/illus/sayap/04.png",
+    "description": "Dalam tipe kepribadian Enneagram, setiap persona dapat terpengaruh dengan persona lain di sebelah kiri maupun kanannya (selengkapnya dapat dibaca di sini). Hal tersebut dinamakan sayap. Kamu yang Tipe 4 kemungkinan memiliki Sayap 3 atau Sayap 5, atau bahkan keduanya.",
+    "left": {
+      "header": "Tipe 4 dengan Sayap 3",
+      "paragraph": "Cenderung lebih ekstrovert, ceria, ambisius, flamboyan, dan peduli akan citra dirinya dihadapan orang lain."
+    },
+    "right": {
+      "header": "Tipe 4 dengan Sayap 5",
+      "paragraph": "Cenderung objektif, pendiam, intelek, eksentrik, lebih pesimis, analitis dan menarik diri."
+    }
+  },
+  "arrow": {
+    "image": "./assets/images/illus/panah/04.png",
+    "description": "Panah adalah garis yang menghubungkan setiap persona dalam tipe kepribadian Enneagram (selengkapnya dapat dibaca di sini). Kamu yang Tipe 4 memiliki hubungan dengan Tipe 1 dan 2. Di saat berkembang, kamu akan mengarah pada karakter positif Tipe 1, sebaliknya kamu yang sedang mengalami stress akan mengarah pada karakter negatif Tipe 2.",
+    "left": {
+      "type": "1",
+      "paragraphs": [
+        "Tidak terlalu dikendalikan perasaan sehingga menjadi lebih mengoreksidiri dan hidup untuk masa sekarang",
+        "Mengatasi lebih banyak masalah dan lebih praktis",
+        "Lebih banyak mengangkat unsur positif ketimbang menjadi pesimis dan depresi",
+        "Bertindak berdasarkan gagasan ideal dan prinsip yang teguh"
+      ]
+    },
+    "right": {
+      "type": "2",
+      "paragraphs": [
+        "Beranggapan bahwa cinta dari orang lain akan mengisi kekosongan dan kesepian",
+        "Menyangkal dan menekan kebutuhan diri sendiri",
+        "Menjadi sangat bergantung pada orang lain",
+        "Suka mencari perhatian dan diistimewakan dengan berpura-pura sakit"
+      ]
+    }
+  },
+  "relation": {
+    "image": "./assets/images/illus/relasi/04-left.png",
+    "paragraphs": [
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        ]
+      }
+    ]
+  }
+},
+{
+  "dropdown": {
+    "image": "./assets/images/illus/icon/05.png",
+    "header": "Tipe Intens dan Pemikir",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quo accusamus tempora ratione vitae cumque corporis, amet numquam temporibus odio quaerat error alias libero nobis et perspiciatis voluptas iure quam."
+  },
+  "characteristics": [
+    {
+      "image": "./assets/images/illus/karakteristik/51.png",
+      "header": "Analitis",
+      "paragraph": "Memiliki pemikiran dan pemahaman yang kompleks akan segala sesuatu"
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/52.png",
+      "header": "Berpendirian teguh",
+      "paragraph": "Melakukan apa yang dianggap benar tanpa dipengaruhi tekanan orang lain"
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/53.png",
+      "header": "Tidak materialistis",
+      "paragraph": "Tidak mengejar materi ataupun status"
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/54.png",
+      "header": "Menjauhkan diri dari orang lain",
+      "paragraph": "Merasa tertekan saat berada bersama orang-orang"
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/55.png",
+      "header": "Sering bertentangan",
+      "paragraph": "Sulit mengutarakan apa yang dipikirkan dengan tepat sehingga sering salah paham"
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/56.png",
+      "header": "Sok pintar dan suka mengkritik",
+      "paragraph": "Beranggapan orang lain tidak terlalu cerdas atau kemampuan  teknisnya tidak begitu baik dari diri sendiri"
+    }
+  ],
+  "wing": {
+    "image": "./assets/images/illus/sayap/05.png",
+    "description": "Dalam tipe kepribadian Enneagram, setiap persona dapat terpengaruh dengan persona lain di sebelah kiri maupun kanannya (selengkapnya dapat dibaca di sini). Hal tersebut dinamakan sayap. Kamu yang Tipe 5 kemungkinan memiliki Sayap 4 atau Sayap 6, atau bahkan keduanya.",
+    "left": {
+      "header": "Tipe 5 dengan sayap 4",
+      "paragraph": "Cenderung lebih kreatif, humanis, peka, empatis, namun suka tenggelam dalam pikirannya sendiri."
+    },
+    "right": {
+      "header": "Tipe 5 dengan sayap 6",
+      "paragraph": "Cenderung lebih setia, pekerja keras, berhati-hati akan tetapi suka gelisah dan skeptis."
+    }
+  },
+  "arrow": {
+    "image": "./assets/images/illus/panah/05.png",
+    "description": "Panah adalah garis yang menghubungkan setiap persona dalam tipe kepribadian Enneagram (selengkapnya dapat dibaca di sini). Kamu yang Tipe 5 memiliki hubungan dengan Tipe 7 dan 8. Di saat berkembang, kamu akan mengarah pada karakter positif Tipe 8, sebaliknya kamu yang sedang mengalami stress akan mengarah pada karakter negatif Tipe 7.",
+    "left": {
+      "type": "8",
+      "paragraphs": [
+        "Lebih banyak bertindak untuk melakukan suatu hal dibanding memikirkannya terlalu banyak",
+        "Lebih terbuka dan spontan",
+        "Menjadi lebih bersemangat dan termotivasi menghadapi sesuatu dibandingkan menjauhinya",
+        "Membela diri sendiri dengan lebih efektif"
+      ]
+    },
+    "right": {
+      "type": "7",
+      "paragraphs": [
+        "TLorem ipsum dolor sit amet, consectetur adipisicing elit.erlalu menenggelamkan diri pada banyak pekerjaan",
+        "MLorem ipsum dolor sit amet, consectetur adipisicing elit.emaksakan diri mengerjakan proyek baru",
+        "MLorem ipsum dolor sit amet, consectetur adipisicing elit.enjadi lebih sembrono",
+        "TLorem ipsum dolor sit amet, consectetur adipisicing elit.idak fokus"
+      ]
+    }
+  },
+  "relation": {
+    "image": "./assets/images/illus/relasi/05-left.png",
+    "paragraphs": [
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        ]
+      }
+    ]
+  }
+},
+{
+  "dropdown": {
+    "image": "./assets/images/illus/icon/06.png",
+    "header": "Tipe Berkomitmen dan Pencari Keamanan",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quo accusamus tempora ratione vitae cumque corporis, amet numquam temporibus odio quaerat error alias libero nobis et perspiciatis voluptas iure quam."
+  },
+  "characteristics": [
+    {
+      "image": "./assets/images/illus/karakteristik/61.png",
+      "header": "Jujur dan setia",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/62.png",
+      "header": "Bertanggung jawab dan bisa diandalkan",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/63.png",
+      "header": "Penuh perhatian dan kasih",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/64.png",
+      "header": "Paranoid",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/65.png",
+      "header": "Defensif",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/66.png",
+      "header": "Tidak terduga",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    }
+  ],
+  "wing": {
+    "image": "./assets/images/illus/sayap/06.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, voluptates, repellendus! Vel, eum. Officia similique culpa repellat atque quo incidunt nam quaerat aspernatur tempore fuga. Quasi, animi, quam! Deserunt, vero!",
+    "left": {
+      "header": "Lorem ipsum dolor sit amet",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    },
+    "right": {
+      "header": "Lorem ipsum dolor sit amet",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    }
+  },
+  "arrow": {
+    "image": "./assets/images/illus/panah/06.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque quae aspernatur veniam asperiores non accusantium doloremque corrupti nesciunt voluptas in, quasi pariatur, itaque animi voluptate dignissimos dolorum quibusdam, aperiam facilis.",
+    "left": {
+      "type": "",
+      "paragraphs": [
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
+      ]
+    },
+    "right": {
+      "type": "",
+      "paragraphs": [
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
+      ]
+    }
+  },
+  "relation": {
+    "image": "./assets/images/illus/relasi/06-left.png",
+    "paragraphs": [
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
+        ]
+      }
+    ]
+  }
+},
+{
+  "dropdown": {
+    "image": "./assets/images/illus/icon/07.png",
+    "header": "Tipe Pencari Variasi dan Sibuk",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quo accusamus tempora ratione vitae cumque corporis, amet numquam temporibus odio quaerat error alias libero nobis et perspiciatis voluptas iure quam."
+  },
+  "characteristics": [
+    {
+      "image": "./assets/images/illus/karakteristik/71.png",
+      "header": "Antusias dan bersemangat",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/72.png",
+      "header": "Spontan dan gesit",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/73.png",
+      "header": "Menyenangkan",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/74.png",
+      "header": "Tidak fokus dan tidak disiplin",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/75.png",
+      "header": "Memberontak",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/76.png",
+      "header": "Narsis",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
+    }
+  ],
+  "wing": {
+    "image": "./assets/images/illus/sayap/07.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus et id aspernatur minus, rem ex, magni qui, reprehenderit praesentium nam dolores delectus perspiciatis ipsum. Dolore accusamus quis rem quaerat itaque!",
+    "left": {
+      "header": "lorem lorem lorem lorem",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum cum, vitae quod eveniet nulla natus."
+    },
+    "right": {
+      "header": "lorem lorem lorem lorem",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum cum, vitae quod eveniet nulla natus."
+    }
+  },
+  "arrow": {
+    "image": "./assets/images/illus/panah/07.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptate debitis a dolorem sit dolorum architecto nesciunt impedit aliquid iure cum voluptates porro quae, omnis repudiandae dignissimos, quibusdam ipsam libero.",
+    "left": {
+      "type": "",
+      "paragraphs": [
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae rerum totam.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae rerum totam.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae rerum totam.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae rerum totam."
+      ]
+    },
+    "right": {
+      "type": "",
+      "paragraphs": [
+        "Lorem ipsummet, consectetur adipisicing elit. Quae rerum totam.",
+        "Lorem ipsummet, consectetur adipisicing elit. Quae rerum totam.",
+        "Lorem ipsummet, consectetur adipisicing elit. Quae rerum totam.",
+        "Lorem ipsummet, consectetur adipisicing elit. Quae rerum totam."
+      ]
+    }
+  },
+  "relation": {
+    "image": "./assets/images/illus/relasi/07-left.png",
+    "paragraphs": [
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam."
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam."
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam."
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam."
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam."
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam."
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam."
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam."
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam.",
+          "Lorem ipsum dolor sit amet, adipisicing elit. Quae rerum totam."
+        ]
+      }
+    ]
+  }
+},
+{
+  "dropdown": {
+    "image": "./assets/images/illus/icon/08.png",
+    "header": "Tipe Kuat dan Dominan",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quo accusamus tempora ratione vitae cumque corporis, amet numquam temporibus odio quaerat error alias libero nobis et perspiciatis voluptas iure quam."
+  },
+  "characteristics": [
+    {
+      "image": "./assets/images/illus/karakteristik/81.png",
+      "header": "Jujur dan setia",
+      "paragraph": "Lorem ipsum amet, consectetur adipisicing elit. Quae rerum totam."
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/82.png",
+      "header": "Dominan",
+      "paragraph": "Lorem ipsum amet, consectetur adipisicing elit. Quae rerum totam."
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/83.png",
+      "header": "Protektif",
+      "paragraph": "Lorem ipsum amet, consectetur adipisicing elit. Quae rerum totam."
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/84.png",
+      "header": "Tidak peka",
+      "paragraph": "Lorem ipsum amet, consectetur adipisicing elit. Quae rerum totam."
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/85.png",
+      "header": "Egosentris",
+      "paragraph": "Lorem ipsum amet, consectetur adipisicing elit. Quae rerum totam."
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/86.png",
+      "header": "Tidak sabar",
+      "paragraph": "Lorem ipsum amet, consectetur adipisicing elit. Quae rerum totam."
+    }
+  ],
+  "wing": {
+    "image": "./assets/images/illus/sayap/08.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi reprehenderit asperiores ea minus omnis voluptatum aperiam illo, aspernatur libero impedit quod excepturi perspiciatis nulla ducimus, error accusamus neque maxime officiis.",
+    "left": {
+      "header": "Lorem ipsum dolor",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Mollitia fuga commodi distinctio labore?"
+    },
+    "right": {
+      "header": "Lorem ipsum dolor",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Mollitia fuga commodi distinctio labore?"
+    }
+  },
+  "arrow": {
+    "image": "./assets/images/illus/panah/08.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio vitae architecto est ut totam eum commodi amet enim dolores maiores, nihil dolore nobis, fugit pariatur officiis mollitia consequatur quo blanditiis.",
+    "left": {
+      "type": "",
+      "paragraphs": [
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
+      ]
+    },
+    "right": {
+      "type": "",
+      "paragraphs": [
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
+      ]
+    }
+  },
+  "relation": {
+    "image": "./assets/images/illus/relasi/08-left.png",
+    "paragraphs": [
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
+        ]
+      }
+    ]
+  }
+},
+{
+  "dropdown": {
+    "image": "./assets/images/illus/icon/09.png",
+    "header": "Tipe Tenang dan Rendah Diri",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quo accusamus tempora ratione vitae cumque corporis, amet numquam temporibus odio quaerat error alias libero nobis et perspiciatis voluptas iure quam."
+  },
+  "characteristics": [
+    {
+      "image": "./assets/images/illus/karakteristik/91.png",
+      "header": "Tenang dan sabar",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/92.png",
+      "header": "Tidak menghakimi dan menerima",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/93.png",
+      "header": "Diplomatis",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/94.png",
+      "header": "Keras kepala",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/95.png",
+      "header": "Pasif-agresif",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
+    },
+    {
+      "image": "./assets/images/illus/karakteristik/96.png",
+      "header": "Apatis",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
+    }
+  ],
+  "wing": {
+    "image": "./assets/images/illus/sayap/09.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore magnam in illo possimus sit error ad quaerat obcaecati earum, a mollitia sed. Commodi tempora ab, dolor assumenda consequuntur quod fuga.",
+    "left": {
+      "header": "Lorem ipsum",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
+    },
+    "right": {
+      "header": "Lorem ipsum",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
+    }
+  },
+  "arrow": {
+    "image": "./assets/images/illus/panah/09.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a. Maxime animi, expedita neque nam pariatur enim repudiandae officia voluptatem consectetur odio, magni accusamus ipsa consequatur aperiam laboriosam.",
+    "left": {
+      "type": "",
+      "paragraphs": [
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
+      ]
+    },
+    "right": {
+      "type": "",
+      "paragraphs": [
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
+      ]
+    }
+  },
+  "relation": {
+    "image": "./assets/images/illus/relasi/09-left.png",
+    "paragraphs": [
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
+        ]
+      },
+      {
+        "good": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
+        ],
+        "bad": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
+        ]
+      }
+    ]
+  }
+}
+]

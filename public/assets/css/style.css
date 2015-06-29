@@ -1002,6 +1002,9 @@ Fixed scrolling links
 
 .img-carousel {
 	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
 	top: 0;
 	padding: 0;
 	z-index: 1;

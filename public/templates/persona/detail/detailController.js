@@ -40,9 +40,7 @@ angular.module("personaApp")
             ctrl.carouselImages = data;
         });
 
-        var asset = '/assets/data/persona' + ctrl.current + '.json';
-
-        $http.get(asset).success(function(data){
+        $http.get('/assets/data/persona.json').success(function(data){
             ctrl.data = data;
         });
 
@@ -52,20 +50,8 @@ angular.module("personaApp")
 
         $http.get('/assets/data/quizResults.json').success(function(data){
             ctrl.dropdownData = data;
-        });  
-    };
-
-    ctrl.loadContent = function() {
-        var asset = '/assets/data/persona' + ctrl.current + '.json';
-
-        $http.get(asset).success(function(data){
-            ctrl.data = data;
         });
-
-        $http.get('/assets/data/quizResults.json').success(function(data){
-            ctrl.dropdownData = data;
-        });  
-    }
+    };
 
     ctrl.shouldSlideInLeft = function(stat) {
         var result = false;
@@ -155,27 +141,22 @@ angular.module("personaApp")
         ctrl.currentRelation = ctrl.current;
     };
 
-    ctrl.refresh = function() {
-        ctrl.checkNumber();
-        ctrl.checkType();
-        ctrl.loadContent();
-        ctrl.currentRelation = ctrl.current;
-    }
-
-    ctrl.left = function(){
+    ctrl.left = function() {
         var num = Number(ctrl.current);
         ctrl.previous = num;
         num = num === 1 ? 9 : num - 1;
         ctrl.current = num;
-        //ctrl.refresh();
+        ctrl.checkType();
+        ctrl.currentRelation = ctrl.current;
     };
 
-    ctrl.right = function(){
+    ctrl.right = function() {
         var num = Number(ctrl.current);
         ctrl.previous = num;
         num = num === 9 ? 1 : num + 1;
         ctrl.current = num;
-       // ctrl.refresh();
+        ctrl.checkType();
+        ctrl.currentRelation = ctrl.current;
     };
 
     ctrl.start();

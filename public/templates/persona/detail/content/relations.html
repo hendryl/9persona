@@ -70,22 +70,22 @@
                 </div>
                 <div class="relation-content">
                     <p class="text-center persona-dark-text">
-                        {{detailCtrl.data.relation.paragraphs[detailCtrl.currentRelation-1].good[0]}}
+                        {{detailCtrl.data[detailCtrl.current-1].relation.paragraphs[detailCtrl.currentRelation-1].good[0]}}
                     </p>
                 </div>
                 <div class="relation-content-dark">
                     <p class="text-center persona-dark-text">
-                        {{detailCtrl.data.relation.paragraphs[detailCtrl.currentRelation-1].good[1]}}
+                        {{detailCtrl.data[detailCtrl.current-1].relation.paragraphs[detailCtrl.currentRelation-1].good[1]}}
                     </p>
                 </div>
                 <div class="relation-content">
                     <p class="text-center persona-dark-text">
-                        {{detailCtrl.data.relation.paragraphs[detailCtrl.currentRelation-1].good[2]}}
+                        {{detailCtrl.data[detailCtrl.current-1].relation.paragraphs[detailCtrl.currentRelation-1].good[2]}}
                     </p>
                 </div>
                 <div class="relation-content-dark relation-last">
                     <p class="text-center persona-dark-text">
-                        {{detailCtrl.data.relation.paragraphs[detailCtrl.currentRelation-1].good[3]}}
+                        {{detailCtrl.data[detailCtrl.current-1].relation.paragraphs[detailCtrl.currentRelation-1].good[3]}}
                     </p>
                 </div>
             </div>
@@ -102,29 +102,29 @@
                 </div>
                 <div class="relation-content">
                     <p class="text-center persona-dark-text">
-                        {{detailCtrl.data.relation.paragraphs[detailCtrl.currentRelation-1].bad[0]}}
+                        {{detailCtrl.data[detailCtrl.current-1].relation.paragraphs[detailCtrl.currentRelation-1].bad[0]}}
                     </p>
                 </div>
                 <div class="relation-content-dark">
                     <p class="text-center persona-dark-text">
-                        {{detailCtrl.data.relation.paragraphs[detailCtrl.currentRelation-1].bad[1]}}
+                        {{detailCtrl.data[detailCtrl.current-1].relation.paragraphs[detailCtrl.currentRelation-1].bad[1]}}
                     </p>
                 </div>
                 <div class="relation-content">
                     <p class="text-center persona-dark-text">
-                        {{detailCtrl.data.relation.paragraphs[detailCtrl.currentRelation-1].bad[2]}}
+                        {{detailCtrl.data[detailCtrl.current-1].relation.paragraphs[detailCtrl.currentRelation-1].bad[2]}}
                     </p>
                 </div>
                 <div class="relation-content-dark relation-last">
                     <p class="text-center persona-dark-text">
-                        {{detailCtrl.data.relation.paragraphs[detailCtrl.currentRelation-1].bad[3]}}
+                        {{detailCtrl.data[detailCtrl.current-1].relation.paragraphs[detailCtrl.currentRelation-1].bad[3]}}
                     </p>
                 </div>
             </div>
         </div>
     </div>
     <div class="left-relation-pic hidden-xs hidden-sm visible-md visible-lg">
-        <img ng-src={{detailCtrl.data.relation.image}} class="img-responsive">
+        <img ng-src={{detailCtrl.data[detailCtrl.current-1].relation.image}} class="img-responsive">
     </div>
     <div class="right-relation-pic hidden-xs hidden-sm visible-md visible-lg">
         <img ng-src={{detailCtrl.rightImages.images[detailCtrl.currentRelation-1]}} class="img-responsive">
