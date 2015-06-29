@@ -200,6 +200,7 @@ button:focus,button:active {
 
 .btn-primary:focus, .btn-primary:active, .btn-primary:target {
 	background-color: #FBCE4A;
+	color: #404041;
 }
 
 .btn-primary:hover {
