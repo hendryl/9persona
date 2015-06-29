@@ -125,7 +125,6 @@ Route animations
 	animation: fadeIn ease-in 0.5s;
 }
 
-
 .detail-animation.ng-leave {
 	overflow: hidden;
 	position:absolute;

@@ -139,24 +139,43 @@ angular.module("personaApp")
         document.title = "Tipe " + ctrl.current + " \u2014" + " 9PERSONA";
     };
 
+    ctrl.doAnim = function() {
+        $("#detail-content").addClass("animated fadeIn");
+        window.setTimeout(function() {
+            $("#detail-content").removeClass("animated fadeIn");
+        }, 1000);
+    }
+
+    ctrl.update = function() {
+        ctrl.checkType();
+        ctrl.currentRelation = ctrl.current;
+        document.title = "Tipe " + ctrl.current + " \u2014" + " 9PERSONA";
+    }
+
     ctrl.left = function() {
+        ctrl.doAnim();
         var num = Number(ctrl.current);
         ctrl.previous = num;
         num = num === 1 ? 9 : num - 1;
         ctrl.current = num;
-        ctrl.checkType();
-        ctrl.currentRelation = ctrl.current;
-        document.title = "Tipe " + ctrl.current + " \u2014" + " 9PERSONA";
+        ctrl.update();
+        
+        window.setTimeout(function() {
+            
+        }, 500);
     };
 
     ctrl.right = function() {
+        ctrl.doAnim();
         var num = Number(ctrl.current);
         ctrl.previous = num;
         num = num === 9 ? 1 : num + 1;
         ctrl.current = num;
-        ctrl.checkType();
-        ctrl.currentRelation = ctrl.current;
-        document.title = "Tipe " + ctrl.current + " \u2014" + " 9PERSONA";
+        ctrl.update();
+
+        window.setTimeout(function() {
+            
+        }, 500);
     };
 
     ctrl.start();
