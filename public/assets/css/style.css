@@ -1491,22 +1491,22 @@ About page
 }
 
 #about-bigMark {
-	font-size: 4em;
 	position: absolute;
-	padding-top: 45px;
 }
 
 @media only screen and (min-width: 767px) {
 	#about-bigText {
 		font-size: 3.5em;
-		height: 200px;
-		line-height: 100px;
-		margin-bottom: 0;
+		height: 152px;
+		line-height: 76px;
+		margin-bottom: 20px;
 	}
 
 	#about-bigMark {
+		font-size: 3.2em;
+		padding-top: 31px;
 		left: 260px;
-		height: 200px;
+		height: 152px;
 	}
 
 	.about-header-img-wrapper {
@@ -1532,9 +1532,10 @@ About page
 	}
 
 	#about-bigText {
+		margin-top: 0;
 		font-size: 3.5em;
-		height: 180px;
-		line-height: 90px;
+		height: 142px;
+		line-height: 71px;
 		position: absolute;
 		left: 40%;
 		transform: translateX(-40%);
@@ -1543,9 +1544,9 @@ About page
 	
 	#about-bigMark {
 		left: 210px;
-		height: 180px;
-		padding-top: 35px;
-		font-size: 4em;
+		height: 152px;
+		padding-top: 31px;
+		font-size: 3.2em;
 	}
 	
 	.about-header-img {
@@ -1554,7 +1555,7 @@ About page
 
 	.about-header-desc {
 		padding: 0 40px;
-		margin-top: 210px;
+		margin-top: 150px;
 	}
 
 }
@@ -1566,56 +1567,58 @@ About page
 		transform: translateX(-40%);
 		-webkit-transform: translateX(-40%);
 		font-size: 3.2em;
-		height: 150px;
-		line-height: 75px;
+		height: 132px;
+		line-height: 66px;
 	}
 	
 	#about-bigMark {
 		left: 190px;
-		padding-top: 26px;
-		height: 150px;
+		padding-top: 30px;
+		height: 132px;
 	}
 
 	.about-header-desc {
-		margin-top: 200px;
-	}
-}
-
-@media only screen and (max-width: 400px) {
-	#about-bigText {
-		position: absolute;
-		font-size: 3.2em;
-		height: 150px;
-		line-height: 75px;
-	}
-	
-	#about-bigMark {
-		left: 190px;
-		padding-top: 26px;
-		height: 150px;
-	}
-
-	.about-header-desc {
-		margin-top: 180px;
+		margin-top: 140px;
 	}
 }
 
 @media only screen and (max-width: 370px) {
 	#about-bigText {
 		position: absolute;
-		font-size: 2.5em;
-		height: 100px;
-		line-height: 50px;
+		font-size: 3em;
+		height: 128px;
+		line-height: 64px;
 	}
 	
 	#about-bigMark {
-		font-size: 3.2em;
-		left: 155px;
-		padding-top: 22px;
+		font-size: 3.4em;
+		left: 190px;
+		padding-top: 28px;
+		height: 128px;
 	}
 
 	.about-header-desc {
 		margin-top: 140px;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+	#about-bigText {
+		position: absolute;
+		font-size: 2.7em;
+		height: 120px;
+		line-height: 60px;
+	}
+	
+	#about-bigMark {
+		font-size: 3.5em;
+		height: 120px;
+		left: 164px;
+		padding-top: 27px;
+	}
+
+	.about-header-desc {
+		margin-top: 130px;
 	}
 }
 /*---------------------------------------------------*/
