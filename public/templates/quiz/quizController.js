@@ -34,7 +34,7 @@ angular.module("personaApp")
 
         quiz.setGender(number);
 
-        $http.get('/assets/data/quizData.json').success(function(data){
+        $http.get('/assets/data/quizSample.json').success(function(data){
             quiz.questions = data;
             console.log("Successfully loaded " + quiz.questions.length + " questions");
             quiz.showNextQuestion();

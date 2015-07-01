@@ -1,0 +1,34 @@
+[
+  {
+    "number": 1,
+    "question": "",
+    "answer": [
+      "",
+      ""
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/1a.png",
+      "./assets/images/illus/quiz/1b.png"
+    ],
+    "points": [
+      4,
+      6
+    ]
+  },
+  {
+    "number": 2,
+    "question": "Aku cenderung",
+    "answer": [
+      "menantang konflik",
+      "menghindari konflik"
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/2a.png",
+      "./assets/images/illus/quiz/2b.png"
+    ],
+    "points": [
+      8,
+      9
+    ]
+  }
+  ]
