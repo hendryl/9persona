@@ -16,6 +16,7 @@ $color-white: #F1F1F2;
 
 @function makeLongShadow($color, $number) {
 	$val: 0px 0px $color;
+
 	@for $i from 1 through $number {
 		$val: #{$val}, #{$i}px #{$i}px #{$color};
 	}
@@ -776,26 +777,32 @@ Results page
 
 #read-btn {
 	background-color: #404041;
+	text-shadow: makeLongShadow(darken($color-black, 10%), 35);
 }
 
 #fb-btn {
 	background-color: #3b5998;
+	text-shadow: makeLongShadow(darken(#3b5998, 10%), 35);
 }
 
 #tw-btn {
 	background-color: #55acee;
+	text-shadow: makeLongShadow(darken(#55acee, 10%), 35);
 }
 
 #read-btn:hover {
 	background-color: #303031;
+	text-shadow: makeLongShadow(darken(#303031, 10%), 35);
 }
 
 #fb-btn:hover {
 	background-color: #2a4887;
+	text-shadow: makeLongShadow(darken(#2a4887, 10%), 35);
 }
 
 #tw-btn:hover {
 	background-color: #449bdd;
+	text-shadow: makeLongShadow(darken(#449bdd, 10%), 35);
 }
 
 /*-----------------*\

@@ -622,22 +622,28 @@ Results page
   padding: 0; }
 
 #read-btn {
-  background-color: #404041; }
+  background-color: #404041;
+  text-shadow: 0px 0px #272727, 1px 1px #272727, 2px 2px #272727, 3px 3px #272727, 4px 4px #272727, 5px 5px #272727, 6px 6px #272727, 7px 7px #272727, 8px 8px #272727, 9px 9px #272727, 10px 10px #272727, 11px 11px #272727, 12px 12px #272727, 13px 13px #272727, 14px 14px #272727, 15px 15px #272727, 16px 16px #272727, 17px 17px #272727, 18px 18px #272727, 19px 19px #272727, 20px 20px #272727, 21px 21px #272727, 22px 22px #272727, 23px 23px #272727, 24px 24px #272727, 25px 25px #272727, 26px 26px #272727, 27px 27px #272727, 28px 28px #272727, 29px 29px #272727, 30px 30px #272727, 31px 31px #272727, 32px 32px #272727, 33px 33px #272727, 34px 34px #272727, 35px 35px #272727; }
 
 #fb-btn {
-  background-color: #3b5998; }
+  background-color: #3b5998;
+  text-shadow: 0px 0px #2d4373, 1px 1px #2d4373, 2px 2px #2d4373, 3px 3px #2d4373, 4px 4px #2d4373, 5px 5px #2d4373, 6px 6px #2d4373, 7px 7px #2d4373, 8px 8px #2d4373, 9px 9px #2d4373, 10px 10px #2d4373, 11px 11px #2d4373, 12px 12px #2d4373, 13px 13px #2d4373, 14px 14px #2d4373, 15px 15px #2d4373, 16px 16px #2d4373, 17px 17px #2d4373, 18px 18px #2d4373, 19px 19px #2d4373, 20px 20px #2d4373, 21px 21px #2d4373, 22px 22px #2d4373, 23px 23px #2d4373, 24px 24px #2d4373, 25px 25px #2d4373, 26px 26px #2d4373, 27px 27px #2d4373, 28px 28px #2d4373, 29px 29px #2d4373, 30px 30px #2d4373, 31px 31px #2d4373, 32px 32px #2d4373, 33px 33px #2d4373, 34px 34px #2d4373, 35px 35px #2d4373; }
 
 #tw-btn {
-  background-color: #55acee; }
+  background-color: #55acee;
+  text-shadow: 0px 0px #2795e9, 1px 1px #2795e9, 2px 2px #2795e9, 3px 3px #2795e9, 4px 4px #2795e9, 5px 5px #2795e9, 6px 6px #2795e9, 7px 7px #2795e9, 8px 8px #2795e9, 9px 9px #2795e9, 10px 10px #2795e9, 11px 11px #2795e9, 12px 12px #2795e9, 13px 13px #2795e9, 14px 14px #2795e9, 15px 15px #2795e9, 16px 16px #2795e9, 17px 17px #2795e9, 18px 18px #2795e9, 19px 19px #2795e9, 20px 20px #2795e9, 21px 21px #2795e9, 22px 22px #2795e9, 23px 23px #2795e9, 24px 24px #2795e9, 25px 25px #2795e9, 26px 26px #2795e9, 27px 27px #2795e9, 28px 28px #2795e9, 29px 29px #2795e9, 30px 30px #2795e9, 31px 31px #2795e9, 32px 32px #2795e9, 33px 33px #2795e9, 34px 34px #2795e9, 35px 35px #2795e9; }
 
 #read-btn:hover {
-  background-color: #303031; }
+  background-color: #303031;
+  text-shadow: 0px 0px #171717, 1px 1px #171717, 2px 2px #171717, 3px 3px #171717, 4px 4px #171717, 5px 5px #171717, 6px 6px #171717, 7px 7px #171717, 8px 8px #171717, 9px 9px #171717, 10px 10px #171717, 11px 11px #171717, 12px 12px #171717, 13px 13px #171717, 14px 14px #171717, 15px 15px #171717, 16px 16px #171717, 17px 17px #171717, 18px 18px #171717, 19px 19px #171717, 20px 20px #171717, 21px 21px #171717, 22px 22px #171717, 23px 23px #171717, 24px 24px #171717, 25px 25px #171717, 26px 26px #171717, 27px 27px #171717, 28px 28px #171717, 29px 29px #171717, 30px 30px #171717, 31px 31px #171717, 32px 32px #171717, 33px 33px #171717, 34px 34px #171717, 35px 35px #171717; }
 
 #fb-btn:hover {
-  background-color: #2a4887; }
+  background-color: #2a4887;
+  text-shadow: 0px 0px #1e3360, 1px 1px #1e3360, 2px 2px #1e3360, 3px 3px #1e3360, 4px 4px #1e3360, 5px 5px #1e3360, 6px 6px #1e3360, 7px 7px #1e3360, 8px 8px #1e3360, 9px 9px #1e3360, 10px 10px #1e3360, 11px 11px #1e3360, 12px 12px #1e3360, 13px 13px #1e3360, 14px 14px #1e3360, 15px 15px #1e3360, 16px 16px #1e3360, 17px 17px #1e3360, 18px 18px #1e3360, 19px 19px #1e3360, 20px 20px #1e3360, 21px 21px #1e3360, 22px 22px #1e3360, 23px 23px #1e3360, 24px 24px #1e3360, 25px 25px #1e3360, 26px 26px #1e3360, 27px 27px #1e3360, 28px 28px #1e3360, 29px 29px #1e3360, 30px 30px #1e3360, 31px 31px #1e3360, 32px 32px #1e3360, 33px 33px #1e3360, 34px 34px #1e3360, 35px 35px #1e3360; }
 
 #tw-btn:hover {
-  background-color: #449bdd; }
+  background-color: #449bdd;
+  text-shadow: 0px 0px #2582c9, 1px 1px #2582c9, 2px 2px #2582c9, 3px 3px #2582c9, 4px 4px #2582c9, 5px 5px #2582c9, 6px 6px #2582c9, 7px 7px #2582c9, 8px 8px #2582c9, 9px 9px #2582c9, 10px 10px #2582c9, 11px 11px #2582c9, 12px 12px #2582c9, 13px 13px #2582c9, 14px 14px #2582c9, 15px 15px #2582c9, 16px 16px #2582c9, 17px 17px #2582c9, 18px 18px #2582c9, 19px 19px #2582c9, 20px 20px #2582c9, 21px 21px #2582c9, 22px 22px #2582c9, 23px 23px #2582c9, 24px 24px #2582c9, 25px 25px #2582c9, 26px 26px #2582c9, 27px 27px #2582c9, 28px 28px #2582c9, 29px 29px #2582c9, 30px 30px #2582c9, 31px 31px #2582c9, 32px 32px #2582c9, 33px 33px #2582c9, 34px 34px #2582c9, 35px 35px #2582c9; }
 
 /*-----------------*\
 Persona page
