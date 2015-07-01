@@ -1785,3 +1785,11 @@ Download page
 .download-title {
 	padding: 32px 0 16px 0px;
 }
+
+.img-responsive.img-download {
+	padding: 32px 0px 0px 0px;
+}
+
+.img-download {
+	margin: 0 auto;
+}
