@@ -154,7 +154,7 @@ button:focus, button:active {
   font-size: 120%;
   transition: all 0.3s;
   -webkit-transition: all 0.3s;
-  text-shadow: 1px 1px 0px #2e9675; }
+  overflow: hidden; }
 
 .btn:hover {
   color: #F1F1F2;
@@ -164,7 +164,8 @@ button:focus, button:active {
   background-color: #FBCE4A;
   vertical-align: middle;
   padding: 5px 5% 5px 5%;
-  border: 0 none; }
+  border: 0 none;
+  text-shadow: 0px 0px #fac018, 1px 1px #fac018, 2px 2px #fac018, 3px 3px #fac018, 4px 4px #fac018, 5px 5px #fac018, 6px 6px #fac018, 7px 7px #fac018, 8px 8px #fac018, 9px 9px #fac018, 10px 10px #fac018, 11px 11px #fac018, 12px 12px #fac018, 13px 13px #fac018, 14px 14px #fac018, 15px 15px #fac018, 16px 16px #fac018, 17px 17px #fac018, 18px 18px #fac018, 19px 19px #fac018, 20px 20px #fac018, 21px 21px #fac018, 22px 22px #fac018, 23px 23px #fac018, 24px 24px #fac018, 25px 25px #fac018, 26px 26px #fac018, 27px 27px #fac018, 28px 28px #fac018, 29px 29px #fac018, 30px 30px #fac018, 31px 31px #fac018, 32px 32px #fac018, 33px 33px #fac018, 34px 34px #fac018, 35px 35px #fac018; }
 
 .btn-primary:focus, .btn-primary:active, .btn-primary:target {
   background-color: #FBCE4A;
@@ -172,6 +173,7 @@ button:focus, button:active {
 
 .btn-primary:hover {
   background-color: #00AC80;
+  text-shadow: 0px 0px #00795a, 1px 1px #00795a, 2px 2px #00795a, 3px 3px #00795a, 4px 4px #00795a, 5px 5px #00795a, 6px 6px #00795a, 7px 7px #00795a, 8px 8px #00795a, 9px 9px #00795a, 10px 10px #00795a, 11px 11px #00795a, 12px 12px #00795a, 13px 13px #00795a, 14px 14px #00795a, 15px 15px #00795a, 16px 16px #00795a, 17px 17px #00795a, 18px 18px #00795a, 19px 19px #00795a, 20px 20px #00795a, 21px 21px #00795a, 22px 22px #00795a, 23px 23px #00795a, 24px 24px #00795a, 25px 25px #00795a, 26px 26px #00795a, 27px 27px #00795a, 28px 28px #00795a, 29px 29px #00795a, 30px 30px #00795a, 31px 31px #00795a, 32px 32px #00795a, 33px 33px #00795a, 34px 34px #00795a, 35px 35px #00795a;
   color: #F1F1F2; }
 
 .btn-lg {

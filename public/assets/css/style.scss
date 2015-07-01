@@ -14,6 +14,14 @@ $color-green: #00AC80;
 $color-blue: #57BAD5;
 $color-white: #F1F1F2;
 
+@function makeLongShadow($color, $number) {
+	$val: 0px 0px $color;
+	@for $i from 1 through $number {
+		$val: #{$val}, #{$i}px #{$i}px #{$color};
+	}
+	@return $val;
+}
+
 html {
 	margin: 0;
 	padding: 0;
@@ -190,8 +198,7 @@ button:focus,button:active {
 	font-size: 120%;
 	transition: all 0.3s;
 	-webkit-transition: all 0.3s;
-	text-shadow: 
-	1px 1px 0px rgba(46,150,117, 1);
+	overflow: hidden;
 }
 
 .btn:hover {
@@ -204,6 +211,7 @@ button:focus,button:active {
 	vertical-align: middle;
 	padding: 5px 5% 5px 5%;
 	border: 0 none;
+	text-shadow:  makeLongShadow(darken($color-yellow, 10%), 35);
 }
 
 .btn-primary:focus, .btn-primary:active, .btn-primary:target {
@@ -213,6 +221,7 @@ button:focus,button:active {
 
 .btn-primary:hover {
 	background-color: $color-green;
+	text-shadow:  makeLongShadow(darken($color-green, 10%), 35);
 	color: $color-white;
 }
 
