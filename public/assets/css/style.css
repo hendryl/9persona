@@ -1782,3 +1782,6 @@ About page
 /*-----------------*\
 Download page
 \*-----------------*/
+.download-title {
+	padding: 32px 0 16px 0px;
+}
