@@ -1,26 +1,4 @@
 [{
-  "arrow": {
-    "image": "./assets/images/illus/panah/01.png",
-    "description": "Panah adalah garis yang menghubungkan setiap persona dalam tipe kepribadian Enneagram (selengkapnya dapat dibaca di sini). Kamu yang Tipe 1 memiliki hubungan dengan Tipe 4 dan 7. Di saat berkembang, kamu akan mengarah pada karakter positif Tipe 7, sebaliknya kamu yang sedang mengalami stress akan mengarah pada karakter negatif Tipe 4.",
-    "left": {
-      "type": "7",
-      "paragraphs": [
-        "Menjadi tidak terlalu mengkritik dan lebih dapat menerima diri sendiri",
-        "Menjadi lebih antusias dan optimis",
-        "Bertindak lebih alamiah dan spontan",
-        "Lebih banyak merencanakan kegiatan yang menyenangkan diri"
-      ]
-    },
-    "right": {
-      "type": "4",
-      "paragraphs": [
-        "Merasa kesal karena ekspektasi yang tidak bisa dipenuhi diri sendiri maupun sekitarnya",
-        "Mengarahkan amarah pada diri sendiri dan menjadi depresi",
-        "Hilang kepercayaan pada diri sendiri",
-        "Menginginkan hal yang tidak mereka miliki dan putus asa untuk memilikinya"
-      ]
-    }
-  },
   "relation": {
     "image": "./assets/images/illus/relasi/01-left.png",
     "paragraphs": [
@@ -154,28 +132,6 @@
   }
 },
 {
-  "arrow": {
-    "image": "./assets/images/illus/panah/02.png",
-    "description": "Panah adalah garis yang menghubungkan setiap persona dalam tipe kepribadian Enneagram (selengkapnya dapat dibaca di sini). Kamu yang Tipe 2 memiliki hubungan dengan Tipe 4 dan 8. Di saat berkembang, kamu akan mengarah pada karakter positif Tipe 4, sebaliknya kamu yang sedang mengalami stress akan mengarah pada karakter negatif Tipe 8.",
-    "left": {
-      "type": "4",
-      "paragraphs": [
-        "Mengakui dan menerima perasaan menyakitkan, termasuk kemarahan, kesedihan, dan kesepian",
-        "Mencari sumber lain selain menolong untuk merasa dirinya berguna. Contoh: mengekspresikan diri dengan lebih kreatif dan artistik",
-        "Lebih dapat mengekspresikan kebutuhan mereka, termasuk mengatakan tidak",
-        "Belajar menyepi dan lebih introspeksi"
-      ]
-    },
-    "right": {
-      "type": "8",
-      "paragraphs": [
-        "Tidak lagi ramah dan mengasihi; menjadi gampang marah dan menyerang dengan kasar",
-        "Menjadi tega, tidak percaya, dan menjauhkan diri",
-        "Menyalahkan dan menuntut",
-        "Menguasai dan mencoba mengendalikan setiap orang dan segala sesuatu"
-      ]
-    }
-  },
   "relation": {
     "image": "./assets/images/illus/relasi/02-left.png",
     "paragraphs": [
@@ -309,28 +265,6 @@
   }
 },
 {
-  "arrow": {
-    "image": "./assets/images/illus/panah/03.png",
-    "description": "Panah adalah garis yang menghubungkan setiap persona dalam tipe kepribadian Enneagram (selengkapnya dapat dibaca di sini). Kamu yang Tipe 3 memiliki hubungan dengan Tipe 6 dan 9. Di saat berkembang, kamu akan mengarah pada karakter positif Tipe 6, sebaliknya kamu yang sedang mengalami stress akan mengarah pada karakter negatif Tipe 9.",
-    "left": {
-      "type": "6",
-      "paragraphs": [
-        "Lebih banyak meluangkan waktu dan lebih berkomitmen pada keluargadan teman",
-        "Menghargai apa yang terbaik bagi kelompok",
-        "Lebih peka terhadap perasaannya",
-        "Mengupayakan pikiran-pikiran yang diyakini"
-      ]
-    },
-    "right": {
-      "type": "9",
-      "paragraphs": [
-        "Menunda pekerjaan dan menjadi tidak tegas",
-        "Menjadi apatis / cuek",
-        "Mengabaikan diri sendiri dan menjadi tidak produktif",
-        "Bertindak pasif-agresif pada orang yang melihat kekurangan mereka"
-      ]
-    }
-  },
   "relation": {
     "image": "./assets/images/illus/relasi/03-left.png",
     "paragraphs": [
@@ -464,28 +398,6 @@
   }
 },
 {
-  "arrow": {
-    "image": "./assets/images/illus/panah/04.png",
-    "description": "Panah adalah garis yang menghubungkan setiap persona dalam tipe kepribadian Enneagram (selengkapnya dapat dibaca di sini). Kamu yang Tipe 4 memiliki hubungan dengan Tipe 1 dan 2. Di saat berkembang, kamu akan mengarah pada karakter positif Tipe 1, sebaliknya kamu yang sedang mengalami stress akan mengarah pada karakter negatif Tipe 2.",
-    "left": {
-      "type": "1",
-      "paragraphs": [
-        "Tidak terlalu dikendalikan perasaan sehingga menjadi lebih mengoreksidiri dan hidup untuk masa sekarang",
-        "Mengatasi lebih banyak masalah dan lebih praktis",
-        "Lebih banyak mengangkat unsur positif ketimbang menjadi pesimis dan depresi",
-        "Bertindak berdasarkan gagasan ideal dan prinsip yang teguh"
-      ]
-    },
-    "right": {
-      "type": "2",
-      "paragraphs": [
-        "Beranggapan bahwa cinta dari orang lain akan mengisi kekosongan dan kesepian",
-        "Menyangkal dan menekan kebutuhan diri sendiri",
-        "Menjadi sangat bergantung pada orang lain",
-        "Suka mencari perhatian dan diistimewakan dengan berpura-pura sakit"
-      ]
-    }
-  },
   "relation": {
     "image": "./assets/images/illus/relasi/04-left.png",
     "paragraphs": [
@@ -619,28 +531,6 @@
   }
 },
 {
-  "arrow": {
-    "image": "./assets/images/illus/panah/05.png",
-    "description": "Panah adalah garis yang menghubungkan setiap persona dalam tipe kepribadian Enneagram (selengkapnya dapat dibaca di sini). Kamu yang Tipe 5 memiliki hubungan dengan Tipe 7 dan 8. Di saat berkembang, kamu akan mengarah pada karakter positif Tipe 8, sebaliknya kamu yang sedang mengalami stress akan mengarah pada karakter negatif Tipe 7.",
-    "left": {
-      "type": "8",
-      "paragraphs": [
-        "Lebih banyak bertindak untuk melakukan suatu hal dibanding memikirkannya terlalu banyak",
-        "Lebih terbuka dan spontan",
-        "Menjadi lebih bersemangat dan termotivasi menghadapi sesuatu dibandingkan menjauhinya",
-        "Membela diri sendiri dengan lebih efektif"
-      ]
-    },
-    "right": {
-      "type": "7",
-      "paragraphs": [
-        "TLorem ipsum dolor sit amet, consectetur adipisicing elit.erlalu menenggelamkan diri pada banyak pekerjaan",
-        "MLorem ipsum dolor sit amet, consectetur adipisicing elit.emaksakan diri mengerjakan proyek baru",
-        "MLorem ipsum dolor sit amet, consectetur adipisicing elit.enjadi lebih sembrono",
-        "TLorem ipsum dolor sit amet, consectetur adipisicing elit.idak fokus"
-      ]
-    }
-  },
   "relation": {
     "image": "./assets/images/illus/relasi/05-left.png",
     "paragraphs": [
@@ -774,28 +664,6 @@
   }
 },
 {
-  "arrow": {
-    "image": "./assets/images/illus/panah/06.png",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque quae aspernatur veniam asperiores non accusantium doloremque corrupti nesciunt voluptas in, quasi pariatur, itaque animi voluptate dignissimos dolorum quibusdam, aperiam facilis.",
-    "left": {
-      "type": "",
-      "paragraphs": [
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
-      ]
-    },
-    "right": {
-      "type": "",
-      "paragraphs": [
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
-      ]
-    }
-  },
   "relation": {
     "image": "./assets/images/illus/relasi/06-left.png",
     "paragraphs": [
@@ -929,28 +797,6 @@
   }
 },
 {
-  "arrow": {
-    "image": "./assets/images/illus/panah/07.png",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptate debitis a dolorem sit dolorum architecto nesciunt impedit aliquid iure cum voluptates porro quae, omnis repudiandae dignissimos, quibusdam ipsam libero.",
-    "left": {
-      "type": "",
-      "paragraphs": [
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae rerum totam.",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae rerum totam.",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae rerum totam.",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae rerum totam."
-      ]
-    },
-    "right": {
-      "type": "",
-      "paragraphs": [
-        "Lorem ipsummet, consectetur adipisicing elit. Quae rerum totam.",
-        "Lorem ipsummet, consectetur adipisicing elit. Quae rerum totam.",
-        "Lorem ipsummet, consectetur adipisicing elit. Quae rerum totam.",
-        "Lorem ipsummet, consectetur adipisicing elit. Quae rerum totam."
-      ]
-    }
-  },
   "relation": {
     "image": "./assets/images/illus/relasi/07-left.png",
     "paragraphs": [
@@ -1084,28 +930,6 @@
   }
 },
 {
-  "arrow": {
-    "image": "./assets/images/illus/panah/08.png",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio vitae architecto est ut totam eum commodi amet enim dolores maiores, nihil dolore nobis, fugit pariatur officiis mollitia consequatur quo blanditiis.",
-    "left": {
-      "type": "",
-      "paragraphs": [
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
-      ]
-    },
-    "right": {
-      "type": "",
-      "paragraphs": [
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
-      ]
-    }
-  },
   "relation": {
     "image": "./assets/images/illus/relasi/08-left.png",
     "paragraphs": [
@@ -1239,28 +1063,6 @@
   }
 },
 {
-  "arrow": {
-    "image": "./assets/images/illus/panah/09.png",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a. Maxime animi, expedita neque nam pariatur enim repudiandae officia voluptatem consectetur odio, magni accusamus ipsa consequatur aperiam laboriosam.",
-    "left": {
-      "type": "",
-      "paragraphs": [
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
-      ]
-    },
-    "right": {
-      "type": "",
-      "paragraphs": [
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
-      ]
-    }
-  },
   "relation": {
     "image": "./assets/images/illus/relasi/09-left.png",
     "paragraphs": [

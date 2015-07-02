@@ -9,6 +9,7 @@ angular.module("personaApp")
     ctrl.dropdownData = null;
     ctrl.characteristicsData = null;
     ctrl.wingsData = null;
+    ctrl.arrowData = null;
     ctrl.data = null;
     ctrl.rightImages = null;
     ctrl.currentRelation = 1;
@@ -47,6 +48,10 @@ angular.module("personaApp")
 
          $http.get('/assets/data/persona/wings.json').success(function(data) {
             ctrl.wingsData = data;
+        });
+
+        $http.get('/assets/data/persona/arrow.json').success(function(data) {
+            ctrl.arrowData = data;
         });
 
         $http.get('/assets/data/persona/persona.json').success(function(data){
