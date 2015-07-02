@@ -1816,26 +1816,26 @@ Download page
 }
 
 .img-responsive.img-download {
-	padding: 20px 0px 0px 0px;
-}
-
-.download-bottom {
-	padding-top: 10px;
+	padding: 0;
 }
 
 .img-download {
 	margin: 0 auto;
 }
 
-.download-block {
-	position: relative;
+.download-container {
+	padding: 20px 15px 0px 15px;
 }
 
-download-block:hover>div.download-overlay {
+.download-container.download-btm {
+	padding: 30px 15px 0px 15px;
+}
+
+.download-block:hover>div.download-overlay {
 	display: block;
 }
 
-download-block>div.download-overlay {
+.download-block>div.download-overlay {
 	position:absolute;
 	display:none;
 	top: 0;
@@ -1847,8 +1847,8 @@ download-block>div.download-overlay {
 }
 
 @media only screen and (max-width:767px){
-	.img-responsive.img-download {
-		padding: 30px 0px 0px 0px;
+	.download-container {
+		padding: 30px 15px 0px 15px;
 	}
 
 	.download-bottom {
