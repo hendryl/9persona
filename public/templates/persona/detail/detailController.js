@@ -4,10 +4,11 @@ angular.module("personaApp")
     ctrl.current = 1;
     ctrl.previous = 0;
     ctrl.type = 1;
-    
+
     ctrl.carouselImages = null;
     ctrl.dropdownData = null;
     ctrl.characteristicsData = null;
+    ctrl.wingsData = null;
     ctrl.data = null;
     ctrl.rightImages = null;
     ctrl.currentRelation = 1;
@@ -42,6 +43,10 @@ angular.module("personaApp")
 
          $http.get('/assets/data/persona/characteristics.json').success(function(data) {
             ctrl.characteristicsData = data;
+        });
+
+         $http.get('/assets/data/persona/wings.json').success(function(data) {
+            ctrl.wingsData = data;
         });
 
         $http.get('/assets/data/persona/persona.json').success(function(data){

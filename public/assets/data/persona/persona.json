@@ -1,16 +1,4 @@
 [{
-  "wing": {
-    "image": "./assets/images/illus/sayap/01.png",
-    "description": "Dalam tipe kepribadian Enneagram, setiap persona dapat terpengaruh dengan persona lain di sebelah kiri maupun kanannya (selengkapnya dapat dibaca di sini). Hal tersebut dinamakan sayap. Kamu yang Tipe 1 kemungkinan memiliki Sayap 9 atau Sayap 2, atau bahkan keduanya.",
-    "left": {
-      "header": "Tipe 1 dengan Sayap 9",
-      "paragraph": "Cenderung lebih tenang, lebih santai, objektif, tidak memihak, namun keras kepala dan suka menarik diri."
-    },
-    "right": {
-      "header": "Tipe 1 dengan Sayap 2",
-      "paragraph": "Cenderung hangat, lebih suka menolong, sangat memperhatikan citra diri, mencari perhatian, dan suka mengatur."
-    }
-  },
   "arrow": {
     "image": "./assets/images/illus/panah/01.png",
     "description": "Panah adalah garis yang menghubungkan setiap persona dalam tipe kepribadian Enneagram (selengkapnya dapat dibaca di sini). Kamu yang Tipe 1 memiliki hubungan dengan Tipe 4 dan 7. Di saat berkembang, kamu akan mengarah pada karakter positif Tipe 7, sebaliknya kamu yang sedang mengalami stress akan mengarah pada karakter negatif Tipe 4.",
@@ -166,18 +154,6 @@
   }
 },
 {
-  "wing": {
-    "image": "./assets/images/illus/sayap/02.png",
-    "description": "Dalam tipe kepribadian Enneagram, setiap persona dapat terpengaruh dengan persona lain di sebelah kiri maupun kanannya (selengkapnya dapat dibaca di sini). Hal tersebut dinamakan sayap. Kamu yang Tipe 2 kemungkinan memiliki Sayap 1 atau Sayap 3, atau bahkan keduanya.",
-    "left": {
-      "header": "Tipe 2 dengan Sayap 1",
-      "paragraph": "Menjadi lebih teratur, memegang prinsip, objektif, dan lebih idealis. Kamu kritis terhadap diri sendiri, menguasai, merasa benar sendiri dan cenderung introvert."
-    },
-    "right": {
-      "header": "Tipe 2 dengan Sayap 3",
-      "paragraph": "Percaya diri, ambisius, cenderung ekstrovert dan kompetitif. Kamu dengan sayap ini lebih memerhatikan citra diri."
-    }
-  },
   "arrow": {
     "image": "./assets/images/illus/panah/02.png",
     "description": "Panah adalah garis yang menghubungkan setiap persona dalam tipe kepribadian Enneagram (selengkapnya dapat dibaca di sini). Kamu yang Tipe 2 memiliki hubungan dengan Tipe 4 dan 8. Di saat berkembang, kamu akan mengarah pada karakter positif Tipe 4, sebaliknya kamu yang sedang mengalami stress akan mengarah pada karakter negatif Tipe 8.",
@@ -333,18 +309,6 @@
   }
 },
 {
-  "wing": {
-    "image": "./assets/images/illus/sayap/03.png",
-    "description": "Dalam tipe kepribadian Enneagram, setiap persona dapat terpengaruh dengan persona lain di sebelah kiri maupun kanannya (selengkapnya dapat dibaca di sini). Hal tersebut dinamakan sayap. Kamu yang Tipe 3 kemungkinan memiliki Sayap 2 atau Sayap 4, atau bahkan keduanya.",
-    "left": {
-      "header": "Tipe 3 dengan Sayap 2",
-      "paragraph": "Cenderung lebih hangat, mendukung, beradaptasi sosial dengan baik, memahami orang lain, menawan dan senang menyanjung."
-    },
-    "right": {
-      "header": "Tipe 3 dengan Sayap 4",
-      "paragraph": "Cenderung lebih introspektif, peka, artistik, imajinatif namun suka pamer, dan memiliki suasana hati yang berubah-ubah."
-    }
-  },
   "arrow": {
     "image": "./assets/images/illus/panah/03.png",
     "description": "Panah adalah garis yang menghubungkan setiap persona dalam tipe kepribadian Enneagram (selengkapnya dapat dibaca di sini). Kamu yang Tipe 3 memiliki hubungan dengan Tipe 6 dan 9. Di saat berkembang, kamu akan mengarah pada karakter positif Tipe 6, sebaliknya kamu yang sedang mengalami stress akan mengarah pada karakter negatif Tipe 9.",
@@ -500,18 +464,6 @@
   }
 },
 {
-  "wing": {
-    "image": "./assets/images/illus/sayap/04.png",
-    "description": "Dalam tipe kepribadian Enneagram, setiap persona dapat terpengaruh dengan persona lain di sebelah kiri maupun kanannya (selengkapnya dapat dibaca di sini). Hal tersebut dinamakan sayap. Kamu yang Tipe 4 kemungkinan memiliki Sayap 3 atau Sayap 5, atau bahkan keduanya.",
-    "left": {
-      "header": "Tipe 4 dengan Sayap 3",
-      "paragraph": "Cenderung lebih ekstrovert, ceria, ambisius, flamboyan, dan peduli akan citra dirinya dihadapan orang lain."
-    },
-    "right": {
-      "header": "Tipe 4 dengan Sayap 5",
-      "paragraph": "Cenderung objektif, pendiam, intelek, eksentrik, lebih pesimis, analitis dan menarik diri."
-    }
-  },
   "arrow": {
     "image": "./assets/images/illus/panah/04.png",
     "description": "Panah adalah garis yang menghubungkan setiap persona dalam tipe kepribadian Enneagram (selengkapnya dapat dibaca di sini). Kamu yang Tipe 4 memiliki hubungan dengan Tipe 1 dan 2. Di saat berkembang, kamu akan mengarah pada karakter positif Tipe 1, sebaliknya kamu yang sedang mengalami stress akan mengarah pada karakter negatif Tipe 2.",
@@ -667,18 +619,6 @@
   }
 },
 {
-  "wing": {
-    "image": "./assets/images/illus/sayap/05.png",
-    "description": "Dalam tipe kepribadian Enneagram, setiap persona dapat terpengaruh dengan persona lain di sebelah kiri maupun kanannya (selengkapnya dapat dibaca di sini). Hal tersebut dinamakan sayap. Kamu yang Tipe 5 kemungkinan memiliki Sayap 4 atau Sayap 6, atau bahkan keduanya.",
-    "left": {
-      "header": "Tipe 5 dengan sayap 4",
-      "paragraph": "Cenderung lebih kreatif, humanis, peka, empatis, namun suka tenggelam dalam pikirannya sendiri."
-    },
-    "right": {
-      "header": "Tipe 5 dengan sayap 6",
-      "paragraph": "Cenderung lebih setia, pekerja keras, berhati-hati akan tetapi suka gelisah dan skeptis."
-    }
-  },
   "arrow": {
     "image": "./assets/images/illus/panah/05.png",
     "description": "Panah adalah garis yang menghubungkan setiap persona dalam tipe kepribadian Enneagram (selengkapnya dapat dibaca di sini). Kamu yang Tipe 5 memiliki hubungan dengan Tipe 7 dan 8. Di saat berkembang, kamu akan mengarah pada karakter positif Tipe 8, sebaliknya kamu yang sedang mengalami stress akan mengarah pada karakter negatif Tipe 7.",
@@ -834,18 +774,6 @@
   }
 },
 {
-  "wing": {
-    "image": "./assets/images/illus/sayap/06.png",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, voluptates, repellendus! Vel, eum. Officia similique culpa repellat atque quo incidunt nam quaerat aspernatur tempore fuga. Quasi, animi, quam! Deserunt, vero!",
-    "left": {
-      "header": "Lorem ipsum dolor sit amet",
-      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-    },
-    "right": {
-      "header": "Lorem ipsum dolor sit amet",
-      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-    }
-  },
   "arrow": {
     "image": "./assets/images/illus/panah/06.png",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque quae aspernatur veniam asperiores non accusantium doloremque corrupti nesciunt voluptas in, quasi pariatur, itaque animi voluptate dignissimos dolorum quibusdam, aperiam facilis.",
@@ -1001,18 +929,6 @@
   }
 },
 {
-  "wing": {
-    "image": "./assets/images/illus/sayap/07.png",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus et id aspernatur minus, rem ex, magni qui, reprehenderit praesentium nam dolores delectus perspiciatis ipsum. Dolore accusamus quis rem quaerat itaque!",
-    "left": {
-      "header": "lorem lorem lorem lorem",
-      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum cum, vitae quod eveniet nulla natus."
-    },
-    "right": {
-      "header": "lorem lorem lorem lorem",
-      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum cum, vitae quod eveniet nulla natus."
-    }
-  },
   "arrow": {
     "image": "./assets/images/illus/panah/07.png",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptate debitis a dolorem sit dolorum architecto nesciunt impedit aliquid iure cum voluptates porro quae, omnis repudiandae dignissimos, quibusdam ipsam libero.",
@@ -1168,18 +1084,6 @@
   }
 },
 {
-  "wing": {
-    "image": "./assets/images/illus/sayap/08.png",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi reprehenderit asperiores ea minus omnis voluptatum aperiam illo, aspernatur libero impedit quod excepturi perspiciatis nulla ducimus, error accusamus neque maxime officiis.",
-    "left": {
-      "header": "Lorem ipsum dolor",
-      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Mollitia fuga commodi distinctio labore?"
-    },
-    "right": {
-      "header": "Lorem ipsum dolor",
-      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Mollitia fuga commodi distinctio labore?"
-    }
-  },
   "arrow": {
     "image": "./assets/images/illus/panah/08.png",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio vitae architecto est ut totam eum commodi amet enim dolores maiores, nihil dolore nobis, fugit pariatur officiis mollitia consequatur quo blanditiis.",
@@ -1335,18 +1239,6 @@
   }
 },
 {
-  "wing": {
-    "image": "./assets/images/illus/sayap/09.png",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore magnam in illo possimus sit error ad quaerat obcaecati earum, a mollitia sed. Commodi tempora ab, dolor assumenda consequuntur quod fuga.",
-    "left": {
-      "header": "Lorem ipsum",
-      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
-    },
-    "right": {
-      "header": "Lorem ipsum",
-      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
-    }
-  },
   "arrow": {
     "image": "./assets/images/illus/panah/09.png",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a. Maxime animi, expedita neque nam pariatur enim repudiandae officia voluptatem consectetur odio, magni accusamus ipsa consequatur aperiam laboriosam.",
