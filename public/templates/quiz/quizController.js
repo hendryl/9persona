@@ -1,5 +1,5 @@
 angular.module("personaApp")
-.controller('quizController', ['$http', function($http){
+.controller('quizController', ['detailService', '$http', function(detailService, $http){
     var quiz = this;
     quiz.questionNumber = 0;
     quiz.gender = -1;
@@ -8,6 +8,10 @@ angular.module("personaApp")
     quiz.results = [];
     quiz.personalityCounters = [0,0,0,0,0,0,0,0,0];
     quiz.highest = 0;
+
+    quiz.callToSetNumber = function() {
+        detailService.setNumber(quiz.highest + 1);
+    };
 
     quiz.isGenderPage = function(){
         return quiz.questionNumber == 0;
