@@ -84,7 +84,7 @@ angular.module("personaApp", ['ngRoute', 'ngAnimate', 'duScroll'])
 
   .when('/download', {
     title: 'Download',
-    animation: '',
+    animation: 'download-animation',
     templateUrl: '/templates/download/index.html'
   })
 
