@@ -1436,7 +1436,6 @@ Fixed scrolling links
 }
 
 .relation-box {
-	
 	margin: 30px auto;
 	max-width: 400px;
 }
@@ -1463,6 +1462,7 @@ Fixed scrolling links
 .relation-content, .relation-content-dark {
 	margin: 0;
 	padding: 0.5em 1em 0.5em 1em;
+	max-height: 70px;
 }
 
 .relation-content>p, .relation-content-dark>p {
