@@ -8,48 +8,46 @@
             <a du-smooth-scroll="relations" du-scrollspy><li></li></a>
         </ul>
     </nav>
-    <div class="container-fluid">
-        <!-- Carousel -->
-        <carousel-menu id="carousel"></carousel-menu>
-        <!-- dropdown -->
-        <div id="detail-content">
-            <div class="row">
-                <div class="col-xs-12">
-                    <button data-toggle="collapse" href="#persona-dropdown" aria-expanded="false" aria-controls="persona-dropdown" ng-click="detailController.toggleDropdown()"
-                    class="img-circle center-block dropdowner-button
-                    ng-class:{'instinct': detailCtrl.type == 1,
-                    'feeling': detailCtrl.type == 2,
-                    'thinking': detailCtrl.type == 3}">
-                    </button>
-                </div>
+    <!-- Carousel -->
+    <carousel-menu id="carousel"></carousel-menu>
+    <!-- dropdown -->
+    <div id="detail-content">
+        <div class="row">
+            <div class="col-xs-12">
+                <button data-toggle="collapse" href="#persona-dropdown" aria-expanded="false" aria-controls="persona-dropdown" ng-click="detailController.toggleDropdown()"
+                class="img-circle center-block dropdowner-button
+                ng-class:{'instinct': detailCtrl.type == 1,
+                'feeling': detailCtrl.type == 2,
+                'thinking': detailCtrl.type == 3}">
+                </button>
             </div>
-            <div class="collapse dropdown-container" id="persona-dropdown">
-                <div class="container-fluid ng-class:{'instinct': detailCtrl.type == 1,
-                    'feeling': detailCtrl.type == 2,
-                    'thinking': detailCtrl.type == 3}">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <div class="dropdown-box">
-                                <img ng-src={{detailCtrl.dropdownData[detailCtrl.current-1].image}} class="img-dropdown img-circle img-responsive center-block">
-                                <h4 class="center-block text-center">
-                                {{detailCtrl.dropdownData[detailCtrl.current-1].header}}
-                                </h4>
-                                <p class="center-block text-center">
-                                    {{detailCtrl.dropdownData[detailCtrl.current-1].text}}
-                                </p>
-                            </div>
+        </div>
+        <div class="collapse dropdown-container" id="persona-dropdown">
+            <div class="container-fluid ng-class:{'instinct': detailCtrl.type == 1,
+                'feeling': detailCtrl.type == 2,
+                'thinking': detailCtrl.type == 3}">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="dropdown-box">
+                            <img ng-src={{detailCtrl.dropdownData[detailCtrl.current-1].image}} class="img-dropdown img-circle img-responsive center-block">
+                            <h4 class="center-block text-center">
+                            {{detailCtrl.dropdownData[detailCtrl.current-1].header}}
+                            </h4>
+                            <p class="center-block text-center">
+                                {{detailCtrl.dropdownData[detailCtrl.current-1].text}}
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- karakteristik -->
-            <characteristics id="characteristics"></characteristics>
-            <!-- sayap -->
-            <wings id="wings"></wings>
-            <!-- Panah -->
-        <arrow id="arrow"></arrow>
-        <!-- Relasi -->
-        <relations id="relations"></relations>
-    </div>
+        </div>
+        <!-- karakteristik -->
+        <characteristics id="characteristics"></characteristics>
+        <!-- sayap -->
+        <wings id="wings"></wings>
+        <!-- Panah -->
+    <arrow id="arrow"></arrow>
+    <!-- Relasi -->
+    <relations id="relations"></relations>
 </div>
 </div>
