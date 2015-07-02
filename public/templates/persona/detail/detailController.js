@@ -4,11 +4,13 @@ angular.module("personaApp")
     ctrl.current = 1;
     ctrl.previous = 0;
     ctrl.type = 1;
+    
     ctrl.carouselImages = null;
+    ctrl.dropdownData = null;
+    ctrl.characteristicsData = null;
     ctrl.data = null;
     ctrl.rightImages = null;
     ctrl.currentRelation = 1;
-    ctrl.dropdownData = null;
 
     ctrl.relationNumberChecker = function(num) {
         var current = ctrl.currentRelation + num;
@@ -36,6 +38,10 @@ angular.module("personaApp")
     ctrl.loadAll = function(){
         $http.get('/assets/data/persona/dropdown.json').success(function(data) {
             ctrl.dropdownData = data;
+        });
+
+         $http.get('/assets/data/persona/characteristics.json').success(function(data) {
+            ctrl.characteristicsData = data;
         });
 
         $http.get('/assets/data/persona/persona.json').success(function(data){
