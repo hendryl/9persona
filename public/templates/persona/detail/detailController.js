@@ -34,19 +34,19 @@ angular.module("personaApp")
     };
 
     ctrl.loadAll = function(){
-        $http.get('/assets/data/quizResults.json').success(function(data){
+        $http.get('/assets/data/persona/dropdown.json').success(function(data) {
             ctrl.dropdownData = data;
         });
 
-        $http.get('/assets/data/persona.json').success(function(data){
+        $http.get('/assets/data/persona/persona.json').success(function(data){
             ctrl.data = data;
         });
 
-        $http.get('/assets/data/relationRight.json').success(function(data){
+        $http.get('/assets/data/persona/relationRight.json').success(function(data){
             ctrl.rightImages = data;
         });
 
-        $http.get('/assets/data/carousel.json').success(function(data){
+        $http.get('/assets/data/persona/carousel.json').success(function(data){
             ctrl.carouselImages = data;
         });
     };

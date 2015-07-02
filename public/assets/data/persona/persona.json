@@ -1,9 +1,4 @@
 [{
-  "dropdown": {
-    "image": "./assets/images/illus/icon/01.png",
-    "header": "Tipe Realistis dan Idealis",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quo accusamus tempora ratione vitae cumque corporis, amet numquam temporibus odio quaerat error alias libero nobis et perspiciatis voluptas iure quam."
-  },
   "characteristics": [
     {
       "image": "./assets/images/illus/karakteristik/11.png",
@@ -203,11 +198,6 @@
   }
 },
 {
-  "dropdown": {
-    "image": "./assets/images/illus/icon/02.png",
-    "header": "Tipe Interpersonal",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quo accusamus tempora ratione vitae cumque corporis, amet numquam temporibus odio quaerat error alias libero nobis et perspiciatis voluptas iure quam."
-  },
   "characteristics": [
     {
       "image": "./assets/images/illus/karakteristik/21.png",
@@ -407,11 +397,6 @@
   }
 },
 {
-  "dropdown": {
-    "image": "./assets/images/illus/icon/03.png",
-    "header": "Tipe Pragmatis dan Pencari Kesuksesan",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quo accusamus tempora ratione vitae cumque corporis, amet numquam temporibus odio quaerat error alias libero nobis et perspiciatis voluptas iure quam."
-  },
   "characteristics": [
     {
       "image": "./assets/images/illus/karakteristik/31.png",
@@ -611,11 +596,6 @@
   }
 },
 {
-  "dropdown": {
-    "image": "./assets/images/illus/icon/04.png",
-    "header": "Tipe Sensitif dan Introspektif",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quo accusamus tempora ratione vitae cumque corporis, amet numquam temporibus odio quaerat error alias libero nobis et perspiciatis voluptas iure quam."
-  },
   "characteristics": [
     {
       "image": "./assets/images/illus/karakteristik/41.png",
@@ -815,11 +795,6 @@
   }
 },
 {
-  "dropdown": {
-    "image": "./assets/images/illus/icon/05.png",
-    "header": "Tipe Intens dan Pemikir",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quo accusamus tempora ratione vitae cumque corporis, amet numquam temporibus odio quaerat error alias libero nobis et perspiciatis voluptas iure quam."
-  },
   "characteristics": [
     {
       "image": "./assets/images/illus/karakteristik/51.png",
@@ -1019,11 +994,6 @@
   }
 },
 {
-  "dropdown": {
-    "image": "./assets/images/illus/icon/06.png",
-    "header": "Tipe Berkomitmen dan Pencari Keamanan",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quo accusamus tempora ratione vitae cumque corporis, amet numquam temporibus odio quaerat error alias libero nobis et perspiciatis voluptas iure quam."
-  },
   "characteristics": [
     {
       "image": "./assets/images/illus/karakteristik/61.png",
@@ -1223,11 +1193,6 @@
   }
 },
 {
-  "dropdown": {
-    "image": "./assets/images/illus/icon/07.png",
-    "header": "Tipe Pencari Variasi dan Sibuk",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quo accusamus tempora ratione vitae cumque corporis, amet numquam temporibus odio quaerat error alias libero nobis et perspiciatis voluptas iure quam."
-  },
   "characteristics": [
     {
       "image": "./assets/images/illus/karakteristik/71.png",
@@ -1427,11 +1392,6 @@
   }
 },
 {
-  "dropdown": {
-    "image": "./assets/images/illus/icon/08.png",
-    "header": "Tipe Kuat dan Dominan",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quo accusamus tempora ratione vitae cumque corporis, amet numquam temporibus odio quaerat error alias libero nobis et perspiciatis voluptas iure quam."
-  },
   "characteristics": [
     {
       "image": "./assets/images/illus/karakteristik/81.png",
@@ -1631,11 +1591,6 @@
   }
 },
 {
-  "dropdown": {
-    "image": "./assets/images/illus/icon/09.png",
-    "header": "Tipe Tenang dan Rendah Diri",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quo accusamus tempora ratione vitae cumque corporis, amet numquam temporibus odio quaerat error alias libero nobis et perspiciatis voluptas iure quam."
-  },
   "characteristics": [
     {
       "image": "./assets/images/illus/karakteristik/91.png",
