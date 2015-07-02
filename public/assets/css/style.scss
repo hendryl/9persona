@@ -1835,11 +1835,11 @@ Download page
 	position: relative;
 }
 
-.download-block:hover>div {
+.download-block:hover>a>div {
 	display: block;
 }
 
-.download-block>div {
+.download-block>a>div {
 	position:absolute;
 	display:none;
 	top: 0;
@@ -1850,7 +1850,7 @@ Download page
     opacity:1;
 }
 
-.download-block>div>p {
+.download-block>a>div>p {
 	height: 100%;
 	vertical-align: middle;
 }
