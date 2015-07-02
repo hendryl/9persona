@@ -1,5 +1,5 @@
-[{
-  "relation": {
+[
+  {
     "image": "./assets/images/illus/relasi/01-left.png",
     "paragraphs": [
       {
@@ -129,10 +129,8 @@
         ]
       }
     ]
-  }
-},
-{
-  "relation": {
+  },
+  {
     "image": "./assets/images/illus/relasi/02-left.png",
     "paragraphs": [
       {
@@ -262,10 +260,8 @@
         ]
       }
     ]
-  }
-},
-{
-  "relation": {
+  }, 
+  {
     "image": "./assets/images/illus/relasi/03-left.png",
     "paragraphs": [
       {
@@ -395,10 +391,8 @@
         ]
       }
     ]
-  }
-},
-{
-  "relation": {
+  },
+  {
     "image": "./assets/images/illus/relasi/04-left.png",
     "paragraphs": [
       {
@@ -528,10 +522,8 @@
         ]
       }
     ]
-  }
-},
+  },
 {
-  "relation": {
     "image": "./assets/images/illus/relasi/05-left.png",
     "paragraphs": [
       {
@@ -661,10 +653,8 @@
         ]
       }
     ]
-  }
-},
-{
-  "relation": {
+  },
+  {
     "image": "./assets/images/illus/relasi/06-left.png",
     "paragraphs": [
       {
@@ -794,10 +784,8 @@
         ]
       }
     ]
-  }
-},
-{
-  "relation": {
+  },
+  {
     "image": "./assets/images/illus/relasi/07-left.png",
     "paragraphs": [
       {
@@ -927,10 +915,8 @@
         ]
       }
     ]
-  }
-},
-{
-  "relation": {
+  },
+  {
     "image": "./assets/images/illus/relasi/08-left.png",
     "paragraphs": [
       {
@@ -1060,10 +1046,8 @@
         ]
       }
     ]
-  }
-},
-{
-  "relation": {
+  },
+  {
     "image": "./assets/images/illus/relasi/09-left.png",
     "paragraphs": [
       {
@@ -1194,5 +1178,4 @@
       }
     ]
   }
-}
 ]
