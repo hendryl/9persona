@@ -143,8 +143,12 @@ angular.module("personaApp")
         if(x) {
             ctrl.current = x;
             detailService.setNumber(null);
+            document.title = "Tipe " + x + " \u2014" + " 9PERSONA";
         }
-        else ctrl.current = 1;
+        else  {
+            ctrl.current = 1;
+            document.title = "Tipe 1" + " \u2014" + " 9PERSONA";
+        }
     };
 
     ctrl.start = function() {
@@ -152,7 +156,7 @@ angular.module("personaApp")
         ctrl.checkType();
         ctrl.loadAll();
         ctrl.currentRelation = ctrl.current;
-        document.title = "Tipe " + ctrl.current + " \u2014" + " 9PERSONA";
+        
     };
 
     ctrl.doAnim = function() {
@@ -165,7 +169,7 @@ angular.module("personaApp")
     ctrl.update = function() {
         ctrl.checkType();
         ctrl.currentRelation = ctrl.current;
-        document.title = "Tipe " + ctrl.current + " \u2014" + " 9PERSONA";
+        //document.title = "Tipe " + ctrl.current + " \u2014" + " 9PERSONA";
     }
 
     ctrl.left = function() {

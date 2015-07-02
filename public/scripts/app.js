@@ -71,7 +71,7 @@ angular.module("personaApp", ['ngRoute', 'ngAnimate', 'duScroll'])
   })
 
   .when('/persona/details', {
-    title: 'Tipe 1', 
+    title: 'Tipe',
     animation: 'detail-animation',
     templateUrl:'/templates/persona/detail/index.html'
   })
