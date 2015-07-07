@@ -1,5 +1,5 @@
 angular.module("personaApp")
-.controller('quizController', ['detailService', '$http', function(detailService, $http){
+.controller('quizController', function(detailService, $http){
     var quiz = this;
     quiz.questionNumber = 0;
     quiz.gender = -1;
@@ -56,4 +56,10 @@ angular.module("personaApp")
             });
         }
     };
-}]);
+
+    quiz.showInstruction = function() {
+        $('#instructionModal').modal('show');
+    }
+
+    setTimeout(quiz.showInstruction, 1000);
+});
