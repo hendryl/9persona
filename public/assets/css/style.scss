@@ -491,6 +491,17 @@ Jumbotron
 /*----------------*\
 Instruction
 \*----------------*/
+.modal {
+	transform: translate(0, 15%);
+	-webkit-transform: translateY(0, 15%);
+}
+
+.modal .modal-dialog { 
+	width: 85%; 
+	max-width: 850px;
+	margin: 0 auto;
+}
+
 .text-instruction-header {
 	color: #404041;
 	margin-top: 30px;
