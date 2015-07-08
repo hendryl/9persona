@@ -491,15 +491,50 @@ Jumbotron
 /*----------------*\
 Instruction
 \*----------------*/
-.modal {
-	transform: translate(0, 15%);
-	-webkit-transform: translateY(0, 15%);
+.close {
+	font-size: 250%;
 }
 
+.vertical-alignment-helper {
+	display:table;
+    height: 100%;
+    width: 100%;
+    pointer-events:none;
+}
+
+.vertical-align-center {
+    display: table-cell;
+    vertical-align: middle;
+    pointer-events:none;
+}
+
+
 .modal .modal-dialog { 
-	width: 85%; 
-	max-width: 850px;
+	width: 85%;
 	margin: 0 auto;
+}
+
+.modal-content {
+    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+    width:inherit;
+    height:inherit;
+    /* To center horizontally */
+    margin: 0 auto;
+    pointer-events: all;
+}
+
+
+@media only screen and (min-width: 1018px) {
+	.modal .modal-dialog { 
+	width: 850px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.modal-content {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
 }
 
 .text-instruction-header {
