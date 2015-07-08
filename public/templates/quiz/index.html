@@ -10,9 +10,9 @@
             </span>
             </button>
             <div class="container-fluid">
-                <h4 class="center-block text-center text-instruction-header">
-                <span class="modal-title highlighter">Ikuti Instruksi Di Bawah Ini</span>
-                </h4>
+              <h4 class="center-block text-center text-instruction-header">
+              <span class="modal-title highlighter">Ikuti Instruksi Di Bawah Ini</span>
+              </h4>
               <div class="row instruction-content">
                 <div class="col-sm-4">
                   <img class="img-instruction img-responsive center-block" src ="./assets/images/illus/instruksi/01.png">
@@ -40,9 +40,11 @@
       </div>
     </div>
   </div>
-  <div class="gender-anim" ng-show="quiz.isGenderPage()">
-    <gender-page>
-    </gender-page>
+  <div class="quiz-wrapper">
+    <div class="gender-anim" ng-show="quiz.isGenderPage()">
+      <gender-page>
+      </gender-page>
+    </div>
   </div>
   <div class="question-anim" ng-repeat="question in quiz.questions">
     <div class="question-anim" ng-show="quiz.questionNumber == question.number">
