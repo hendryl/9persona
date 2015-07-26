@@ -11,6 +11,7 @@ angular.module("personaApp")
     ctrl.wingsData = null;
     ctrl.arrowData = null;
     ctrl.relationsData = null;
+    ctrl.tipsData = null;
     ctrl.rightImages = null;
     ctrl.currentRelation = 1;
 
@@ -60,6 +61,10 @@ angular.module("personaApp")
 
         $http.get('/assets/data/persona/relationRight.json').success(function(data){
             ctrl.rightImages = data;
+        });
+
+        $http.get('/assets/data/persona/tips.json').success(function(data){
+            ctrl.tipsData = data;
         });
 
         $http.get('/assets/data/persona/carousel.json').success(function(data){
