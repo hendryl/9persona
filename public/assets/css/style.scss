@@ -669,7 +669,7 @@ label>input {
 
 .questionPic {
 	border-bottom-style: none;
-	padding-top: 1em;
+	padding-top: 0;
 	padding-bottom: 0;
 }
 
@@ -680,6 +680,7 @@ label>input {
 	background-color: white;
 	word-wrap:break-word;
 	padding: 5px;
+	margin-bottom: 0px;
 }
 
 p.answerP {

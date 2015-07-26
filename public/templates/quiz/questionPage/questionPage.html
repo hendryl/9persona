@@ -9,18 +9,18 @@
   <div class="row chooser quizContent">
     <div class="col-xs-12 col-sm-6 text-center">
       <label class="left-content" ng-click="quiz.setAnswer(0);quiz.showNextQuestion()">
-        <img class="square-image img-responsive center-block questionPic" ng-src="{{question.picture[0]}}">
         <p class="answerP">
           {{question.answer[0]}}
         </p>
+        <img class="square-image img-responsive center-block questionPic" ng-src="{{question.picture[0]}}">
       </label>
     </div>
     <div class="col-xs-12 col-sm-6 text-center">
       <label class="right-content" ng-click="quiz.setAnswer(1);quiz.showNextQuestion()">
-        <img class="square-image img-responsive center-block questionPic" ng-src="{{question.picture[1]}}">
         <p class="answerP">
           {{question.answer[1]}}
         </p>
+        <img class="square-image img-responsive center-block questionPic" ng-src="{{question.picture[1]}}">
       </label>
     </div>
   </div>
