@@ -8,11 +8,34 @@ Global
 */
 
 $color-black: #404041;
+$color-black-blend: rgba(64,64,64,0.2);
 $color-red: #F05E4C;
 $color-yellow: #FBCE4A;
 $color-green: #00AC80;
 $color-blue: #57BAD5;
 $color-white: #F1F1F2;
+
+@function blend-normal ($foreground, $background) {
+  $opacity: opacity($foreground);
+  $background-opacity: opacity($background);
+
+  // calculate opacity
+  $bm-red: red($foreground) * $opacity + red($background) * $background-opacity * (1 - $opacity);
+  $bm-green: green($foreground) * $opacity + green($background) * $background-opacity * (1 - $opacity);
+  $bm-blue: blue($foreground) * $opacity + blue($background) * $background-opacity * (1 - $opacity);
+  @return rgb($bm-red, $bm-green, $bm-blue);
+}
+
+//--------------------------------
+// Multiply
+//--------------------------------
+@function blend-multiply ($foreground, $background) {
+  $bm-red: red($background) * red($foreground) / 255;
+  $bm-green: green($background) * green($foreground) / 255;
+  $bm-blue: blue($background) * blue($foreground) / 255;
+
+  @return blend-normal(rgba($bm-red, $bm-green, $bm-blue, opacity($foreground)), $background);
+}
 
 @function makeLongShadow($color, $number) {
 	$val: 0px 0px $color;
@@ -212,17 +235,19 @@ button:focus,button:active {
 	vertical-align: middle;
 	padding: 5px 5% 5px 5%;
 	border: 0 none;
-	text-shadow:  makeLongShadow(darken($color-yellow, 10%), 35);
+	text-shadow: makeLongShadow(blend-multiply($color-black-blend,$color-yellow), 35);
+	//text-shadow: makeLongShadow(darken($color-yellow, 10%), 35);
 }
 
 .btn-primary:focus, .btn-primary:active, .btn-primary:target {
 	background-color: $color-yellow;
+	text-shadow: makeLongShadow(blend-multiply($color-black-blend,$color-yellow), 35);
 	color: $color-black
 }
 
 .btn-primary:hover {
 	background-color: $color-green;
-	text-shadow:  makeLongShadow(darken($color-green, 10%), 35);
+	text-shadow: makeLongShadow(blend-multiply($color-black-blend,$color-green), 35);
 	color: $color-white;
 }
 
@@ -850,32 +875,32 @@ Results page
 
 #read-btn {
 	background-color: #404041;
-	text-shadow: makeLongShadow(darken($color-black, 10%), 35);
+	text-shadow: makeLongShadow(blend-multiply($color-black-blend,#404041), 35);
 }
 
 #fb-btn {
 	background-color: #3b5998;
-	text-shadow: makeLongShadow(darken(#3b5998, 10%), 35);
+	text-shadow: makeLongShadow(blend-multiply($color-black-blend,#3b5998), 35);
 }
 
 #tw-btn {
 	background-color: #55acee;
-	text-shadow: makeLongShadow(darken(#55acee, 10%), 35);
+	text-shadow: makeLongShadow(blend-multiply($color-black-blend,#55acee), 35);
 }
 
 #read-btn:hover {
 	background-color: #303031;
-	text-shadow: makeLongShadow(darken(#303031, 10%), 35);
+	text-shadow: makeLongShadow(blend-multiply($color-black-blend,#303031), 35);
 }
 
 #fb-btn:hover {
 	background-color: #2a4887;
-	text-shadow: makeLongShadow(darken(#2a4887, 10%), 35);
+	text-shadow: makeLongShadow(blend-multiply($color-black-blend,#2a4887), 35);
 }
 
 #tw-btn:hover {
 	background-color: #449bdd;
-	text-shadow: makeLongShadow(darken(#449bdd, 10%), 35);
+	text-shadow: makeLongShadow(blend-multiply($color-black-blend,#449bdd), 35);
 }
 
 /*-----------------*\
