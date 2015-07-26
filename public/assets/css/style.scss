@@ -1568,6 +1568,41 @@ Fixed scrolling links
 	padding-right: 0;
 }
 
+#tips {
+	background-color: $color-white;
+	margin-bottom: -10px;
+	padding: 20px 0 20px 0; 
+}
+
+#tips>div>div>div>.img-responsive {
+	padding: 0;
+}
+
+.tips-list {
+	padding: 20px 30px 5px 30px;
+	list-style-image: url("/assets/images/illus/yellow-bullet.png");
+}
+
+.tips-list li {
+	padding-bottom: 20px;
+}
+
+.tips-left {
+	padding-right: 0;
+}
+
+@media only screen and (min-width:992px) {
+	.tips-right {
+		margin-top: 280px;
+		padding-left: 0;
+	}
+}
+
+.tips-right {
+	padding-left: 0;
+}
+
+
 /*-----------------*\
 About page
 \*-----------------*/
