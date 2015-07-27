@@ -52,7 +52,7 @@ html {
 	font-size: 100%;
 	height: 100%;
 	position: relative;
-	letter-spacing: 0.1em;
+	letter-spacing: 1px;
 }
 
 body { 
@@ -225,6 +225,7 @@ button:focus,button:active {
 	-webkit-transition: all 0.3s;
 	overflow: hidden;
 	color: #fff;
+	letter-spacing: 0.1em;
 }
 
 .btn:hover {
@@ -488,7 +489,7 @@ Jumbotron
 	position: absolute;
 	transform: translate(-30%, 0);
 	-webkit-transform: translate(-30%, 0);
-	margin: -50px auto;
+	margin: -50px 0 -50px 20px;
 	z-index: -2;
 	transition: 0.3s all;
 	-webkit-transition: 0.3s all;
