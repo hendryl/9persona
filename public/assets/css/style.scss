@@ -941,6 +941,10 @@ Persona page
 	.persona-box:last-of-type {
 		margin-bottom: -10px;
 	}
+
+	.persona-box:hover {
+		background-color: $color-white;
+    }
 }
 
 .persona-box>.img-responsive {
