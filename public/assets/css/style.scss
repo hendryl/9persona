@@ -8,7 +8,7 @@ Global
 */
 
 $color-black: #404041;
-$color-black-blend: rgba(64,64,64,0.2);
+$color-black-blend: rgba(64,64,65,0.2);
 $color-red: #F05E4C;
 $color-yellow: #FBCE4A;
 $color-green: #00AC80;
@@ -223,6 +223,7 @@ button:focus,button:active {
 	transition: all 0.3s;
 	-webkit-transition: all 0.3s;
 	overflow: hidden;
+	color: $color-white;
 }
 
 .btn:hover {
@@ -1927,7 +1928,7 @@ About page
 .about-bottom-head {
 	font-size: 0.9em;
 	margin-top: 20px;
-	color: #FBCE4A;
+	color: $color-black;
 }
 
 @media only screen and (max-width: 766px) {
