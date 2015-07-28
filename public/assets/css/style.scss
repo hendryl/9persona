@@ -610,11 +610,19 @@ Quiz content
 }
 
 .quizContainer {
-	width: 80%;
-	max-width: 730px;
+	width: 730px;
 	border: 0 none;
 	margin: 0 auto;
 	overflow: hidden;
+}
+
+@media only screen and (max-width: 767px) {
+		.quizContainer {
+		width: 80%;
+		border: 0 none;
+		margin: 0 auto;
+		overflow: hidden;
+	}
 }
 
 .square-image {
@@ -682,7 +690,7 @@ label>input {
 
 .answer-text-container {
 	height: 66px;
-	width: 320px;
+	max-width: 320px;
 	background-color: white;
 	display: flex;
 	display: -webkit-flex;
@@ -694,6 +702,14 @@ label>input {
 	align-items: center;
 	padding: 5px;
 	border-radius: 10px 10px 0 0;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+	.answer-text-container {
+		max-width: 320px;
+		min-height: 66px;
+	}
 }
 
 .answerP {
@@ -739,11 +755,15 @@ p.answerP {
 	.left-content {
 		padding-left: 0;
 		padding-right: 0;
+		margin-left: 0;
+		margin-right: 0;
 	}
 
 	.right-content {
 		padding-left: 0;
 		padding-right: 0;
+		margin-left: 0;
+		margin-right: 0;
 	}
 }
 
