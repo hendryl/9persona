@@ -692,6 +692,7 @@ label>input {
 	-webkit-align-items: center;
 	align-items: center;
 	padding: 5px;
+	border-radius: 10px 10px 0 0;
 }
 
 .answerP {
@@ -706,24 +707,31 @@ p.answerP {
 }
 
 .left-content {
-	padding-left: 10px;
+	margin-left: 10px;
+	padding-left: 0px;
 	padding-right: 0;
+	border: $color-yellow solid 5pt;
+	border-radius: 15px;
 }
 
 .left-content .img-responsive {
 	padding-left: 0;
 	padding-right: 0;
+	border-radius: 0 0 8px 8px;
 }
 
 .right-content {
 	padding-left: 0;
-	padding-right: 15px;
+	margin-right: 15px;
+	border: $color-yellow solid 5pt;
+	border-radius: 15px;
 }
 
 .right-content .img-responsive {
 	padding-left: 0;
 	padding-right: 0;
 	padding-bottom: 0;
+	border-radius: 0 0 8px 8px;
 }
 
 @media only screen and (max-width: 767px){
