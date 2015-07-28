@@ -680,13 +680,23 @@ label>input {
 	padding-bottom: 0;
 }
 
+.answer-text-container {
+	height: 66px;
+	width: 320px;
+	background-color: white;
+	display: -webkit-flex;
+	display:  ms-flexbox;
+	justify-content: center;
+	-webkit-flex-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	padding: 5px;
+}
+
 .answerP {
 	font-weight: 400;
-	max-width: 320px;
-	min-height: 66px;
-	background-color: white;
 	word-wrap:break-word;
-	padding: 5px;
 	margin-bottom: 0px;
 }
 

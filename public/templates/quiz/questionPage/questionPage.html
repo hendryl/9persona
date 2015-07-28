@@ -9,17 +9,21 @@
   <div class="row chooser quizContent">
     <div class="col-xs-12 col-sm-6 text-center">
       <label class="left-content" ng-click="quiz.setAnswer(0);quiz.showNextQuestion()">
-        <p class="answerP">
-          {{question.answer[0]}}
-        </p>
+        <div class="answer-text-container">
+          <p class="answerP">
+            {{question.answer[0]}}
+          </p>
+        </div>
         <img class="square-image img-responsive center-block questionPic" ng-src="{{question.picture[0]}}">
       </label>
     </div>
     <div class="col-xs-12 col-sm-6 text-center">
       <label class="right-content" ng-click="quiz.setAnswer(1);quiz.showNextQuestion()">
-        <p class="answerP">
-          {{question.answer[1]}}
-        </p>
+        <div class="answer-text-container">
+          <p class="answerP">
+            {{question.answer[1]}}
+          </p>
+        </div>
         <img class="square-image img-responsive center-block questionPic" ng-src="{{question.picture[1]}}">
       </label>
     </div>
