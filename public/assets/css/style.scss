@@ -973,16 +973,39 @@ Persona page
 	-webkit-transition: all 0.3s;
 }
 
-@media only screen and (max-width: 767px) {
-	.persona-box {
-	}
+.persona-box-content {
+	position: relative;
+}
 
+.persona-box-content div {
+	position:absolute;
+	display:none;
+	top: 0;
+	left: 0;
+	width:100%;
+	height:100%;
+	background: rgba(241,241,242,0.75);
+}
+
+.persona-box-content:hover div {
+	display: block;
+}
+
+.persona-box-content div img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 767px) {
 	.persona-box:last-of-type {
 		margin-bottom: -10px;
 	}
 
 	.persona-box:hover {
-		background-color: $color-white;
+		background-color: rgba(64,64,65,0.2);
     }
 }
 
