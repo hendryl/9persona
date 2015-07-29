@@ -129,10 +129,10 @@
   },
     {
     "number": 9,
-    "question": "Saat dipertemukan dengan pengalaman baru, aku akan bertanya pada diri sendiri",
+    "question": "Saat dipertemukan dengan pengalaman baru, aku akan",
     "answer": [
-      "apakah itu akan berguna?",
-      "apakah itu akan menyenangkan?"
+      "bertanya pada diri sendiri, apakah itu akan berguna?",
+      "bertanya pada diri sendiri, apakah itu akan menyenangkan?"
     ],
     "picture": [
       "./assets/images/illus/quiz/9a.png",
