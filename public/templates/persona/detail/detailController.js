@@ -68,9 +68,9 @@ ctrl.loadAll = function(){
         ctrl.rightImages = data;
     });
 
-    $http.get('/assets/data/persona/tips.json').success(function(data){
-        ctrl.tipsData = data;
-    });
+    // $http.get('/assets/data/persona/tips.json').success(function(data){
+    //     ctrl.tipsData = data;
+    // });
 
     $http.get('/assets/data/persona/carousel.json').success(function(data){
         ctrl.carouselImages = data;
