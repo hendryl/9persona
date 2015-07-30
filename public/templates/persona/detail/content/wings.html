@@ -22,9 +22,11 @@
                         'text-thinking': detailCtrl.type == 3}">
                             {{detailCtrl.wingsData[detailCtrl.current-1].left.header}}
                         </h4>
-                        <p class="text-center text-wing persona-dark-text">
+                        <div class="wing-text-container">
+                            <p class="text-center text-wing persona-dark-text">
                             {{detailCtrl.wingsData[detailCtrl.current-1].left.paragraph}}
-                        </p>
+                            </p>
+                        </div>
                     </span>
                     
                     <span class="right-wing visible-sm visible-md visible-lg">
@@ -34,9 +36,11 @@
                         'text-thinking': detailCtrl.type == 3}">
                             {{detailCtrl.wingsData[detailCtrl.current-1].right.header}}
                         </h4>
-                        <p class="text-center text-wing persona-dark-text">
+                        <div class="wing-text-container">
+                            <p class="text-center text-wing persona-dark-text">
                             {{detailCtrl.wingsData[detailCtrl.current-1].right.paragraph}}
-                        </p>
+                            </p>
+                        </div>
                     </span>
                     <!-- Only in mobile -->
                 </div>
