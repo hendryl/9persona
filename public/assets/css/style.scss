@@ -1455,6 +1455,12 @@ Fixed scrolling links
 	padding: 0 15px 0 15px;
 }
 
+@media only screen and (min-width: 768px) {
+	.wing-text-container {
+		height: 88px;
+	}
+}
+
 .wing-block {
 	position: relative;
 	max-width: 860px;
