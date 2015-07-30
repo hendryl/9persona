@@ -1420,7 +1420,7 @@ Fixed scrolling links
 /*characteristics*/
 .characteristics-container {
 	background-color: #f1f1f2;
-	padding: 20px 0 0px 0;
+	padding: 20px 0 0 0;
 }
 
 .chr-box {
@@ -1448,7 +1448,7 @@ Fixed scrolling links
 /*wings*/
 
 .container-wing {
-	margin: 20px 0 40px 0;
+	padding: 20px 0 22px 0;
 }
 
 .desc-head {
@@ -1502,8 +1502,8 @@ Fixed scrolling links
 
 .container-arrow {
 	max-width: 960px;
-	margin-top: 20px;
-	margin-bottom: 40px;
+	padding-top: 20px;
+	padding-bottom: 22px;
 }
 
 .content-arrow {
@@ -1630,6 +1630,7 @@ Fixed scrolling links
 
 .pos-0 {
 	font-size: 400%;
+	margin-top: -12px;
 }
 
 .pos-1 {
@@ -1677,7 +1678,7 @@ Fixed scrolling links
 }
 
 .relation-box {
-	margin: 30px auto;
+	margin: 30px auto 44px auto;
 	max-width: 400px;
 }
 
