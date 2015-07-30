@@ -497,7 +497,7 @@ Jumbotron
 }
 
 #main-bottom {
-	position: absolute;
+	position: fixed;
 	transform: translate(-30%, 0);
 	-webkit-transform: translate(-30%, 0);
 	margin: -50px 0 -50px 20px;
@@ -510,10 +510,11 @@ Jumbotron
 	.main-image {
 		opacity: 0;
 	}
+}
 
+@media only screen and (max-height: 850px) {
 	#main-bottom {
-		display: none;
-		visibility: hidden;
+		opacity: 0;
 	}
 }
 
