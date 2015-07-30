@@ -2061,8 +2061,8 @@ About page
 	padding: 0;
 }
 
-.about-pusat-img {
-	
+#about-center div img {
+	padding: 0;
 }
 
 .about-desc-flex {
@@ -2077,7 +2077,12 @@ About page
 }
 
 .about-pusat-desc {
-	max-width: 900px;
+	padding-top: 30px;
+	max-width: 920px;
+}
+
+.about-wing-desc {
+	max-width: 960px;
 }
 
 .about-img-arrow {
