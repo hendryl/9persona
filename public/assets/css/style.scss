@@ -734,6 +734,7 @@ p.answerP {
 	margin-left: 10px;
 	padding-left: 0px;
 	padding-right: 0;
+	border: rgba(0,0,0,0) solid 5pt;
 }
 
 .left-content:hover, .right-content:hover {
@@ -750,6 +751,7 @@ p.answerP {
 .right-content {
 	padding-left: 0;
 	margin-right: 15px;
+	border: rgba(0,0,0,0) solid 5pt;
 }
 
 .right-content .img-responsive {
