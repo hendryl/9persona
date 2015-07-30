@@ -979,24 +979,34 @@ Persona page
 
 .persona-box-content div {
 	position:absolute;
-	display:none;
+	display:block;
 	top: 0;
 	left: 0;
 	width:100%;
 	height:100%;
-	background: rgba(241,241,242,0.75);
+	background-color: rgba(241,241,242,0);
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
 }
 
 .persona-box-content:hover div {
 	display: block;
+	background-color: rgba(241,241,242,0.75);
 }
 
 .persona-box-content div img {
+	opacity: 0;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	-webkit-transform: translate(-50%, -50%);
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+}
+
+.persona-box-content:hover div img {
+	opacity: 1;
 }
 
 @media only screen and (max-width: 767px) {
