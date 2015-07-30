@@ -1,34 +1,34 @@
 [
 {
     "image": "./assets/images/illus/sayap/01.png",
-    "description": "Dalam tipe kepribadian Enneagram, setiap persona dapat terpengaruh dengan persona lain di sebelah kiri maupun kanannya (selengkapnya dapat dibaca di sini). Hal tersebut dinamakan sayap. Kamu yang Tipe 1 kemungkinan memiliki Sayap 9 atau Sayap 2, atau bahkan keduanya.",
+    "description": "Dalam tipe kepribadian Enneagram, setiap persona dapat terpengaruh dengan persona lain di sebelah kiri maupun kanannya. Hal tersebut dinamakan sayap. Kamu yang Tipe 1 kemungkinan memiliki Sayap 9 atau Sayap 2, atau bahkan keduanya.",
     "left": {
       "header": "Tipe 1 dengan Sayap 9",
       "paragraph": "Cenderung lebih tenang, lebih santai, objektif, tidak memihak, namun keras kepala dan suka menarik diri."
     },
     "right": {
       "header": "Tipe 1 dengan Sayap 2",
-      "paragraph": "Cenderung hangat, lebih suka menolong, sangat memperhatikan citra diri, mencari perhatian, dan suka mengatur."
+      "paragraph": "Cenderung hangat, suka menolong, mencari perhatian, sangat memperhatikan citra diri, dan suka mengatur."
     }
   },
     {
     "image": "./assets/images/illus/sayap/02.png",
-    "description": "Dalam tipe kepribadian Enneagram, setiap persona dapat terpengaruh dengan persona lain di sebelah kiri maupun kanannya (selengkapnya dapat dibaca di sini). Hal tersebut dinamakan sayap. Kamu yang Tipe 2 kemungkinan memiliki Sayap 1 atau Sayap 3, atau bahkan keduanya.",
+    "description": "Dalam tipe kepribadian Enneagram, setiap persona dapat terpengaruh dengan persona lain di sebelah kiri maupun kanannya. Hal tersebut dinamakan sayap. Kamu yang Tipe 2 kemungkinan memiliki Sayap 1 atau Sayap 3, atau bahkan keduanya.",
     "left": {
       "header": "Tipe 2 dengan Sayap 1",
-      "paragraph": "Menjadi lebih teratur, memegang prinsip, objektif, dan lebih idealis. Kamu kritis terhadap diri sendiri, menguasai, merasa benar sendiri dan cenderung introvert."
+      "paragraph": "Menjadi lebih teratur, memegang prinsip, objektif, idealis, menguasai, introvert, dan merasa benar sendiri."
     },
     "right": {
       "header": "Tipe 2 dengan Sayap 3",
-      "paragraph": "Percaya diri, ambisius, cenderung ekstrovert dan kompetitif. Kamu dengan sayap ini lebih memerhatikan citra diri."
+      "paragraph": "Percaya diri, ambisius, cenderung ekstrovert dan kompetitif, lebih memerhatikan citra diri."
     }
   },
     {
     "image": "./assets/images/illus/sayap/03.png",
-    "description": "Dalam tipe kepribadian Enneagram, setiap persona dapat terpengaruh dengan persona lain di sebelah kiri maupun kanannya (selengkapnya dapat dibaca di sini). Hal tersebut dinamakan sayap. Kamu yang Tipe 3 kemungkinan memiliki Sayap 2 atau Sayap 4, atau bahkan keduanya.",
+    "description": "Dalam tipe kepribadian Enneagram, setiap persona dapat terpengaruh dengan persona lain di sebelah kiri maupun kanannya. Hal tersebut dinamakan sayap. Kamu yang Tipe 3 kemungkinan memiliki Sayap 2 atau Sayap 4, atau bahkan keduanya.",
     "left": {
       "header": "Tipe 3 dengan Sayap 2",
-      "paragraph": "Cenderung lebih hangat, mendukung, beradaptasi sosial dengan baik, memahami orang lain, menawan dan senang menyanjung."
+      "paragraph": "Cenderung hangat, mendukung, beradaptasi sosial dengan baik, memahami orang lain, menawan dan senang menyanjung."
     },
     "right": {
       "header": "Tipe 3 dengan Sayap 4",
@@ -37,7 +37,7 @@
   },
     {
     "image": "./assets/images/illus/sayap/04.png",
-    "description": "Dalam tipe kepribadian Enneagram, setiap persona dapat terpengaruh dengan persona lain di sebelah kiri maupun kanannya (selengkapnya dapat dibaca di sini). Hal tersebut dinamakan sayap. Kamu yang Tipe 4 kemungkinan memiliki Sayap 3 atau Sayap 5, atau bahkan keduanya.",
+    "description": "Dalam tipe kepribadian Enneagram, setiap persona dapat terpengaruh dengan persona lain di sebelah kiri maupun kanannya. Hal tersebut dinamakan sayap. Kamu yang Tipe 4 kemungkinan memiliki Sayap 3 atau Sayap 5, atau bahkan keduanya.",
     "left": {
       "header": "Tipe 4 dengan Sayap 3",
       "paragraph": "Cenderung lebih ekstrovert, ceria, ambisius, flamboyan, dan peduli akan citra dirinya dihadapan orang lain."
@@ -49,7 +49,7 @@
   },
     {
     "image": "./assets/images/illus/sayap/05.png",
-    "description": "Dalam tipe kepribadian Enneagram, setiap persona dapat terpengaruh dengan persona lain di sebelah kiri maupun kanannya (selengkapnya dapat dibaca di sini). Hal tersebut dinamakan sayap. Kamu yang Tipe 5 kemungkinan memiliki Sayap 4 atau Sayap 6, atau bahkan keduanya.",
+    "description": "Dalam tipe kepribadian Enneagram, setiap persona dapat terpengaruh dengan persona lain di sebelah kiri maupun kanannya. Hal tersebut dinamakan sayap. Kamu yang Tipe 5 kemungkinan memiliki Sayap 4 atau Sayap 6, atau bahkan keduanya.",
     "left": {
       "header": "Tipe 5 dengan sayap 4",
       "paragraph": "Cenderung lebih kreatif, humanis, peka, empatis, namun suka tenggelam dalam pikirannya sendiri."
@@ -61,50 +61,50 @@
   },
     {
     "image": "./assets/images/illus/sayap/06.png",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, voluptates, repellendus! Vel, eum. Officia similique culpa repellat atque quo incidunt nam quaerat aspernatur tempore fuga. Quasi, animi, quam! Deserunt, vero!",
+    "description": "Dalam tipe kepribadian Enneagram, setiap persona dapat terpengaruh dengan persona lain di sebelah kiri maupun kanannya. Hal tersebut dinamakan sayap. Kamu yang Tipe 6 kemungkinan memiliki Sayap 5 atau Sayap 7, atau bahkan keduanya.",
     "left": {
-      "header": "Lorem ipsum dolor sit amet",
-      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+      "header": "Tipe 6 dengan sayap 5",
+      "paragraph": "Cenderung introvert, cerdas, berhati-hati, juga dingin dan tertutup."
     },
     "right": {
-      "header": "Lorem ipsum dolor sit amet",
-      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+      "header": "Tipe 6 dengan sayap 7",
+      "paragraph": "Cenderung ekstrovert, materialistis, aktif, dan impulsif."
     }
   },
     {
     "image": "./assets/images/illus/sayap/07.png",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus et id aspernatur minus, rem ex, magni qui, reprehenderit praesentium nam dolores delectus perspiciatis ipsum. Dolore accusamus quis rem quaerat itaque!",
+    "description": "Dalam tipe kepribadian Enneagram, setiap persona dapat terpengaruh dengan persona lain di sebelah kiri maupun kanannya. Hal tersebut dinamakan sayap. Kamu yang Tipe 7 kemungkinan memiliki Sayap 6 atau Sayap 8, atau bahkan keduanya.",
     "left": {
-      "header": "lorem lorem lorem lorem",
-      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum cum, vitae quod eveniet nulla natus."
+      "header": "Tipe 7 dengan sayap 6",
+      "paragraph": "Cenderung lebih setia, bertanggung jawab, dan gelisah."
     },
     "right": {
-      "header": "lorem lorem lorem lorem",
-      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum cum, vitae quod eveniet nulla natus."
+      "header": "Tipe 7 dengan sayap 8",
+      "paragraph": "Cenderung periang, agresif, kompetitif, dan materialistis."
     }
   },
     {
     "image": "./assets/images/illus/sayap/08.png",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi reprehenderit asperiores ea minus omnis voluptatum aperiam illo, aspernatur libero impedit quod excepturi perspiciatis nulla ducimus, error accusamus neque maxime officiis.",
+    "description": "Dalam tipe kepribadian Enneagram, setiap persona dapat terpengaruh dengan persona lain di sebelah kiri maupun kanannya. Hal tersebut dinamakan sayap. Kamu yang Tipe 8 kemungkinan memiliki Sayap 7 atau Sayap 9, atau bahkan keduanya.",
     "left": {
-      "header": "Lorem ipsum dolor",
-      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Mollitia fuga commodi distinctio labore?"
+      "header": "Tipe 8 dengan sayap 7",
+      "paragraph": "Cenderung lebih ekstrovert, penuh semangat, energik, gesit, dan egosentris."
     },
     "right": {
-      "header": "Lorem ipsum dolor",
-      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Mollitia fuga commodi distinctio labore?"
+      "header": "Tipe 8 dengan sayap 9",
+      "paragraph": "Cenderung lebih tenang, lembut, menerima, dan diam-diam kuat."
     }
   },
     {
     "image": "./assets/images/illus/sayap/09.png",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore magnam in illo possimus sit error ad quaerat obcaecati earum, a mollitia sed. Commodi tempora ab, dolor assumenda consequuntur quod fuga.",
+    "description": "Dalam tipe kepribadian Enneagram, setiap persona dapat terpengaruh dengan persona lain di sebelah kiri maupun kanannya. Hal tersebut dinamakan sayap. Kamu yang Tipe 9 kemungkinan memiliki Sayap 8 atau Sayap 1, atau bahkan keduanya.",
     "left": {
-      "header": "Lorem ipsum",
-      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
+      "header": "Tipe 9 dengan sayap 8",
+      "paragraph": "Cenderung lebih mudah bergaul, asertif, dan anti otoritas."
     },
     "right": {
-      "header": "Lorem ipsum",
-      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
+      "header": "Tipe 9 dengan sayap 1",
+      "paragraph": "Cenderung lebih teratur, kritis, dikuasai emosi, dan taat."
     }
   }
 ]
