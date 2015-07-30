@@ -1,7 +1,7 @@
 [
 {
     "image": "./assets/images/illus/panah/01.png",
-    "description": "Panah adalah garis yang menghubungkan setiap persona dalam tipe kepribadian Enneagram (selengkapnya dapat dibaca di sini). Kamu yang Tipe 1 memiliki hubungan dengan Tipe 4 dan 7. Di saat berkembang, kamu akan mengarah pada karakter positif Tipe 7, sebaliknya kamu yang sedang mengalami stress akan mengarah pada karakter negatif Tipe 4.",
+    "description": "Panah adalah garis yang menghubungkan setiap persona dalam tipe kepribadian Enneagram. Kamu yang Tipe 1 memiliki hubungan dengan Tipe 4 dan 7. Di saat berkembang, kamu akan mengarah pada karakter positif Tipe 7, sebaliknya kamu yang sedang mengalami stress akan mengarah pada karakter negatif Tipe 4.",
     "left": {
       "type": "7",
       "paragraphs": [
@@ -23,12 +23,12 @@
   },
     {
     "image": "./assets/images/illus/panah/02.png",
-    "description": "Panah adalah garis yang menghubungkan setiap persona dalam tipe kepribadian Enneagram (selengkapnya dapat dibaca di sini). Kamu yang Tipe 2 memiliki hubungan dengan Tipe 4 dan 8. Di saat berkembang, kamu akan mengarah pada karakter positif Tipe 4, sebaliknya kamu yang sedang mengalami stress akan mengarah pada karakter negatif Tipe 8.",
+    "description": "Panah adalah garis yang menghubungkan setiap persona dalam tipe kepribadian Enneagram. Kamu yang Tipe 2 memiliki hubungan dengan Tipe 4 dan 8. Di saat berkembang, kamu akan mengarah pada karakter positif Tipe 4, sebaliknya kamu yang sedang mengalami stress akan mengarah pada karakter negatif Tipe 8.",
     "left": {
       "type": "4",
       "paragraphs": [
         "Mengakui dan menerima perasaan menyakitkan, termasuk kemarahan, kesedihan, dan kesepian",
-        "Mencari sumber lain selain menolong untuk merasa dirinya berguna. Contoh: mengekspresikan diri dengan lebih kreatif dan artistik",
+        "Mencari sumber lain selain menolong untuk merasa dirinya berguna, misalnya berekspresi dengan seni",
         "Lebih dapat mengekspresikan kebutuhan mereka, termasuk mengatakan tidak",
         "Belajar menyepi dan lebih introspeksi"
       ]
@@ -45,11 +45,11 @@
   },
     {
     "image": "./assets/images/illus/panah/03.png",
-    "description": "Panah adalah garis yang menghubungkan setiap persona dalam tipe kepribadian Enneagram (selengkapnya dapat dibaca di sini). Kamu yang Tipe 3 memiliki hubungan dengan Tipe 6 dan 9. Di saat berkembang, kamu akan mengarah pada karakter positif Tipe 6, sebaliknya kamu yang sedang mengalami stress akan mengarah pada karakter negatif Tipe 9.",
+    "description": "Panah adalah garis yang menghubungkan setiap persona dalam tipe kepribadian Enneagram. Kamu yang Tipe 3 memiliki hubungan dengan Tipe 6 dan 9. Di saat berkembang, kamu akan mengarah pada karakter positif Tipe 6, sebaliknya kamu yang sedang mengalami stress akan mengarah pada karakter negatif Tipe 9.",
     "left": {
       "type": "6",
       "paragraphs": [
-        "Lebih banyak meluangkan waktu dan lebih berkomitmen pada keluargadan teman",
+        "Lebih banyak meluangkan waktu dan lebih berkomitmen pada keluarga dan teman",
         "Menghargai apa yang terbaik bagi kelompok",
         "Lebih peka terhadap perasaannya",
         "Mengupayakan pikiran-pikiran yang diyakini"
@@ -58,20 +58,21 @@
     "right": {
       "type": "9",
       "paragraphs": [
+        "Bertindak pasif-agresif pada orang yang melihat kekurangan mereka",
         "Menunda pekerjaan dan menjadi tidak tegas",
         "Menjadi apatis / cuek",
-        "Mengabaikan diri sendiri dan menjadi tidak produktif",
-        "Bertindak pasif-agresif pada orang yang melihat kekurangan mereka"
+        "Mengabaikan diri sendiri dan menjadi tidak produktif"
+        
       ]
     }
   },
   {
     "image": "./assets/images/illus/panah/04.png",
-    "description": "Panah adalah garis yang menghubungkan setiap persona dalam tipe kepribadian Enneagram (selengkapnya dapat dibaca di sini). Kamu yang Tipe 4 memiliki hubungan dengan Tipe 1 dan 2. Di saat berkembang, kamu akan mengarah pada karakter positif Tipe 1, sebaliknya kamu yang sedang mengalami stress akan mengarah pada karakter negatif Tipe 2.",
+    "description": "Panah adalah garis yang menghubungkan setiap persona dalam tipe kepribadian Enneagram. Kamu yang Tipe 4 memiliki hubungan dengan Tipe 1 dan 2. Di saat berkembang, kamu akan mengarah pada karakter positif Tipe 1, sebaliknya kamu yang sedang mengalami stress akan mengarah pada karakter negatif Tipe 2.",
     "left": {
       "type": "1",
       "paragraphs": [
-        "Tidak terlalu dikendalikan perasaan sehingga menjadi lebih mengoreksidiri dan hidup untuk masa sekarang",
+        "Tidak terlalu dikendalikan perasaan sehingga menjadi lebih mengoreksi diri dan hidup untuk masa sekarang",
         "Mengatasi lebih banyak masalah dan lebih praktis",
         "Lebih banyak mengangkat unsur positif ketimbang menjadi pesimis dan depresi",
         "Bertindak berdasarkan gagasan ideal dan prinsip yang teguh"
@@ -89,7 +90,7 @@
   },
   {
     "image": "./assets/images/illus/panah/05.png",
-    "description": "Panah adalah garis yang menghubungkan setiap persona dalam tipe kepribadian Enneagram (selengkapnya dapat dibaca di sini). Kamu yang Tipe 5 memiliki hubungan dengan Tipe 7 dan 8. Di saat berkembang, kamu akan mengarah pada karakter positif Tipe 8, sebaliknya kamu yang sedang mengalami stress akan mengarah pada karakter negatif Tipe 7.",
+    "description": "Panah adalah garis yang menghubungkan setiap persona dalam tipe kepribadian Enneagram. Kamu yang Tipe 5 memiliki hubungan dengan Tipe 7 dan 8. Di saat berkembang, kamu akan mengarah pada karakter positif Tipe 8, sebaliknya kamu yang sedang mengalami stress akan mengarah pada karakter negatif Tipe 7.",
     "left": {
       "type": "8",
       "paragraphs": [
@@ -102,99 +103,100 @@
     "right": {
       "type": "7",
       "paragraphs": [
-        "TLorem ipsum dolor sit amet, consectetur adipisicing elit.erlalu menenggelamkan diri pada banyak pekerjaan",
-        "MLorem ipsum dolor sit amet, consectetur adipisicing elit.emaksakan diri mengerjakan proyek baru",
-        "MLorem ipsum dolor sit amet, consectetur adipisicing elit.enjadi lebih sembrono",
-        "TLorem ipsum dolor sit amet, consectetur adipisicing elit.idak fokus"
+        "Terlalu menenggelamkan diri pada banyak pekerjaan",
+        "Memaksakan diri mengerjakan proyek baru",
+        "Menjadi lebih sembrono",
+        "Tidak fokus"
       ]
     }
   },
   {
     "image": "./assets/images/illus/panah/06.png",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque quae aspernatur veniam asperiores non accusantium doloremque corrupti nesciunt voluptas in, quasi pariatur, itaque animi voluptate dignissimos dolorum quibusdam, aperiam facilis.",
+    "description": "Panah adalah garis yang menghubungkan setiap persona dalam tipe kepribadian Enneagram. Kamu yang Tipe 6 memiliki hubungan dengan Tipe 9 dan 3. Di saat berkembang, kamu akan mengarah pada karakter positif Tipe 9, sebaliknya kamu yang sedang mengalami stress akan mengarah pada karakter negatif Tipe 3.",
     "left": {
-      "type": "",
+      "type": "9",
       "paragraphs": [
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
+        "Lebih berempati terhadap orang lain",
+        "Melihat segala sesuatu dari sudut pandang yang lebih luas",
+        "Tidak terlalu serius dan membebaskan energi mereka",
+        "Lebih memercayai kekuatan batin mereka"
       ]
     },
     "right": {
-      "type": "",
+      "type": "3",
       "paragraphs": [
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et!"
+        "Menghindari perasaan cemas dengan selalu menyibukkan diri",
+        "Enggan mencoba sesuatu yang baru jika beresiko gagal",
+        "Meniru suatu karakter atau citra tertentu agar merasa lebih aman",
+        "Berbohong mengenai diri mereka untuk menutupi sesuatu atau agar dapat terus melakukan sesuatu"
       ]
     }
   },
   {
     "image": "./assets/images/illus/panah/07.png",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptate debitis a dolorem sit dolorum architecto nesciunt impedit aliquid iure cum voluptates porro quae, omnis repudiandae dignissimos, quibusdam ipsam libero.",
+    "description": "Panah adalah garis yang menghubungkan setiap persona dalam tipe kepribadian Enneagram. Kamu yang Tipe 7 memiliki hubungan dengan Tipe 5 dan 1. Di saat berkembang, kamu akan mengarah pada karakter positif Tipe 5, sebaliknya kamu yang sedang mengalami stress akan mengarah pada karakter negatif Tipe 1.",
     "left": {
-      "type": "",
+      "type": "5",
       "paragraphs": [
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae rerum totam.",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae rerum totam.",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae rerum totam.",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae rerum totam."
+        "Menjadi lebih pendiam, introspektif, dan objektif",
+        "Lebih menghargai kebijakan dan disiplin diri",
+        "Menjadi lebih serius dan diperlakukan secara serius",
+        "Lebih dapat menerima dua kutub kehidupan: baik dan buruk, gembira dan sedih"
       ]
     },
     "right": {
-      "type": "",
+      "type": "1",
       "paragraphs": [
-        "Lorem ipsummet, consectetur adipisicing elit. Quae rerum totam.",
-        "Lorem ipsummet, consectetur adipisicing elit. Quae rerum totam.",
-        "Lorem ipsummet, consectetur adipisicing elit. Quae rerum totam.",
-        "Lorem ipsummet, consectetur adipisicing elit. Quae rerum totam."
+        "Menjadi sinis dan suka mengkritik",
+        "Menghakimi diri sendiri dan orang lain",
+        "Memandang segala sesuatu secara hitam putih",
+        "Menjadi terobsesi dengan suatu ide atau proyek"
       ]
     }
   },
   {
     "image": "./assets/images/illus/panah/08.png",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio vitae architecto est ut totam eum commodi amet enim dolores maiores, nihil dolore nobis, fugit pariatur officiis mollitia consequatur quo blanditiis.",
+    "description": "Panah adalah garis yang menghubungkan setiap persona dalam tipe kepribadian Enneagram. Kamu yang Tipe 8 memiliki hubungan dengan Tipe 2 dan 5. Di saat berkembang, kamu akan mengarah pada karakter positif Tipe 2, sebaliknya kamu yang sedang mengalami stress akan mengarah pada karakter negatif Tipe 5.",
     "left": {
-      "type": "",
+      "type": "2",
       "paragraphs": [
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
+        "Terbuka pada orang lain dan menunjukkan kerapuhannya",
+        "Menjadi lebih peduli terhadap kesejahteraan orang lain",
+        "Menjadi lebih mengasihi dan dikasihi",
+        "Memperlihatkan sisi lembut, halus, dan welas asihnya"
       ]
     },
     "right": {
-      "type": "",
+      "type": "5",
       "paragraphs": [
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum.",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid eum."
+        "Menarik diri dan tidak banyak mengambil tindakan",
+        "Tidak terlalu terhubung dengan perasaan mereka sendiri",
+        "Khawatir orang lain akan memperhatikan mereka",
+        "Kemungkinan merasa bersalah dan mengarahkan keagresifan pada diri mereka sendiri"
       ]
     }
   },
   {
     "image": "./assets/images/illus/panah/09.png",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a. Maxime animi, expedita neque nam pariatur enim repudiandae officia voluptatem consectetur odio, magni accusamus ipsa consequatur aperiam laboriosam.",
+    "description": "Panah adalah garis yang menghubungkan setiap persona dalam tipe kepribadian Enneagram. Kamu yang Tipe 9 memiliki hubungan dengan Tipe 3 dan 6. Di saat berkembang, kamu akan mengarah pada karakter positif Tipe 3, sebaliknya kamu yang sedang mengalami stress akan mengarah pada karakter negatif Tipe 6.",
     "left": {
-      "type": "",
+      "type": "3",
       "paragraphs": [
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
+        "Lebih energik, efisien, dan produktif",
+        "Lebih percaya diri",
+        "Mempersempit fokus mereka",
+        "Lebih banyak menjalani kehidupannya sendiri, bukan melalui kehidupan orang lain"
       ]
     },
     "right": {
-      "type": "",
+      "type": "6",
       "paragraphs": [
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a.",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni ipsa a."
+        "Tenggelam dalam kegelisahan dan kecemasan",
+        "Lebih ragu-ragu, tidak tegas, dan kaku",
+        "Lebih pasif dan enggan berusaha",
+        "Takut gagal dan tidak percaya diri"
       ]
+      
     }
   }
 ]
