@@ -1951,6 +1951,10 @@ About page
 	position: relative;
 }
 
+#about-arrow, #about-wings, #about-center, #about-symbols {
+	max-width: 1140px;
+}
+
 @media only screen and (max-width: 766px) {
 	.about-mid {
 		min-height: 100%;
@@ -2057,12 +2061,9 @@ About page
 	padding: 30px 0 0 0;
 }
 
-.about-col-img {
-	padding: 0;
-}
-
 .about-symbol-img {
 	padding: 0;
+	height: auto;
 }
 
 #about-center div img {
@@ -2085,21 +2086,32 @@ About page
 	max-width: 920px;
 }
 
+.about-sayap-img {
+	padding: 20px 0 0 0;
+}
+
 .about-wing-desc {
 	max-width: 960px;
 }
 
+.about-panah-desc {
+	padding: 0;
+}
+
 .about-img-arrow {
 	padding: 0;
-	max-width: 380px;
 	height: auto;
 }
 
 @media only screen and (min-width: 767px) {
-
+	
 }
 
 @media only screen and (max-width: 766px) {
+	.about-sayap-img, .about-img-arrow {
+		padding: 30px
+	}
+
 	.about-symbol-list {
 		margin: 0;
 	}
@@ -2108,8 +2120,8 @@ About page
 		padding: 20px 50px 50px 50px;
 	}
 
-	.about-img-arrow {
-		margin-top: 20px;
+	.about-wing-desc, .about-panah-desc {
+		padding: 0 30px;
 	}
 }
 
