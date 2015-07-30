@@ -1,4 +1,5 @@
 <div ng-controller="quizController as quiz">
+  <!-- modal -->
   <div class="modal fade" id="instructionModal">
     <div class="vertical-alignment-helper">
       <div class="modal-dialog vertical-align-center">
@@ -40,30 +41,34 @@
       </div>
     </div>
   </div>
-  <div class="quiz-wrapper">
+  <!-- gender -->
+  <div class="gender-wrapper">
     <div class="gender-anim" ng-show="quiz.isGenderPage()">
       <gender-page>
       </gender-page>
     </div>
   </div>
+<!-- question -->
   <div class="question-anim" ng-repeat="question in quiz.questions">
     <div class="question-anim" ng-show="quiz.questionNumber == question.number">
       <question-page ng-class=""></question-page>
     </div>
     <!-- Progress bar -->
     <div ng-show="quiz.questionNumber == question.number">
-      <div class="row">
-        <div class="col-xs-6 col-xs-offset-3 progress-container">
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="1"
-              aria-valuemin="1" aria-valuemax="36" ng-style="{width: question.number / quiz.questions.length * 100 + '%'}">
-              <span class="sr-only">{{question.number}} dari 36</span>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-6 col-xs-offset-3 progress-container">
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="1"
+                aria-valuemin="1" aria-valuemax="36" ng-style="{width: question.number / quiz.questions.length * 100 + '%'}">
+                <span class="sr-only">{{question.number}} dari 36</span>
+              </div>
             </div>
-          </div>
-          <div class="text-center headText">
-            <strong>
-            {{question.number / quiz.questions.length * 100 | number : 0 }}%
-            </strong>
+            <div class="text-center headText">
+              <strong>
+              {{question.number / quiz.questions.length * 100 | number : 0 }}%
+              </strong>
+            </div>
           </div>
         </div>
       </div>

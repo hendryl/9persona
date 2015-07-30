@@ -7,6 +7,13 @@ Global
 }
 */
 
+@mixin centerer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 $color-black: #404041;
 $color-black-blend: rgba(64,64,65,0.2);
 $color-red: #F05E4C;
@@ -604,9 +611,9 @@ Quiz content
 \*----------------*/
 
 /*Global*/
-.quiz-wrapper {
-	margin-top: 30px;
-	margin-bottom: 30px;
+.gender-wrapper {
+	margin-top: 80px;
+	margin-bottom: 80px;
 }
 
 .quizContainer {
@@ -727,6 +734,9 @@ p.answerP {
 	margin-left: 10px;
 	padding-left: 0px;
 	padding-right: 0;
+}
+
+.left-content:hover, .right-content:hover {
 	border: $color-yellow solid 5pt;
 	border-radius: 15px;
 }
@@ -740,8 +750,6 @@ p.answerP {
 .right-content {
 	padding-left: 0;
 	margin-right: 15px;
-	border: $color-yellow solid 5pt;
-	border-radius: 15px;
 }
 
 .right-content .img-responsive {
@@ -964,6 +972,9 @@ Persona page
 \*-----------------*/
 
 /*top page*/
+.grid-animation .container {
+	margin-bottom: 30px;
+}
 
 .persona-box {
 	box-sizing:border-box;
@@ -1015,8 +1026,12 @@ Persona page
 	}
 
 	.persona-box:hover {
-		background-color: rgba(64,64,65,0.2);
+		background-color: rgba(128,128,128,0.1);
     }
+
+    .grid-animation .container {
+		margin-bottom: 0;
+	}
 }
 
 .persona-box>.img-responsive {

@@ -46,7 +46,7 @@ angular.module("personaApp")
     };
 
     quiz.showNextQuestion = function() {
-         console.log("In showNextQuestion");
+        console.log("In showNextQuestion");
         quiz.questionNumber++;
         console.log(quiz.questionNumber);
         if(quiz.questionNumber > quiz.questions.length){
